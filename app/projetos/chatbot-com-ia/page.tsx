@@ -13,7 +13,7 @@ import {
   Float,
   Billboard,
 } from '@react-three/drei';
-import styles from './styles/not-found-interactive.module.css';
+import styles from '../../styles/not-found-interactive.module.css';
 import {
   useTheme,
   alpha,

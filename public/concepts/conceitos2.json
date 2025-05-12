@@ -1,0 +1,177 @@
+[
+  {
+    "nome": "Condicionamento Clássico (Pavloviano)",
+    "descricao_simples": "Um tipo de aprendizagem onde um estímulo neutro passa a evocar uma resposta após ser associado repetidamente a um estímulo que já a produz naturalmente.",
+    "descricao_complexa": "Descoberto por Ivan Pavlov em seus experimentos com cães, o condicionamento clássico é um processo fundamental de aprendizagem por associação. Ocorre quando um estímulo inicialmente neutro (SN), que não provoca uma resposta específica (ex: o som de um sino), é apresentado repetidamente junto com um estímulo incondicionado (US), que naturalmente e automaticamente evoca uma resposta reflexa ou emocional, chamada resposta incondicionada (UR) (ex: comida US -> salivação UR). Após várias dessas associações (pareamentos), o estímulo que era neutro (sino) torna-se um estímulo condicionado (CS), capaz de evocar por si só uma resposta semelhante à original, agora chamada de resposta condicionada (CR) (ex: sino CS -> salivação CR). Esse tipo de aprendizagem é involuntário e frequentemente envolve respostas fisiológicas ou emocionais, explicando como desenvolvemos medos (fobias), gostos, aversões e reações emocionais a sinais que antes eram neutros em nosso ambiente.",
+    "custo_ficticio": 110,
+    "icone_imagem": "pavlov_dog_bell.png"
+  },
+  {
+    "nome": "Condicionamento Operante (Skinneriano)",
+    "descricao_simples": "Um tipo de aprendizagem onde a probabilidade de um comportamento ocorrer aumenta ou diminui com base em suas consequências (reforço ou punição).",
+    "descricao_complexa": "Desenvolvido extensivamente por B.F. Skinner, o condicionamento operante foca em como as consequências de um comportamento voluntário (o 'operante') afetam a probabilidade de ele ser repetido no futuro. Se um comportamento é seguido por uma consequência agradável ou pela remoção de algo desagradável (reforço), ele tende a ser fortalecido. Se é seguido por uma consequência desagradável ou pela remoção de algo agradável (punição), ele tende a ser enfraquecido. A 'Caixa de Skinner' foi um aparato crucial para estudar esses princípios, permitindo observar como ratos ou pombos aprendiam a pressionar barras ou bicar discos para obter comida (reforço) ou evitar choques (reforço negativo). O condicionamento operante explica uma vasta gama de comportamentos aprendidos, desde hábitos cotidianos e habilidades motoras até comportamentos sociais complexos e a gestão de comportamentos em contextos educacionais ou terapêuticos (como na Análise do Comportamento Aplicada - ABA).",
+    "custo_ficticio": 120,
+    "icone_imagem": "skinner_box_rat.png"
+  },
+  {
+    "nome": "Reforço (Positivo e Negativo)",
+    "descricao_simples": "Processo no condicionamento operante que aumenta a probabilidade de um comportamento ocorrer novamente.",
+    "descricao_complexa": "Reforço é qualquer consequência que fortalece o comportamento que o precede, tornando-o mais provável no futuro. Existem dois tipos: 1) Reforço Positivo: ocorre quando um estímulo agradável ou desejável é apresentado *após* o comportamento (ex: dar um elogio a uma criança por arrumar o quarto aumenta a chance dela arrumar novamente). 'Positivo' aqui significa adicionar algo. 2) Reforço Negativo: ocorre quando um estímulo aversivo ou desagradável é *removido* após o comportamento (ex: tomar um analgésico para aliviar a dor de cabeça aumenta a chance de tomar o analgésico novamente quando tiver dor; apertar o cinto de segurança para parar o som irritante do aviso do carro). 'Negativo' aqui significa subtrair algo (o estímulo aversivo). Ambos os tipos de reforço aumentam a frequência do comportamento. Compreender o reforço é essencial para moldar comportamentos em diversas áreas, como educação, treinamento de animais e terapia.",
+    "custo_ficticio": 100,
+    "icone_imagem": "reinforcement_up_arrow.png"
+  },
+  {
+    "nome": "Punição (Positiva e Negativa)",
+    "descricao_simples": "Processo no condicionamento operante que diminui a probabilidade de um comportamento ocorrer novamente.",
+    "descricao_complexa": "Punição é qualquer consequência que enfraquece o comportamento que o precede, tornando-o menos provável no futuro. Assim como o reforço, existem dois tipos: 1) Punição Positiva: ocorre quando um estímulo aversivo ou desagradável é *apresentado* após o comportamento (ex: dar uma bronca em um funcionário por chegar atrasado visa diminuir a chance de atrasos futuros). 'Positivo' significa adicionar algo (o estímulo aversivo). 2) Punição Negativa: ocorre quando um estímulo agradável ou desejável é *removido* após o comportamento (ex: retirar o privilégio de usar o videogame de um adolescente por não fazer a lição de casa visa diminuir a chance dele não fazer a lição). 'Negativo' significa subtrair algo (o estímulo agradável). Ambos os tipos de punição diminuem a frequência do comportamento. Embora a punição possa suprimir comportamentos indesejados rapidamente, ela pode ter efeitos colaterais negativos (medo, ansiedade, agressão) e geralmente é considerada menos eficaz a longo prazo do que o reforço de comportamentos alternativos desejáveis.",
+    "custo_ficticio": 100,
+    "icone_imagem": "punishment_down_arrow.png"
+  },
+  {
+    "nome": "Aprendizagem Observacional (Modelagem)",
+    "descricao_simples": "Aprender observando o comportamento de outras pessoas (modelos) e as consequências que elas recebem por suas ações.",
+    "descricao_complexa": "Proposta prominentemente por Albert Bandura em sua Teoria Social Cognitiva, a aprendizagem observacional (ou modelagem) destaca que não aprendemos apenas por experiência direta (condicionamento clássico e operante), mas também observando os outros. Aprendemos novas habilidades, atitudes e respostas emocionais ao observar modelos (pais, professores, colegas, personagens da mídia). O processo envolve quatro etapas: 1) Atenção: prestar atenção ao comportamento do modelo. 2) Retenção: lembrar o que foi observado. 3) Reprodução: ter a capacidade física e mental para replicar o comportamento. 4) Motivação: ter uma razão (geralmente baseada nas consequências observadas no modelo - reforço vicariante ou punição vicariante) para realizar o comportamento. Os famosos experimentos do 'João Bobo' de Bandura demonstraram como crianças aprendiam comportamentos agressivos simplesmente observando um adulto agredir o boneco. Este conceito é crucial para entender a socialização, a aquisição de papéis sociais e a influência da mídia.",
+    "custo_ficticio": 140,
+    "icone_imagem": "observation_learning_eyes.png"
+  },
+  {
+    "nome": "Autoeficácia",
+    "descricao_simples": "A crença na própria capacidade de organizar e executar as ações necessárias para alcançar objetivos específicos.",
+    "descricao_complexa": "Também um conceito central na Teoria Social Cognitiva de Albert Bandura, a autoeficácia refere-se à confiança que um indivíduo tem em sua habilidade para ter sucesso em situações específicas ou realizar tarefas. Não se trata da habilidade real, mas da crença sobre a própria habilidade. Pessoas com alta autoeficácia tendem a encarar tarefas desafiadoras como algo a ser dominado, estabelecem metas mais altas, empenham mais esforço, persistem diante de dificuldades e se recuperam mais rapidamente de contratempos. Em contraste, pessoas com baixa autoeficácia tendem a evitar tarefas difíceis, têm aspirações mais baixas e desistem facilmente. A autoeficácia é específica para domínios (pode-se ter alta autoeficácia acadêmica, mas baixa autoeficácia social) e é influenciada por quatro fontes principais: experiências de maestria (sucessos passados), aprendizagem vicariante (observar outros terem sucesso), persuasão social (encorajamento de outros) e estados fisiológicos e emocionais (interpretação de sinais como ansiedade).",
+    "custo_ficticio": 160,
+    "icone_imagem": "self_efficacy_badge.png"
+  },
+  {
+    "nome": "Locus de Controle",
+    "descricao_simples": "A percepção de uma pessoa sobre o quanto ela acredita ter controle sobre os eventos em sua vida (interno vs. externo).",
+    "descricao_complexa": "Proposto por Julian Rotter, o locus de controle é uma crença sobre as causas dos eventos na vida. Pessoas com um Locus de Controle Interno acreditam que têm controle pessoal sobre suas vidas e que suas ações, esforços e habilidades determinam seus resultados (sucessos e fracassos). Elas tendem a ser mais proativas, independentes e a lidar melhor com o estresse. Por outro lado, pessoas com um Locus de Controle Externo acreditam que suas vidas são controladas por forças externas, como sorte, destino, outras pessoas poderosas ou circunstâncias imprevisíveis. Elas podem se sentir mais impotentes, passivas e propensas a atribuir resultados a fatores fora de seu controle. O locus de controle é visto como um espectro, não uma dicotomia absoluta, e pode variar em diferentes domínios da vida. Ter um locus de controle predominantemente interno está geralmente associado a maior bem-estar psicológico e desempenho.",
+    "custo_ficticio": 130,
+    "icone_imagem": "locus_control_internal_external.png"
+  },
+  {
+    "nome": "Dissonância Cognitiva",
+    "descricao_simples": "O desconforto mental que sentimos quando temos duas crenças, atitudes ou comportamentos conflitantes.",
+    "descricao_complexa": "Proposta por Leon Festinger, a teoria da dissonância cognitiva afirma que experimentamos um estado de tensão psicológica desagradável (dissonância) quando mantemos cognições (pensamentos, crenças, atitudes) inconsistentes ou quando nosso comportamento entra em conflito com nossas atitudes. Por exemplo, uma pessoa que fuma (comportamento) apesar de saber que fumar causa câncer (crença) experimenta dissonância. Como esse estado é desconfortável, somos motivados a reduzi-lo. Isso pode ser feito de várias maneiras: mudando o comportamento (parar de fumar), mudando uma das cognições dissonantes (minimizar os riscos do fumo - 'nem todo mundo que fuma tem câncer'), ou adicionando novas cognições para justificar o comportamento ('fumar me relaxa, o que é bom para a saúde'). A dissonância cognitiva explica por que muitas vezes mudamos nossas atitudes para se alinharem com nossos comportamentos, especialmente após tomarmos decisões difíceis ou agirmos de forma contrária às nossas crenças.",
+    "custo_ficticio": 150,
+    "icone_imagem": "cognitive_dissonance_scales.png"
+  },
+  {
+    "nome": "Erro Fundamental de Atribuição",
+    "descricao_simples": "A tendência de superestimar fatores da personalidade (disposicionais) e subestimar fatores situacionais ao explicar o comportamento dos outros.",
+    "descricao_complexa": "O erro fundamental de atribuição (ou viés de correspondência) é um viés comum na percepção social. Ao observarmos o comportamento de outra pessoa, temos uma forte tendência a atribuí-lo a características internas dela (sua personalidade, caráter, intenções), dando menos peso ao poder da situação ou do contexto em que o comportamento ocorreu. Por exemplo, se vemos alguém tropeçar, somos mais propensos a pensar 'ele é desajeitado' (atribuição disposicional) do que 'o chão devia estar escorregadio' (atribuição situacional). Curiosamente, esse erro é menos comum quando explicamos nosso próprio comportamento, onde tendemos a dar mais ênfase a fatores situacionais (isso é chamado de viés ator-observador). Esse viés pode levar a julgamentos imprecisos sobre os outros, reforçar estereótipos e dificultar a empatia, pois não consideramos adequadamente as pressões contextuais que podem estar influenciando o comportamento alheio.",
+    "custo_ficticio": 140,
+    "icone_imagem": "attribution_error_person_vs_situation.png"
+  },
+  {
+    "nome": "Conformidade (Asch)",
+    "descricao_simples": "Ajustar nosso comportamento ou pensamento para coincidir com o de um grupo, mesmo que discordemos.",
+    "descricao_complexa": "A conformidade é um tipo de influência social que envolve mudar o próprio comportamento ou crenças para se alinhar com os de um grupo, devido à pressão real ou imaginada desse grupo. Os estudos clássicos de Solomon Asch (1950s) demonstraram o poder da conformidade. Nesses experimentos, participantes eram solicitados a julgar o comprimento de linhas, mas estavam em um grupo com 'cúmplices' do experimentador que davam respostas obviamente erradas em certas tentativas. Surpreendentemente, muitos participantes se conformavam com a resposta incorreta do grupo, mesmo sabendo que estava errada, para evitar o desconforto de discordar ou parecer diferente. Existem duas razões principais para a conformidade: influência social informacional (acreditar que o grupo tem informações corretas) e influência social normativa (desejo de ser aceito e evitar rejeição pelo grupo). A conformidade mostra como a pressão do grupo pode levar as pessoas a agir contra seu próprio julgamento.",
+    "custo_ficticio": 135,
+    "icone_imagem": "asch_conformity_lines.png"
+  },
+  {
+    "nome": "Obediência (Milgram)",
+    "descricao_simples": "Cumprir ordens ou comandos de uma figura de autoridade, mesmo que entrem em conflito com a própria consciência.",
+    "descricao_complexa": "A obediência à autoridade foi dramaticamente investigada por Stanley Milgram em seus controversos experimentos nos anos 1960. Participantes foram instruídos por uma figura de autoridade (o experimentador) a administrar choques elétricos progressivamente mais fortes a outra pessoa (um ator que apenas fingia sentir dor) sempre que esta errasse respostas em uma tarefa de memória. Apesar do aparente sofrimento extremo da 'vítima', uma porcentagem chocantemente alta de participantes continuou a administrar os choques até o nível máximo, simplesmente porque a autoridade lhes dizia para continuar. Os estudos de Milgram revelaram o poder situacional da autoridade em compelir comportamentos que violam normas morais pessoais. Fatores que influenciavam a obediência incluíam a legitimidade percebida da autoridade, a proximidade da vítima e a presença de outros que desobedeciam. Esses experimentos levantam questões profundas sobre responsabilidade pessoal, consciência e a influência de figuras de autoridade.",
+    "custo_ficticio": 170,
+    "icone_imagem": "milgram_obedience_shock.png"
+  },
+  {
+    "nome": "Efeito Espectador (Bystander Effect)",
+    "descricao_simples": "A tendência de uma pessoa ser menos propensa a ajudar uma vítima quando outras pessoas estão presentes.",
+    "descricao_complexa": "O efeito espectador, pesquisado por Latané e Darley após o caso de Kitty Genovese, descreve o fenômeno social onde a probabilidade de um indivíduo intervir em uma situação de emergência diminui à medida que o número de outros espectadores presentes aumenta. Isso ocorre devido a dois processos psicológicos principais: 1) Difusão de Responsabilidade: Com mais pessoas presentes, cada indivíduo sente menos responsabilidade pessoal para agir, assumindo que outra pessoa vai ajudar ou já ajudou. 2) Ignorância Pluralista: Em situações ambíguas, as pessoas olham para as reações dos outros para interpretar a situação. Se ninguém mais parece preocupado ou age, cada pessoa pode concluir que não há uma emergência real, mesmo que internamente esteja incerta ou preocupada. Esse efeito destaca como a presença de outros pode inibir o comportamento pró-social (ajuda), mesmo em situações onde a ajuda é claramente necessária.",
+    "custo_ficticio": 145,
+    "icone_imagem": "bystander_effect_crowd.png"
+  },
+  {
+    "nome": "Teoria do Apego (Bowlby/Ainsworth)",
+    "descricao_simples": "Explica a importância do vínculo emocional profundo entre um bebê e seu cuidador principal para o desenvolvimento socioemocional.",
+    "descricao_complexa": "Desenvolvida por John Bowlby e posteriormente expandida por Mary Ainsworth, a teoria do apego postula que os bebês humanos nascem com uma necessidade biológica inata de formar um vínculo emocional forte com um cuidador principal (geralmente a mãe), que serve como uma 'base segura' para explorar o mundo e uma fonte de conforto em momentos de estresse. A qualidade desse primeiro relacionamento de apego tem implicações duradouras para o desenvolvimento social, emocional e da personalidade. Ainsworth, através do procedimento da 'Situação Estranha', identificou diferentes padrões de apego: Seguro (bebê usa o cuidador como base segura, se angustia com a separação, mas se acalma com o retorno), Inseguro Evitativo (bebê explora pouco, mostra pouca angústia na separação e evita o cuidador no retorno), Inseguro Ambivalente/Resistente (bebê é ansioso, muito angustiado com a separação, mas ambivalente ou resistente no retorno) e, posteriormente, Desorganizado (comportamentos contraditórios e desorientados). Esses padrões tendem a influenciar os relacionamentos futuros.",
+    "custo_ficticio": 180,
+    "icone_imagem": "attachment_theory_child_parent.png"
+  },
+  {
+    "nome": "Estágios do Desenvolvimento Cognitivo (Piaget)",
+    "descricao_simples": "Teoria de Jean Piaget que descreve quatro estágios qualitativamente diferentes pelos quais o pensamento infantil se desenvolve.",
+    "descricao_complexa": "Jean Piaget propôs uma teoria influente sobre como a inteligência e as habilidades de pensamento das crianças se desenvolvem através de uma série de estágios universais e sequenciais. Ele acreditava que as crianças constroem ativamente seu conhecimento sobre o mundo através da interação com ele, usando processos de assimilação (incorporar novas informações em esquemas existentes) e acomodação (modificar esquemas existentes para novas informações). Os quatro estágios são: 1) Sensório-Motor (0-2 anos): A criança entende o mundo através dos sentidos e ações motoras; desenvolve a permanência do objeto. 2) Pré-Operacional (2-7 anos): A criança usa símbolos (linguagem), mas o pensamento é egocêntrico e não lógico; dificuldade com conservação. 3) Operações Concretas (7-11 anos): A criança pensa logicamente sobre eventos concretos; entende conservação, mas tem dificuldade com o pensamento abstrato. 4) Operações Formais (12+ anos): Desenvolve pensamento abstrato, hipotético-dedutivo e raciocínio científico. A teoria de Piaget revolucionou o estudo do desenvolvimento infantil, embora alguns detalhes (idades, universalidade) tenham sido revisados.",
+    "custo_ficticio": 160,
+    "icone_imagem": "piaget_stages_staircase.png"
+  },
+  {
+    "nome": "Zona de Desenvolvimento Proximal (Vygotsky)",
+    "descricao_simples": "A diferença entre o que uma criança pode fazer sozinha e o que ela pode fazer com a ajuda de alguém mais experiente.",
+    "descricao_complexa": "Proposta por Lev Vygotsky em sua teoria sociocultural do desenvolvimento cognitivo, a Zona de Desenvolvimento Proximal (ZDP) é um conceito central para entender a aprendizagem e a instrução. Representa o espaço entre o nível de desenvolvimento real da criança (o que ela consegue realizar de forma independente) e o seu nível de desenvolvimento potencial (o que ela pode realizar com orientação de um adulto ou em colaboração com colegas mais capazes – os 'outros mais conhecedores'). A aprendizagem, segundo Vygotsky, ocorre mais eficazmente dentro dessa zona, onde a criança está sendo desafiada, mas recebe o suporte necessário (andaime ou 'scaffolding') para dominar novas habilidades ou conceitos que ainda não consegue dominar sozinha. A ZDP enfatiza a natureza social da aprendizagem e o papel crucial da interação social e da linguagem na mediação do desenvolvimento cognitivo. Implica que a instrução deve mirar um pouco além do nível atual da criança para promover o crescimento.",
+    "custo_ficticio": 150,
+    "icone_imagem": "vygotsky_zpd_circles.png"
+  },
+  {
+    "nome": "Modelo dos Cinco Grandes Fatores (Big Five)",
+    "descricao_simples": "Modelo de personalidade amplamente aceito que descreve traços básicos em cinco dimensões: Abertura, Conscienciosidade, Extroversão, Amabilidade e Neuroticismo (OCEAN).",
+    "descricao_complexa": "O Modelo dos Cinco Grandes Fatores (ou Big Five) é a taxonomia dominante na psicologia da personalidade contemporânea, sugerindo que a maioria das diferenças individuais na personalidade pode ser descrita em termos de cinco dimensões amplas e relativamente estáveis ao longo do tempo. Essas dimensões são: 1) Abertura à Experiência (curiosidade intelectual, imaginação, apreciação pela arte vs. convencionalismo, preferência pela rotina). 2) Conscienciosidade (organização, disciplina, responsabilidade, planejamento vs. impulsividade, desorganização). 3) Extroversão (sociabilidade, assertividade, busca por excitação, emoções positivas vs. introversão, reserva). 4) Amabilidade (cooperação, empatia, confiança, altruísmo vs. antagonismo, ceticismo). 5) Neuroticismo (tendência a experienciar emoções negativas como ansiedade, raiva, tristeza, vulnerabilidade vs. estabilidade emocional). A posição de uma pessoa em cada uma dessas cinco dimensões (geralmente medida por questionários) fornece um perfil abrangente de sua personalidade. Este modelo tem forte base empírica e transcultural.",
+    "custo_ficticio": 170,
+    "icone_imagem": "big_five_ocean.png"
+  },
+  {
+    "nome": "Id, Ego, Superego (Freud)",
+    "descricao_simples": "Modelo estrutural da personalidade na teoria psicanalítica de Freud, representando impulsos básicos (Id), realidade (Ego) e moralidade (Superego).",
+    "descricao_complexa": "Sigmund Freud propôs um modelo tripartite da estrutura da psique humana. O Id é a parte mais primitiva e inconsciente, operando pelo princípio do prazer, buscando gratificação imediata de impulsos biológicos e instintivos (libido e agressão). É ilógico e amoral. O Superego representa a moralidade internalizada, os ideais e padrões sociais aprendidos dos pais e da sociedade (consciência). Busca a perfeição e julga as ações, gerando culpa ou orgulho. Opera em parte consciente e em parte inconsciente. O Ego é o componente largamente consciente e racional da personalidade, que opera pelo princípio da realidade. Sua função é mediar as demandas conflitantes do Id (querer agora!), do Superego (isso é errado!) e da realidade externa (isso é possível/seguro?). O Ego usa a lógica, a percepção e a memória para encontrar maneiras realistas e socialmente aceitáveis de satisfazer os impulsos do Id, sem violar excessivamente os padrões do Superego. Conflitos não resolvidos entre essas três instâncias gerariam ansiedade e o uso de mecanismos de defesa.",
+    "custo_ficticio": 165,
+    "icone_imagem": "freud_iceberg_id_ego.png"
+  },
+  {
+    "nome": "Mecanismos de Defesa",
+    "descricao_simples": "Estratégias psicológicas inconscientes usadas pelo Ego para proteger a pessoa da ansiedade gerada por conflitos internos ou estressores externos.",
+    "descricao_complexa": "Na teoria psicanalítica, os mecanismos de defesa são táticas inconscientes que o Ego emprega para reduzir a ansiedade, distorcendo ou negando a realidade de alguma forma. Eles surgem quando as demandas do Id, as restrições do Superego ou as ameaças do mundo externo se tornam esmagadoras. Embora possam ser adaptativos a curto prazo, o uso excessivo ou rígido pode impedir o enfrentamento realista dos problemas. Alguns mecanismos comuns incluem: Repressão (manter pensamentos/memórias ameaçadoras fora da consciência), Negação (recusar-se a aceitar uma realidade dolorosa), Projeção (atribuir os próprios impulsos/sentimentos inaceitáveis a outros), Racionalização (criar explicações lógicas para comportamentos motivados por impulsos inaceitáveis), Deslocamento (redirecionar impulsos para um alvo mais seguro), Formação Reativa (agir de forma oposta aos impulsos reais), Sublimação (canalizar impulsos inaceitáveis para atividades socialmente aceitáveis – considerado um mecanismo maduro). Anna Freud elaborou e expandiu a lista original de mecanismos propostos por seu pai.",
+    "custo_ficticio": 155,
+    "icone_imagem": "defense_mechanism_shield.png"
+  },
+  {
+    "nome": "Hierarquia das Necessidades (Maslow)",
+    "descricao_simples": "Teoria humanista de Abraham Maslow que organiza as necessidades humanas em uma pirâmide, desde as básicas (fisiológicas) até a autorrealização.",
+    "descricao_complexa": "Abraham Maslow, um dos fundadores da psicologia humanista, propôs que a motivação humana é impulsionada por uma hierarquia de necessidades, frequentemente representada como uma pirâmide. Na base estão as necessidades fisiológicas mais básicas (fome, sede, sono). Uma vez satisfeitas, surgem as necessidades de segurança (proteção, estabilidade, ordem). Em seguida, vêm as necessidades sociais ou de pertencimento (amor, amizade, aceitação). Acima destas, estão as necessidades de estima (autoestima, respeito dos outros, reconhecimento, competência). No topo da hierarquia está a necessidade de autorrealização, que é o desejo de realizar todo o próprio potencial, tornar-se tudo o que se é capaz de ser, buscar crescimento pessoal e experiências culminantes. Maslow acreditava que as necessidades de nível inferior devem ser minimamente satisfeitas antes que as de nível superior se tornem motivadores primários. Embora a rigidez da hierarquia seja debatida, a teoria destaca a importância de diferentes níveis de motivação humana, culminando na busca por significado e crescimento.",
+    "custo_ficticio": 140,
+    "icone_imagem": "maslow_pyramid.png"
+  },
+  {
+    "nome": "Autorrealização",
+    "descricao_simples": "O processo de realizar plenamente o próprio potencial e se tornar a melhor versão de si mesmo; o nível mais alto na hierarquia de Maslow.",
+    "descricao_complexa": "A autorrealização (ou autoatualização) é o ápice da hierarquia das necessidades de Maslow e um conceito central na psicologia humanista (também enfatizado por Carl Rogers). Representa a motivação intrínseca para o crescimento pessoal, a autonomia e a realização do potencial único de cada indivíduo. Pessoas em processo de autorrealização, segundo Maslow, tendem a ser realistas, autoaceitas, espontâneas, focadas em problemas externos a si mesmas, independentes, com capacidade para experiências culminantes (momentos de intensa alegria, êxtase ou insight), e com um forte senso ético. Não é um estado final a ser alcançado, mas um processo contínuo de se tornar mais plenamente humano e viver de acordo com os próprios valores e capacidades. Alcançar a autorrealização plena seria raro, mas a tendência para ela seria inata, embora possa ser frustrada por necessidades inferiores não satisfeitas ou por condições sociais adversas.",
+    "custo_ficticio": 175,
+    "icone_imagem": "self_actualization_peak.png"
+  },
+  {
+    "nome": "Inteligência Emocional (IE)",
+    "descricao_simples": "A capacidade de perceber, compreender, gerenciar e usar as emoções de forma eficaz em si mesmo e nos relacionamentos com os outros.",
+    "descricao_complexa": "Popularizada por Daniel Goleman, mas baseada em trabalhos anteriores de Salovey e Mayer, a inteligência emocional (IE ou QE - Quociente Emocional) refere-se a um conjunto de habilidades relacionadas ao processamento de informações emocionais. Geralmente inclui quatro componentes principais: 1) Percepção Emocional: Habilidade de identificar emoções em si mesmo e nos outros (através de expressões faciais, tom de voz, etc.). 2) Uso das Emoções para Facilitar o Pensamento: Habilidade de aproveitar as emoções para auxiliar em tarefas cognitivas como resolução de problemas e criatividade. 3) Compreensão Emocional: Habilidade de entender informações emocionais complexas, como as causas das emoções, as relações entre elas e suas transições. 4) Gerenciamento Emocional: Habilidade de regular as próprias emoções e de influenciar as emoções dos outros de forma adaptativa. A IE é considerada importante para o sucesso pessoal e profissional, influenciando a qualidade dos relacionamentos, a liderança, o bem-estar e o desempenho no trabalho.",
+    "custo_ficticio": 160,
+    "icone_imagem": "emotional_intelligence_heart_brain.png"
+  },
+  {
+    "nome": "Efeito Placebo",
+    "descricao_simples": "Um fenômeno onde uma pessoa experimenta um benefício real (físico ou psicológico) após receber um tratamento inerte (placebo), devido à crença nesse tratamento.",
+    "descricao_complexa": "O efeito placebo ocorre quando as expectativas positivas de um paciente em relação a um tratamento levam a uma melhora real em seus sintomas, mesmo que o tratamento em si não tenha propriedades terapêuticas ativas (ex: uma pílula de açúcar, uma injeção de soro fisiológico). Acredita-se que mecanismos psicológicos (expectativa, condicionamento clássico – associar o ato de tomar um remédio com alívio) e neurobiológicos (liberação de endorfinas, ativação de certas áreas cerebrais associadas à recompensa e modulação da dor) estejam envolvidos. O efeito placebo é um fator importante em pesquisas clínicas, onde novos tratamentos precisam demonstrar eficácia superior ao placebo para serem aprovados (estudos randomizados controlados com placebo). Embora demonstre o poderoso link entre mente e corpo, o uso de placebos na prática clínica levanta questões éticas sobre engano, mas também destaca o potencial terapêutico das expectativas e da relação médico-paciente.",
+    "custo_ficticio": 125,
+    "icone_imagem": "placebo_pill.png"
+  },
+  {
+    "nome": "Neurônios Espelho",
+    "descricao_simples": "Células cerebrais que disparam tanto quando realizamos uma ação quanto quando observamos outra pessoa realizar a mesma ação.",
+    "descricao_complexa": "Descobertos inicialmente em macacos e depois identificados em humanos (através de técnicas de neuroimagem), os neurônios espelho são uma classe de neurônios que se tornam ativos tanto durante a execução de uma ação direcionada a um objetivo (ex: pegar uma xícara) quanto durante a observação de outra pessoa realizando essa mesma ação. Acredita-se que esse sistema 'espelho' desempenhe um papel crucial em várias funções cognitivas e sociais, incluindo: compreensão das ações e intenções dos outros (simulando internamente a ação observada), aprendizagem por imitação, empatia (sentir o que o outro sente, possivelmente através da simulação das expressões emocionais observadas) e desenvolvimento da linguagem. Disfunções no sistema de neurônios espelho têm sido hipotetizadas como um possível fator em condições como o autismo, embora esta seja uma área de pesquisa ainda em desenvolvimento e debate.",
+    "custo_ficticio": 185,
+    "icone_imagem": "mirror_neurons_brain.png"
+  },
+  {
+    "nome": "Plasticidade Cerebral (Neuroplasticidade)",
+    "descricao_simples": "A capacidade do cérebro de mudar sua estrutura e função em resposta à experiência, aprendizagem, desenvolvimento ou lesão.",
+    "descricao_complexa": "A neuroplasticidade refere-se à notável habilidade do cérebro de se reorganizar formando novas conexões neurais (sinapses) e, em alguns casos, até criando novos neurônios (neurogênese, principalmente no hipocampo) ao longo da vida. Essa capacidade permite que o cérebro se adapte a novas informações, aprenda novas habilidades, armazene memórias e se recupere de lesões (ex: após um AVC, outras áreas do cérebro podem assumir funções perdidas). A plasticidade ocorre em diferentes níveis, desde mudanças microscópicas nas sinapses (plasticidade sináptica, como na potenciação de longa duração - LTP) até reorganizações corticais em larga escala (plasticidade cortical). Fatores como aprendizagem, treinamento, meditação, exercício físico e o ambiente podem promover a plasticidade. Entender a neuroplasticidade é fundamental para a neurociência, a psicologia e a reabilitação neurológica, mostrando que o cérebro é um órgão dinâmico e adaptável, e não estático após a infância.",
+    "custo_ficticio": 190,
+    "icone_imagem": "brain_plasticity_connections.png"
+  },
+  {
+    "nome": "Ritmos Circadianos",
+    "descricao_simples": "Ciclos biológicos de aproximadamente 24 horas que regulam processos como o sono-vigília, temperatura corporal e liberação de hormônios.",
+    "descricao_complexa": "Os ritmos circadianos (do latim 'circa diem', cerca de um dia) são flutuações regulares em processos fisiológicos e comportamentais que ocorrem em um ciclo de aproximadamente 24 horas. O exemplo mais proeminente é o ciclo sono-vigília, mas eles também governam a temperatura corporal, a pressão arterial, a secreção de hormônios (como cortisol e melatonina) e os níveis de alerta. Esses ritmos são gerados internamente por um 'relógio biológico' principal localizado no núcleo supraquiasmático (NSQ) do hipotálamo. Embora endógenos (gerados internamente), esses ritmos são sincronizados (ou 'ajustados') diariamente por pistas ambientais, principalmente o ciclo claro-escuro (luz solar). A luz detectada pela retina envia sinais ao NSQ, que então coordena os vários ritmos do corpo. Desregulações nos ritmos circadianos (causadas por trabalho em turnos, jet lag, ou distúrbios do sono) podem levar a problemas de saúde física e mental.",
+    "custo_ficticio": 130,
+    "icone_imagem": "circadian_rhythm_clock.png"
+  }
+]

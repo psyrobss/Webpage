@@ -1,0 +1,221 @@
+/* app/games/(game-data)/memory-game/MemoryGame.module.css */
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+    background-color: #f0f4f8; /* Fundo azulado claro */
+    border-radius: 8px;
+    /* Aumenta a largura máxima para acomodar 5 colunas */
+    max-width: 650px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.2rem; /* Um pouco maior */
+    font-weight: bold;
+    color: #2c3e50; /* Azul escuro */
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .statusArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente */
+    width: 95%;
+    max-width: 450px; /* Aumenta um pouco */
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #34495e; /* Azul acinzentado */
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+    gap: 0.5rem 1rem; /* Espaçamento entre itens de status */
+  }
+  
+  .statusInfo {
+      background-color: #fff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+  }
+  
+  .statusInfo span {
+      font-weight: bold;
+  }
+  
+  .statusMessage {
+    min-height: 1.5em; /* Para evitar saltos de layout */
+    font-weight: 600;
+    color: #2980b9; /* Azul mais vibrante para mensagens */
+    flex-basis: 100%; /* Ocupa toda a largura para centralizar */
+    text-align: center;
+    margin-top: 0.5rem; /* Espaço se quebrar linha */
+  }
+  
+  .gameBoard {
+    display: grid;
+    /* As colunas serão definidas via inline style no TSX */
+    gap: 0.8rem; /* Espaço entre as cartas */
+    margin-bottom: 1.5rem;
+    padding: 0.5rem; /* Pequeno padding interno */
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo levemente branco */
+    border-radius: 6px;
+    perspective: 1000px; /* Necessário para o efeito 3D de flip */
+  }
+  
+  .card {
+    width: 85px; /* Ajuste leve no tamanho */
+    height: 95px;
+    cursor: pointer;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 6px;
+  }
+  
+  .cardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+  }
+  
+  .card.isFlipped .cardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .cardFace {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 2.8rem; /* Ajuste no tamanho do emoji */
+  }
+  
+  .cardFaceFront {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6); /* Gradiente Roxo */
+    color: white;
+  }
+  .cardFaceFront::before {
+      content: '⭐'; /* Estrela como verso */
+      font-size: 3rem;
+  }
+  
+  .cardFaceBack {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    transform: rotateY(180deg);
+    border: 1px solid #bdc3c7;
+  }
+  
+  .card.isMatched {
+    cursor: default;
+    opacity: 0.6; /* Mais transparente */
+    transform: scale(0.95); /* Levemente menor */
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .card.isMatched .cardInner{
+      box-shadow: none;
+      border: 2px solid #2ecc71;
+  }
+  .card.isMatched .cardFaceBack {
+      background-color: #e6ffed;
+  }
+  
+  /* Desabilita eventos de clique */
+  .card.isFlipped:not(.isMatched),
+  .card.isMatched {
+    pointer-events: none;
+  }
+  
+  /* Feedback visual temporário */
+  .comparing .cardInner {
+      outline: 3px solid #f39c12;
+      outline-offset: 1px;
+  }
+  
+  /* Botões */
+  .buttonContainer {
+      display: flex;
+      flex-direction: column; /* Empilha os botões */
+      align-items: center;
+      gap: 1rem; /* Espaço entre botões */
+      width: 100%;
+      margin-top: 1rem;
+  }
+  
+  .resetButton {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(45deg, #e67e22, #f39c12); /* Laranja */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    transition: background 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+  }
+  
+  .resetButton:hover {
+    background: linear-gradient(45deg, #d35400, #e67e22);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .resetButton:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Botões de Navegação */
+  .navigationButtons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.5rem; /* Menor espaço se já houver botão de reset */
+  }
+  
+  .navButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navButtonHome {
+    background-color: #3498db; /* Azul mais claro */
+    color: white;
+  }
+  .navButtonHome:hover {
+    background-color: #2980b9;
+  }
+  
+  .navButtonGames {
+    background-color: #95a5a6; /* Cinza mais claro */
+    color: #fff;
+  }
+  .navButtonGames:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .navButton:active {
+      transform: scale(0.96);
+  }

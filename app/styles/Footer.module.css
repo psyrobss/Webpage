@@ -1,0 +1,29 @@
+/* styles/Footer.module.css */
+
+/* Mantém apenas estilos que são difíceis ou verbosos de fazer com sx,
+   ou se preferir manter a estrutura de classes.
+   Neste caso, com o uso de MUI Grid e Container,
+   muitos estilos de layout são gerenciados pelo MUI.
+*/
+
+.footer {
+  /* Os estilos principais como background, cor, padding, borda
+     foram movidos para a prop 'sx' no Footer.tsx
+     para usar variáveis do tema e CSS globals. */
+  width: 100%;
+}
+
+/* .column { */
+  /* Estilos de coluna agora gerenciados pelo MUI Grid item */
+/* } */
+
+.copy {
+  /* Estilos de alinhamento, margem e borda foram movidos para 'sx' no Footer.tsx */
+  width: 100%; /* Garante que ocupe toda a largura */
+}
+
+/* Media queries podem ser removidas se o layout responsivo
+   estiver totalmente coberto pelo MUI Grid e props 'sx' */
+
+/* Se não houver mais nada aqui, você pode considerar remover este arquivo
+   e a importação dele no Footer.tsx */

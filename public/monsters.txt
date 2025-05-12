@@ -1,0 +1,49 @@
+
+// Converter arquivos .glb para .tsx
+
+npx gltfjsx "public/models/Alien.glb" -o app/components/models/AlienModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Alpaking Evolved.glb" -o app/components/models/AlpakingEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Armabee Evolved.glb" -o app/components/models/ArmabeeEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Birb.glb" -o app/components/models/BirbModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Bunny.glb" -o app/components/models/BunnyModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Cactoro-IgN9Ihdama.glb" -o app/components/models/CactoroIgN9IhdamaModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Chicken.glb" -o app/components/models/ChickenModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Demon-LnflziKv4o.glb" -o app/components/models/DemonLnflziKv4oModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Dragon Evolved.glb" -o app/components/models/DragonEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Fish.glb" -o app/components/models/FishModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Frog.glb" -o app/components/models/FrogModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Ghost.glb" -o app/components/models/GhostModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Glub.glb" -o app/components/models/GlubModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Goleling.glb" -o app/components/models/GolelingModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Goleling Evolved.glb" -o app/components/models/GolelingEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Green Spiky Blob.glb" -o app/components/models/GreenSpikyBlobModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Monkroose.glb" -o app/components/models/MonkrooseModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Mushnub.glb" -o app/components/models/MushnubModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Ninja.glb" -o app/components/models/NinjaModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Orc Enemy.glb" -o app/components/models/OrcEnemyModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Pigeon.glb" -o app/components/models/PigeonModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Squidle.glb" -o app/components/models/SquidleModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Wizard.glb" -o app/components/models/WizardModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Yeti-ceRHrn8HHE.glb" -o app/components/models/YeticeRHrn8HHEModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Alien-RRiiSQBP7r.glb" -o app/components/models/AlienRRiiSQBP7rModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Alpaking.glb" -o app/components/models/AlpakingModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Armabee.glb" -o app/components/models/ArmabeeModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Blue Demon.glb" -o app/components/models/BlueDemonModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Cactoro.glb" -o app/components/models/CactoroModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Cat.glb" -o app/components/models/CatModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Demon.glb" -o app/components/models/DemonModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Dino.glb" -o app/components/models/DinoModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Dragon.glb" -o app/components/models/DragonModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Fish-ypEYhClmAB.glb" -o app/components/models/FishypEYhClmABModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Ghost Skull.glb" -o app/components/models/GhostSkullModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Glub Evolved.glb" -o app/components/models/GlubEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Goleling Evolved.glb" -o app/components/models/GolelingEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Green Blob.glb" -o app/components/models/GreenBlobModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Hywirl.glb" -o app/components/models/HywirlModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Mushnub Evolved.glb" -o app/components/models/MushnubEvolvedModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Mushroom King.glb" -o app/components/models/MushroomKingModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Ninja-xGymeDpfTu.glb" -o app/components/models/NinjaxGymeDpfTuModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Orc.glb" -o app/components/models/OrcModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Pink Blob.glb" -o app/components/models/PinkBlobModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Tribal.glb" -o app/components/models/TribalModel.tsx -T -t -k -s
+npx gltfjsx "public/models/Yeti.glb" -o app/components/models/YetiModel.tsx -T -t -k -s

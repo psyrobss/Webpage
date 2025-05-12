@@ -1,0 +1,21 @@
+/* Estilos para a About Section */
+.about-section {
+  position: relative;
+  scroll-snap-align: start;
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.about-section .MuiGrid-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section .MuiCard-root {
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-section .MuiCard-root:hover {
+  transform: translateY(-10px);
+}

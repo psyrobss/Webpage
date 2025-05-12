@@ -1,0 +1,94 @@
+/* app/games/GamesPage.module.css */
+
+/* --- Estilos para o Layout (aplicados em layout.tsx) --- */
+.gamesLayoutContainer {
+    max-width: 1100px; /* Similar a 'container' */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1rem; /* Espaçamento vertical e horizontal */
+    font-family: sans-serif; /* Defina uma fonte base se não tiver uma global */
+  }
+  
+  .mainTitle {
+    font-size: 2.5rem; /* Tamanho grande para o título principal */
+    font-weight: 700; /* Negrito */
+    margin-bottom: 2rem; /* Espaço abaixo do título */
+    text-align: center;
+    color: #333; /* Cor escura para o título */
+  }
+  
+  /* --- Estilos para a Página (aplicados em page.tsx) --- */
+  .introText {
+    margin-bottom: 2.5rem; /* Espaço abaixo do texto introdutório */
+    font-size: 1.1rem; /* Tamanho de fonte um pouco maior */
+    text-align: center;
+    color: #555; /* Cor de texto ligeiramente mais clara */
+    line-height: 1.6; /* Melhorar legibilidade */
+    max-width: 700px; /* Limitar largura para melhor leitura */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .gamesGrid {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna por padrão (mobile) */
+    gap: 1.5rem; /* Espaço entre os cards */
+  }
+  
+  /* Media Query para telas maiores (tablets e desktops) */
+  @media (min-width: 640px) {
+    .gamesGrid {
+      grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    }
+  }
+  
+  /* Media Query para telas ainda maiores (desktops) */
+  @media (min-width: 1024px) {
+    .gamesGrid {
+      grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    }
+  }
+  
+  /* --- Estilos para os Cards dos Jogos --- */
+  .gameCard {
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 1.5rem; /* Espaçamento interno */
+    background-color: #ffffff; /* Fundo branco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para hover */
+    display: flex; /* Usar flexbox para melhor controle interno */
+    flex-direction: column; /* Organizar conteúdo verticalmente */
+  }
+  
+  .gameCard:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada no hover */
+    transform: translateY(-3px); /* Leve elevação no hover */
+  }
+  
+  .cardTitle {
+    font-size: 1.4rem; /* Tamanho do título do card */
+    font-weight: 600; /* Semi-negrito */
+    margin-bottom: 0.75rem; /* Espaço abaixo do título do card */
+    color: #222;
+  }
+  
+  .cardDescription {
+    color: #666; /* Cor para a descrição */
+    margin-bottom: 1rem; /* Espaço abaixo da descrição */
+    flex-grow: 1; /* Faz a descrição ocupar o espaço disponível */
+    line-height: 1.5;
+  }
+  
+  .cardStatus {
+    display: inline-block; /* Para que o padding funcione corretamente */
+    align-self: flex-start; /* Alinha o status à esquerda no final do card */
+    background-color: #eee; /* Fundo cinza claro para o status */
+    border-radius: 12px; /* Cantos arredondados para o status */
+    padding: 0.3rem 0.8rem; /* Espaçamento interno do status */
+    font-size: 0.8rem; /* Tamanho de fonte pequeno para o status */
+    font-weight: 500; /* Peso da fonte */
+    color: #555; /* Cor do texto do status */
+    margin-top: auto; /* Empurra o status para o final do card */
+  }
+  

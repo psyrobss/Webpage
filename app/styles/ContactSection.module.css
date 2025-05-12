@@ -1,0 +1,18 @@
+/* Estilos para a Contact Section */
+.contact-section {
+    position: relative;
+    scroll-snap-align: start;
+    padding: 4rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('/images/contact-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section .MuiBox-root {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-section .MuiBox-root:hover {
+    transform: translateY(-10px);
+  }

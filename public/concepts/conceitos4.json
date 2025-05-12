@@ -1,0 +1,177 @@
+[
+  {
+    "nome": "Processamento Bottom-Up vs. Top-Down",
+    "descricao_simples": "Duas formas como nosso cérebro processa informações: começando pelos sentidos (bottom-up) ou usando conhecimento prévio e expectativas (top-down).",
+    "descricao_complexa": "Estes termos descrevem duas direções opostas de processamento de informações na percepção e cognição. O Processamento Bottom-Up (ascendente) inicia-se com a estimulação sensorial bruta do ambiente. Nossos receptores sensoriais (olhos, ouvidos, etc.) detectam características básicas (linhas, cores, sons) que são gradualmente combinadas e enviadas para áreas cerebrais superiores para interpretação. É um processo guiado pelos dados, onde a percepção é construída a partir das partes sensoriais. Em contraste, o Processamento Top-Down (descendente) é guiado por nossos conhecimentos, experiências passadas, expectativas, crenças e contexto. O cérebro usa essas informações de nível superior para interpretar os dados sensoriais que chegam. Por exemplo, ler uma caligrafia difícil depende do top-down (usamos o contexto da frase para decifrar palavras). Na prática, ambos os processos interagem continuamente para criar nossa percepção do mundo. O bottom-up fornece os dados brutos, e o top-down ajuda a organizá-los e dar-lhes sentido.",
+    "custo_ficticio": 140,
+    "icone_imagem": "bottom_up_top_down_arrows.png"
+  },
+  {
+    "nome": "Constância Perceptual",
+    "descricao_simples": "A capacidade de perceber objetos como estáveis e inalterados (em tamanho, forma, cor, brilho) apesar das mudanças na imagem sensorial que chega aos nossos olhos.",
+    "descricao_complexa": "A constância perceptual é um fenômeno notável que demonstra como nosso cérebro vai além da informação sensorial imediata para criar uma percepção estável do mundo. Mesmo que a imagem de um objeto em nossa retina mude drasticamente dependendo da distância, ângulo de visão ou iluminação, nós continuamos a percebê-lo como tendo um tamanho, forma, cor e brilho constantes. Por exemplo: Constância de Tamanho: Percebemos uma pessoa como tendo o mesmo tamanho, quer esteja perto (imagem grande na retina) ou longe (imagem pequena). Constância de Forma: Uma porta é percebida como retangular, mesmo que a imagem na retina seja um trapézio quando a vemos de um ângulo. Constância de Cor/Brilho: Uma folha de papel branco é percebida como branca sob luz solar intensa ou na sombra, embora a quantidade de luz refletida mude. Essas constâncias dependem de pistas contextuais e do conhecimento prévio sobre os objetos, sendo um exemplo de processamento top-down que nos ajuda a navegar em um ambiente visual em constante mudança.",
+    "custo_ficticio": 130,
+    "icone_imagem": "perceptual_constancy_door.png"
+  },
+  {
+    "nome": "Teoria da Detecção de Sinal (TDS)",
+    "descricao_simples": "Modelo que explica como tomamos decisões sob incerteza, separando a sensibilidade real ao estímulo dos critérios de decisão (vieses) da pessoa.",
+    "descricao_complexa": "A Teoria da Detecção de Sinal (TDS) é uma abordagem psicofísica usada para medir a capacidade de um observador de discernir entre um 'sinal' (estímulo alvo) e 'ruído' (estimulação de fundo ou ausência do sinal), especialmente quando o sinal é fraco ou ambíguo. Ao contrário dos métodos de limiar clássicos, a TDS reconhece que a decisão de 'detectar' ou 'não detectar' um sinal não depende apenas da sensibilidade do sistema sensorial (d', d-prime), mas também dos critérios ou viés de resposta do observador (beta, β). O critério reflete a tendência do observador a dizer 'sim, detectei' versus 'não, não detectei', e pode ser influenciado por fatores como expectativas e as consequências (recompensas/custos) de acertos e falsos alarmes. A TDS permite analisar separadamente a sensibilidade (quão bem o observador distingue sinal de ruído) e o critério (quão liberal ou conservador é o observador em sua resposta), fornecendo uma medida mais completa do desempenho em tarefas de detecção.",
+    "custo_ficticio": 165,
+    "icone_imagem": "signal_detection_graph.png"
+  },
+  {
+    "nome": "Memória Implícita vs. Explícita",
+    "descricao_simples": "Dois sistemas de memória de longo prazo: a memória inconsciente para habilidades e condicionamento (implícita) e a memória consciente para fatos e eventos (explícita).",
+    "descricao_complexa": "A memória de longo prazo não é um sistema unitário. A Memória Explícita (ou declarativa) envolve a recordação consciente e intencional de informações. Ela se subdivide em: Memória Episódica (lembranças de eventos pessoais específicos, com contexto temporal e espacial - 'o que fiz nas férias passadas') e Memória Semântica (conhecimento geral sobre o mundo, fatos, conceitos, linguagem - 'Paris é a capital da França'). A memória explícita depende de estruturas como o hipocampo e geralmente pode ser verbalizada. Em contraste, a Memória Implícita (ou não declarativa) se manifesta através do desempenho, sem consciência ou recordação intencional. Inclui: Memória Procedimental (habilidades motoras e cognitivas - 'andar de bicicleta', 'digitar'), Priming (facilitação na identificação de um estímulo devido à exposição prévia) e Aprendizagem Associativa (condicionamento clássico e operante). A memória implícita depende de outras estruturas cerebrais (como os gânglios da base e o cerebelo) e é demonstrada pela ação, não pela declaração.",
+    "custo_ficticio": 140,
+    "icone_imagem": "memory_implicit_explicit.png"
+  },
+  {
+    "nome": "Efeito da Desinformação (Misinformation Effect)",
+    "descricao_simples": "A tendência de informações enganosas, recebidas após um evento, serem incorporadas à memória desse evento, distorcendo a lembrança original.",
+    "descricao_complexa": "Pesquisado extensivamente por Elizabeth Loftus, o efeito da desinformação demonstra a maleabilidade da memória autobiográfica. Ocorre quando a recordação de um evento por uma pessoa é alterada após ela ser exposta a informações pós-evento que são incorretas ou sugestivas. Em experimentos clássicos, participantes que testemunhavam um evento (ex: um acidente de carro em vídeo) e depois recebiam perguntas com informações enganosas (ex: 'Qual a velocidade dos carros quando eles se *esmagaram* um contra o outro?' vs. '...se *chocaram*?') tendiam a incorporar essa desinformação em sua memória, relatando ter visto coisas que não estavam presentes (como vidro quebrado no caso do verbo 'esmagaram'). Esse efeito sugere que a memória não é uma gravação passiva, mas um processo reconstrutivo ativo, vulnerável a sugestões e informações posteriores. Tem implicações importantes para o testemunho ocular em contextos legais.",
+    "custo_ficticio": 155,
+    "icone_imagem": "misinformation_effect_memory.png"
+  },
+  {
+    "nome": "Amnésia Anterógrada vs. Retrógrada",
+    "descricao_simples": "Dois tipos de perda de memória: incapacidade de formar novas memórias (anterógrada) e perda de memórias passadas (retrógrada).",
+    "descricao_complexa": "Amnésia refere-se à perda de memória, geralmente causada por lesão cerebral, doença ou trauma psicológico. Amnésia Anterógrada é a incapacidade de formar novas memórias de longo prazo (especificamente memórias explícitas episódicas e semânticas) após o evento que causou a amnésia. A pessoa pode lembrar-se claramente do passado antes da lesão, mas tem grande dificuldade em aprender novas informações ou lembrar-se do que aconteceu minutos ou horas atrás. A memória de curto prazo e a memória implícita (procedimental) geralmente permanecem intactas. O famoso caso do paciente H.M., que teve o hipocampo removido, é um exemplo clássico. Amnésia Retrógrada é a perda de memórias formadas *antes* do evento que causou a amnésia. A extensão da perda pode variar, afetando desde algumas horas antes do trauma até anos ou décadas. Geralmente, as memórias mais recentes são mais afetadas do que as memórias mais antigas (lei de Ribot). Os dois tipos podem ocorrer juntos, mas também podem ocorrer isoladamente.",
+    "custo_ficticio": 150,
+    "icone_imagem": "amnesia_antero_retro.png"
+  },
+  {
+    "nome": "Inteligência Triárquica (Sternberg)",
+    "descricao_simples": "Teoria de Robert Sternberg que propõe três tipos de inteligência: analítica, criativa e prática.",
+    "descricao_complexa": "Como alternativa às visões mais tradicionais de inteligência (focadas no QI), Robert Sternberg propôs a Teoria Triárquica da Inteligência, que enfatiza a inteligência bem-sucedida no mundo real. Ele distingue três componentes inter-relacionados: 1) Inteligência Analítica: Refere-se às habilidades de pensamento abstrato, raciocínio lógico, análise, avaliação e resolução de problemas bem definidos. É o tipo de inteligência mais valorizado em ambientes acadêmicos e medido por testes de QI tradicionais. 2) Inteligência Criativa: Envolve a capacidade de lidar com situações novas, gerar ideias originais, pensar de forma flexível e combinar informações de maneiras inovadoras. É a habilidade de ir além do que é dado para criar algo novo. 3) Inteligência Prática: Refere-se à habilidade de lidar eficazmente com problemas cotidianos, adaptar-se a diferentes contextos, entender e influenciar pessoas ('inteligência de rua'). Envolve conhecimento tácito (implícito, aprendido pela experiência). Sternberg argumenta que a inteligência bem-sucedida requer um equilíbrio entre essas três capacidades e a habilidade de aplicá-las adequadamente aos desafios da vida.",
+    "custo_ficticio": 160,
+    "icone_imagem": "sternberg_triarchic_intelligence.png"
+  },
+  {
+    "nome": "Pensamento Divergente vs. Convergente",
+    "descricao_simples": "Dois estilos de pensamento: gerar múltiplas soluções criativas para um problema (divergente) vs. encontrar a única resposta correta (convergente).",
+    "descricao_complexa": "Essa distinção, popularizada por J.P. Guilford, descreve duas abordagens diferentes para a resolução de problemas e a geração de ideias. Pensamento Convergente é o tipo de pensamento necessário para resolver problemas que têm uma única solução correta bem definida. Envolve lógica, análise, foco e a aplicação de conhecimentos e regras estabelecidas para 'convergir' para a resposta certa. É típico de testes de inteligência padrão e muitas tarefas escolares. Pensamento Divergente, por outro lado, está associado à criatividade. Envolve gerar múltiplas ideias, soluções ou possibilidades diferentes e originais a partir de um único ponto de partida ou problema. Requer flexibilidade mental, fluência (gerar muitas ideias), originalidade (ideias incomuns) и elaboração (desenvolver as ideias). Tarefas que medem o pensamento divergente podem pedir para listar todos os usos possíveis para um tijolo. Embora distintos, ambos os tipos de pensamento são importantes; o pensamento divergente gera as opções criativas, e o convergente ajuda a avaliar e selecionar a melhor.",
+    "custo_ficticio": 135,
+    "icone_imagem": "divergent_convergent_thinking.png"
+  },
+  {
+    "nome": "Sono REM (Rapid Eye Movement)",
+    "descricao_simples": "Estágio do sono caracterizado por movimentos rápidos dos olhos, atividade cerebral semelhante à vigília e sonhos vívidos.",
+    "descricao_complexa": "O sono não é um estado uniforme, mas um ciclo de diferentes estágios. O Sono REM é um estágio distinto que ocorre ciclicamente ao longo da noite (alternando com o sono NREM - Non-REM). Caracteriza-se por: 1) Movimentos Rápidos dos Olhos sob as pálpebras fechadas. 2) Atividade Cerebral Intensa: Ondas cerebrais (EEG) rápidas e de baixa amplitude, semelhantes às da vigília ou do estágio 1 do sono, levando a ser chamado também de 'sono paradoxal'. 3) Atonia Muscular: Paralisia temporária dos músculos voluntários do corpo (exceto olhos, diafragma e músculos lisos), que impede que 'atuemos' nossos sonhos. 4) Sonhos Vívidos e Narrativos: É o estágio onde ocorrem os sonhos mais bizarros, emocionais e com enredo. O sono REM desempenha papéis importantes na consolidação da memória (especialmente memórias procedimentais e emocionais), no processamento emocional e no desenvolvimento cerebral (é mais abundante em bebês). A privação seletiva de REM pode levar a déficits cognitivos e emocionais.",
+    "custo_ficticio": 140,
+    "icone_imagem": "rem_sleep_eye.png"
+  },
+  {
+    "nome": "Teoria da Ativação-Síntese (Sonhos)",
+    "descricao_simples": "Teoria neurobiológica que propõe que os sonhos são a tentativa do cérebro de dar sentido a sinais neurais aleatórios gerados durante o sono REM.",
+    "descricao_complexa": "Proposta por J. Allan Hobson e Robert McCarley, a Teoria da Ativação-Síntese oferece uma explicação neurofisiológica para os sonhos, contrastando com as teorias psicodinâmicas (como a de Freud). Segundo essa teoria, durante o sono REM, circuitos no tronco cerebral (especialmente a ponte) tornam-se ativos e disparam sinais neurais de forma relativamente aleatória para áreas superiores do cérebro, incluindo o córtex cerebral (ativação). Essas áreas corticais, responsáveis pelo pensamento, percepção e emoção, tentam interpretar e organizar essa atividade neural interna caótica, 'sintetizando' os sinais em imagens, sensações e narrativas que experienciamos como sonhos. A natureza bizarra e ilógica dos sonhos seria um reflexo da aleatoriedade da ativação inicial e da tentativa do córtex de impor uma estrutura a ela, usando memórias e associações existentes. Embora a teoria original tenha sido atualizada (reconhecendo mais papel para emoções e motivações), ela enfatiza a base biológica dos sonhos como um subproduto da atividade cerebral durante o REM.",
+    "custo_ficticio": 150,
+    "icone_imagem": "activation_synthesis_dream.png"
+  },
+  {
+    "nome": "Terapia Centrada no Cliente (Rogers)",
+    "descricao_simples": "Abordagem de psicoterapia humanista desenvolvida por Carl Rogers, que enfatiza a empatia, a aceitação incondicional e a congruência do terapeuta.",
+    "descricao_complexa": "A Terapia Centrada no Cliente (ou Terapia Centrada na Pessoa) é uma abordagem não diretiva de psicoterapia que se baseia na crença de que cada indivíduo tem uma tendência inata para o crescimento e a autorrealização (tendência atualizante). O papel do terapeuta não é interpretar ou direcionar, mas sim criar um ambiente psicológico seguro e de apoio onde o cliente possa explorar seus sentimentos, pensamentos e experiências, e encontrar suas próprias soluções. Rogers identificou três condições essenciais que o terapeuta deve fornecer para facilitar esse crescimento: 1) Congruência (ou Genuinidade): O terapeuta é autêntico, transparente e consciente de seus próprios sentimentos na relação. 2) Consideração Positiva Incondicional: O terapeuta aceita o cliente totalmente, sem julgamento, valorizando-o como pessoa, independentemente de seus comportamentos ou sentimentos. 3) Compreensão Empática: O terapeuta esforça-se para compreender profundamente o mundo interno do cliente a partir da perspectiva dele, e comunica essa compreensão. Acredita-se que, nesse clima terapêutico, o cliente possa reduzir a incongruência entre seu eu real e seu eu ideal, tornando-se mais autoaceito e funcional.",
+    "custo_ficticio": 175,
+    "icone_imagem": "rogers_client_centered.png"
+  },
+  {
+    "nome": "Terapia Familiar Sistêmica",
+    "descricao_simples": "Abordagem de psicoterapia que vê os problemas individuais no contexto das interações e dinâmicas do sistema familiar como um todo.",
+    "descricao_complexa": "A Terapia Familiar Sistêmica difere das abordagens individuais ao considerar que os problemas psicológicos de um membro da família (o 'paciente identificado') são frequentemente sintomas de uma disfunção no sistema familiar maior. O foco do tratamento não é apenas o indivíduo, mas as interações, padrões de comunicação, regras (explícitas e implícitas), papéis, alianças e limites dentro da família. A premissa é que as famílias funcionam como sistemas interdependentes, onde o comportamento de cada membro afeta e é afetado pelos outros, e o sistema busca manter um equilíbrio (homeostase), mesmo que este seja disfuncional. Terapeutas sistêmicos observam esses padrões de interação no 'aqui e agora' da sessão e intervêm para ajudar a família a identificar e modificar padrões de comunicação problemáticos, a redefinir papéis e regras, e a desenvolver maneiras mais saudáveis de se relacionar e resolver conflitos. Existem diversas escolas dentro da terapia sistêmica (Estrutural, Estratégica, Transgeracional, etc.).",
+    "custo_ficticio": 185,
+    "icone_imagem": "family_system_therapy_web.png"
+  },
+  {
+    "nome": "Transtorno de Personalidade Borderline (TPB)",
+    "descricao_simples": "Transtorno de personalidade caracterizado por instabilidade intensa nos relacionamentos, autoimagem e emoções, além de impulsividade acentuada.",
+    "descricao_complexa": "O Transtorno de Personalidade Borderline (TPB), pertencente ao Cluster B (dramático/errático) dos transtornos de personalidade no DSM-5, é um padrão generalizado de instabilidade nas relações interpessoais, na autoimagem e nos afetos, acompanhado por impulsividade marcante que começa no início da idade adulta e está presente em vários contextos. Características centrais incluem: esforços frenéticos para evitar abandono (real ou imaginado), padrão de relacionamentos interpessoais instáveis e intensos (alternando entre idealização e desvalorização), perturbação da identidade (instabilidade acentuada da autoimagem), impulsividade em áreas potencialmente autodestrutivas (gastos, sexo, abuso de substâncias, compulsão alimentar), comportamento suicida recorrente ou automutilação, instabilidade afetiva devido à reatividade do humor (disforia episódica intensa, irritabilidade ou ansiedade), sentimentos crônicos de vazio, raiva intensa e inadequada, e ideação paranoide transitória relacionada ao estresse ou sintomas dissociativos. A Terapia Comportamental Dialética (DBT) é um tratamento eficaz.",
+    "custo_ficticio": 190,
+    "icone_imagem": "tpb_instability_icon.png"
+  },
+  {
+    "nome": "Transtorno de Personalidade Narcisista (TPN)",
+    "descricao_simples": "Transtorno de personalidade caracterizado por um padrão de grandiosidade, necessidade de admiração e falta de empatia.",
+    "descricao_complexa": "Também pertencente ao Cluster B do DSM-5, o Transtorno de Personalidade Narcisista (TPN) é marcado por um padrão difuso de grandiosidade (em fantasia ou comportamento), necessidade constante de admiração e falta de empatia, começando no início da idade adulta. Indivíduos com TPN frequentemente têm um senso inflado de autoimportância, exageram conquistas e talentos, esperam ser reconhecidos como superiores sem realizações proporcionais, são preocupados com fantasias de sucesso ilimitado, poder, brilho, beleza ou amor ideal, acreditam ser 'especiais' e únicos, exigem admiração excessiva, têm um senso de direito (expectativas irracionais de tratamento favorável), são exploradores em relacionamentos interpessoais (usam os outros para atingir seus próprios fins), carecem de empatia (relutam em reconhecer ou identificar-se com os sentimentos e necessidades dos outros) e frequentemente são invejosos ou acreditam que os outros os invejam, além de demonstrarem comportamentos ou atitudes arrogantes e soberbos. Sua autoestima, no entanto, costuma ser frágil.",
+    "custo_ficticio": 180,
+    "icone_imagem": "tpn_narcissist_mask.png"
+  },
+  {
+    "nome": "Transtorno de Déficit de Atenção/Hiperatividade (TDAH)",
+    "descricao_simples": "Transtorno do neurodesenvolvimento caracterizado por padrões persistentes de desatenção e/ou hiperatividade-impulsividade que interferem no funcionamento.",
+    "descricao_complexa": "O TDAH é uma condição neurobiológica que se manifesta na infância (embora o diagnóstico possa ocorrer mais tarde) e frequentemente persiste na vida adulta. É caracterizado por um padrão persistente de sintomas em duas categorias principais: 1) Desatenção: Dificuldade em prestar atenção a detalhes, cometer erros por descuido, dificuldade em sustentar a atenção em tarefas ou jogos, parecer não ouvir quando falado diretamente, dificuldade em seguir instruções e terminar tarefas, dificuldade em organizar tarefas e atividades, evitar tarefas que exigem esforço mental sustentado, perder objetos necessários, ser facilmente distraído por estímulos externos, ser esquecido nas atividades diárias. 2) Hiperatividade-Impulsividade: Remexer-se ou batucar mãos/pés, levantar-se em situações onde se espera que permaneça sentado, correr ou escalar em situações inadequadas (em adultos, pode ser sensação de inquietação), incapacidade de brincar ou se engajar em atividades de lazer calmamente, estar 'a mil' ou agir como se 'ligado a um motor', falar excessivamente, responder perguntas antes de serem completadas, dificuldade em esperar a vez, interromper ou se intrometer. O diagnóstico requer que os sintomas causem prejuízo significativo em múltiplos contextos (casa, escola/trabalho).",
+    "custo_ficticio": 170,
+    "icone_imagem": "tdah_brain_icon.png"
+  },
+  {
+    "nome": "Transtorno do Espectro Autista (TEA)",
+    "descricao_simples": "Transtorno do neurodesenvolvimento caracterizado por déficits na comunicação e interação social, e padrões restritos e repetitivos de comportamento, interesses ou atividades.",
+    "descricao_complexa": "O TEA é uma condição neurológica e de desenvolvimento que afeta como uma pessoa interage com os outros, se comunica, aprende e se comporta. É chamado de 'espectro' porque os sintomas e a gravidade variam amplamente entre os indivíduos. As características principais são agrupadas em duas áreas: 1) Déficits Persistentes na Comunicação e Interação Social: Dificuldades na reciprocidade socioemocional (abordagem social anormal, falha na conversação), déficits nos comportamentos comunicativos não verbais usados para interação social (contato visual pobre, falta de expressões faciais), e déficits no desenvolvimento, manutenção e compreensão de relacionamentos. 2) Padrões Restritos e Repetitivos de Comportamento, Interesses ou Atividades: Movimentos motores, uso de objetos ou fala estereotipados ou repetitivos; insistência nas mesmas coisas, adesão inflexível a rotinas ou padrões ritualizados; interesses fixos altamente restritos que são anormais em intensidade ou foco; hiper ou hiporreatividade a estímulos sensoriais ou interesse incomum em aspectos sensoriais do ambiente. Os sintomas estão presentes desde o início do desenvolvimento e causam prejuízo clinicamente significativo.",
+    "custo_ficticio": 195,
+    "icone_imagem": "tea_spectrum_icon.png"
+  },
+  {
+    "nome": "Psiconeuroimunologia (PNI)",
+    "descricao_simples": "O estudo das interações entre processos psicológicos (mente), o sistema nervoso e o sistema imunológico.",
+    "descricao_complexa": "A Psiconeuroimunologia (PNI) é um campo interdisciplinar que investiga as complexas vias de comunicação bidirecionais entre o cérebro (processos psicológicos e neurais) e o sistema imunológico. Ela explora como fatores psicológicos como estresse, emoções, personalidade e apoio social podem influenciar a função imunológica e, consequentemente, a suscetibilidade a doenças, a progressão de doenças e a recuperação. Por exemplo, pesquisas em PNI demonstraram que o estresse crônico pode suprimir certas respostas imunes (aumentando a vulnerabilidade a infecções) ou exacerbar respostas inflamatórias (contribuindo para doenças autoimunes ou cardiovasculares), através de vias neurais e hormonais (como o eixo HPA e o sistema nervoso simpático). Por outro lado, o sistema imunológico também pode sinalizar o cérebro (ex: através de citocinas), influenciando o humor, o comportamento e a cognição (ex: 'comportamento de doença'). A PNI fornece uma base científica para entender a conexão mente-corpo na saúde e na doença.",
+    "custo_ficticio": 180,
+    "icone_imagem": "pni_brain_immune.png"
+  },
+  {
+    "nome": "Coping (Focado no Problema vs. na Emoção)",
+    "descricao_simples": "Estratégias usadas para lidar com o estresse: tentando resolver o problema diretamente (focado no problema) ou gerenciando as emoções causadas por ele (focado na emoção).",
+    "descricao_complexa": "Coping (ou enfrentamento) refere-se aos esforços cognitivos e comportamentais conscientes que usamos para gerenciar demandas internas ou externas que são percebidas como desafiadoras ou excedendo nossos recursos. Lazarus e Folkman distinguiram duas categorias principais de estratégias de coping: 1) Coping Focado no Problema: Visa lidar diretamente com o estressor ou a situação problemática, tentando alterá-la ou resolvê-la. Inclui estratégias como buscar informações, planejar soluções, tomar ações diretas, buscar ajuda instrumental. É mais provável de ser usado quando percebemos que podemos fazer algo para mudar a situação. 2) Coping Focado na Emoção: Visa regular a resposta emocional ao estressor, aliviando o desconforto sem necessariamente mudar a situação em si. Inclui estratégias como buscar apoio social emocional, reavaliação positiva, distração, aceitação, meditação, ou, de forma menos adaptativa, negação ou uso de substâncias. É mais provável de ser usado quando sentimos que a situação está fora do nosso controle. Pessoas geralmente usam uma combinação de ambas as estratégias, e a eficácia depende da situação e do indivíduo.",
+    "custo_ficticio": 130,
+    "icone_imagem": "coping_problem_emotion.png"
+  },
+  {
+    "nome": "Resiliência",
+    "descricao_simples": "A capacidade de se adaptar bem e se recuperar rapidamente diante de adversidades, traumas, tragédias ou estresse significativo.",
+    "descricao_complexa": "Resiliência não é um traço fixo que algumas pessoas têm e outras não; é um processo dinâmico que envolve a capacidade de 'se recuperar' de experiências difíceis e manter ou readquirir o funcionamento psicológico e físico saudável. Não significa ausência de sofrimento ou dificuldade, mas sim a habilidade de navegar por esses desafios de forma adaptativa. Fatores que contribuem para a resiliência incluem: características individuais (otimismo, autoeficácia, habilidades de coping, QI), relacionamentos de apoio (família, amigos, comunidade), e fatores contextuais (recursos sociais, oportunidades). A resiliência envolve comportamentos, pensamentos e ações que podem ser aprendidos e desenvolvidos. Inclui manter uma perspectiva esperançosa, aceitar que a mudança faz parte da vida, cuidar de si mesmo (física e mentalmente), estabelecer metas realistas, tomar ações decisivas e manter conexões sociais fortes. É um processo de adaptação positiva no contexto de adversidade significativa.",
+    "custo_ficticio": 165,
+    "icone_imagem": "resilience_bouncing_back.png"
+  },
+  {
+    "nome": "Fluxo (Flow)",
+    "descricao_simples": "Um estado mental de imersão total e foco energizado em uma atividade, com pleno envolvimento e satisfação no processo.",
+    "descricao_complexa": "Descrito por Mihaly Csikszentmihalyi, o Fluxo (Flow) é uma experiência psicológica ótima que ocorre quando uma pessoa está completamente absorvida em uma atividade, perdendo a noção do tempo e do self, e sentindo um profundo prazer e engajamento. Ocorre tipicamente quando as habilidades da pessoa estão em equilíbrio com os desafios da tarefa – a atividade não é nem tão fácil a ponto de ser entediante, nem tão difícil a ponto de causar ansiedade. Características da experiência de fluxo incluem: concentração intensa e focada no momento presente, fusão entre ação e consciência, perda da autoconsciência reflexiva, sensação de controle pessoal sobre a situação, distorção da experiência temporal, e experiência da atividade como intrinsecamente recompensadora (autotélica). O fluxo pode ocorrer em diversas atividades, como esportes, artes, trabalho, jogos ou até mesmo em conversas profundas. É considerado um componente importante da felicidade e do bem-estar na Psicologia Positiva.",
+    "custo_ficticio": 170,
+    "icone_imagem": "flow_state_person.png"
+  },
+  {
+    "nome": "Hipótese da Empatia-Altruísmo",
+    "descricao_simples": "A ideia de que quando sentimos empatia por alguém necessitado, ajudamos essa pessoa por motivos puramente altruístas, independentemente do que ganhamos com isso.",
+    "descricao_complexa": "Proposta por C. Daniel Batson, a hipótese da empatia-altruísmo sugere que, sob certas condições, o comportamento de ajuda pode ser motivado por um desejo genuinamente altruísta de melhorar o bem-estar de outra pessoa, e não apenas por interesse próprio (como aliviar o próprio desconforto ao ver o sofrimento alheio, buscar recompensas sociais ou evitar culpa). O fator chave que desencadearia essa motivação altruísta é a empatia – sentir compaixão, ternura e preocupação pela pessoa em necessidade (adotar a perspectiva do outro). Quando a empatia é alta, a hipótese prevê que ajudaremos mesmo que a fuga da situação seja fácil e mesmo que não haja ganhos pessoais óbvios. Em contraste, se a empatia for baixa, a ajuda seria mais provável de ocorrer por motivos egoístas (modelo do alívio do estado negativo). A existência de altruísmo 'puro' é um debate contínuo na psicologia, mas a pesquisa de Batson fornece evidências significativas em favor dessa hipótese.",
+    "custo_ficticio": 155,
+    "icone_imagem": "empathy_altruism_helping.png"
+  },
+  {
+    "nome": "Agressão Hostil vs. Instrumental",
+    "descricao_simples": "Dois tipos de agressão: movida pela raiva com intenção de ferir (hostil) versus usada como meio para atingir um objetivo (instrumental).",
+    "descricao_complexa": "Agressão é definida como qualquer comportamento intencional que visa causar dano físico ou psicológico a outra pessoa (ou ser vivo) que está motivada a evitar tal tratamento. Os psicólogos sociais frequentemente distinguem dois tipos principais: 1) Agressão Hostil (ou Afetiva/Impulsiva): É impulsionada pela raiva, fúria ou hostilidade, e o objetivo principal é infligir dor ou sofrimento à vítima. Geralmente ocorre como uma reação a uma provocação percebida, frustração ou insulto. É uma agressão 'quente', emocional e muitas vezes impulsiva. 2) Agressão Instrumental: É motivada por um objetivo diferente do simples ato de ferir. A agressão aqui é um meio para atingir um fim desejado. Exemplos incluem roubar para obter dinheiro, intimidar alguém para obter status social, ou um soldado matando em combate. A agressão é 'fria', calculada e serve a um propósito externo. Embora a intenção de causar dano esteja presente em ambos os tipos, a motivação subjacente e o estado emocional associado são diferentes.",
+    "custo_ficticio": 120,
+    "icone_imagem": "aggression_hostile_instrumental.png"
+  },
+  {
+    "nome": "Teoria Triangular do Amor (Sternberg)",
+    "descricao_simples": "Teoria de Robert Sternberg que descreve o amor como composto por três componentes: Intimidade, Paixão e Compromisso.",
+    "descricao_complexa": "Robert Sternberg propôs que diferentes tipos de amor podem ser entendidos como combinações variadas de três componentes fundamentais: 1) Intimidade: Refere-se aos sentimentos de proximidade, conexão emocional, vínculo e calor no relacionamento. Inclui desejo de promover o bem-estar do outro, respeito, compreensão mútua e compartilhamento de si mesmo. É o componente 'quente' do amor. 2) Paixão: Refere-se aos impulsos que levam ao romance, atração física e excitação sexual no relacionamento. Envolve um estado de intenso desejo de união com o outro. É o componente 'ardente' e motivacional. 3) Compromisso: Refere-se à decisão de curto prazo de que se ama o outro e ao compromisso de longo prazo de manter esse amor e o relacionamento através dos desafios. É o componente 'frio' e cognitivo. Segundo Sternberg, a presença ou ausência desses componentes define diferentes tipos de amor (ex: Paixão sozinha = Paixão Cega; Intimidade + Compromisso = Amor Companheiro; Intimidade + Paixão + Compromisso = Amor Consumado, o tipo ideal).",
+    "custo_ficticio": 160,
+    "icone_imagem": "sternberg_love_triangle.png"
+  },
+  {
+    "nome": "Psicologia Transcultural",
+    "descricao_simples": "Ramo da psicologia que estuda como os fatores culturais influenciam o comportamento, pensamento e emoções humanas, comparando diferentes culturas.",
+    "descricao_complexa": "A psicologia transcultural examina tanto a universalidade quanto a diversidade do comportamento e dos processos mentais humanos em diferentes contextos culturais. Ela investiga como a cultura – definida como um conjunto compartilhado de crenças, valores, normas, atitudes e comportamentos transmitidos entre gerações – molda a percepção, a cognição, a emoção, a personalidade, o desenvolvimento, o comportamento social e a saúde mental. Utiliza métodos comparativos para testar se teorias e descobertas psicológicas (muitas vezes desenvolvidas em culturas ocidentais, educadas, industrializadas, ricas e democráticas - WEIRD) são aplicáveis universalmente ou se são específicas de certas culturas (éticas vs. êmicas). Questões centrais incluem como a cultura influencia o autoconceito (individualista vs. coletivista), as práticas de criação de filhos, a expressão emocional, a prevalência e manifestação de transtornos mentais, e a eficácia de intervenções psicológicas. Busca entender a interação entre a natureza humana universal e as influências culturais específicas.",
+    "custo_ficticio": 170,
+    "icone_imagem": "cross_cultural_psychology_globe.png"
+  },
+  {
+    "nome": "Viés Implícito (Inconsciente)",
+    "descricao_simples": "Atitudes ou estereótipos que afetam nossa compreensão, ações e decisões de forma inconsciente e involuntária.",
+    "descricao_complexa": "Vieses implícitos são associações mentais automáticas e inconscientes que fazemos entre grupos sociais (ex: raça, gênero, idade) e estereótipos ou avaliações (positivas ou negativas). Eles residem profundamente em nosso subconsciente, tendo sido formados por experiências passadas, influências culturais e representações da mídia, muitas vezes sem nossa percepção consciente ou endosso explícito. Mesmo pessoas que conscientemente rejeitam o preconceito podem ter vieses implícitos que influenciam seus julgamentos e comportamentos de maneiras sutis, como em decisões de contratação, diagnósticos médicos, interações sociais ou avaliações de desempenho. O Teste de Associação Implícita (IAT) é uma ferramenta comumente usada para medir esses vieses, avaliando a rapidez com que associamos conceitos (ex: 'branco'/'bom' vs. 'negro'/'bom'). Reconhecer a existência de vieses implícitos é o primeiro passo para mitigar seu impacto negativo, embora sua modificação seja complexa e requeira esforço consciente e estratégias específicas.",
+    "custo_ficticio": 160,
+    "icone_imagem": "implicit_bias_brain_hidden.png"
+  }
+]

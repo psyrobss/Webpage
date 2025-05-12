@@ -1,0 +1,95 @@
+.inventoryContainer {
+    padding: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 4);
+    background-color: var(--background-surface);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    flex-grow: 1;
+    min-width: 260px;
+    transition: box-shadow 0.25s ease;
+  }
+  
+  .inventoryContainer:hover {
+    box-shadow: var(--shadow-md);
+  }
+  
+  .title {
+    font-size: 1.05rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-color-primary);
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 1.5);
+  }
+  
+  .title::before {
+    content: '📜';
+    font-size: 1.3rem;
+    opacity: 0.75;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--spacing-unit) * 1.5);
+  }
+  
+  .item {
+    font-size: 0.85rem;
+    color: var(--text-color-secondary);
+    background-color: var(--background-body);
+    border-radius: var(--border-radius-sm);
+    padding: calc(var(--spacing-unit) * 0.75) calc(var(--spacing-unit) * 2);
+    display: inline-flex;
+    align-items: center;
+    gap: calc(var(--spacing-unit));
+    border: 1px solid var(--border-color-light);
+    transition: background-color 0.2s ease;
+  }
+  
+  .item:hover {
+    background-color: var(--background-surface-hover);
+  }
+  
+  .itemName {
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color-primary);
+  }
+  
+  .returnButton {
+    background: none;
+    border: none;
+    color: var(--text-color-muted);
+    padding: 0;
+    margin-left: calc(var(--spacing-unit));
+    font-size: 1rem;
+    line-height: 1;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .returnButton:hover {
+    background-color: hsl(var(--error-hue, 0), 70%, 95%);
+    color: var(--color-error);
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  
+  .emptyMessage {
+    color: var(--text-color-muted);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: calc(var(--spacing-unit) * 2) 0;
+    font-style: italic;
+  }
+  

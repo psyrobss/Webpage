@@ -1,0 +1,177 @@
+[
+  {
+    "nome": "Lei de Yerkes-Dodson",
+    "descricao_simples": "Princípio que descreve a relação em forma de 'U' invertido entre excitação (arousal) e desempenho: o desempenho melhora com a excitação até certo ponto, depois piora se a excitação ficar muito alta.",
+    "descricao_complexa": "A Lei de Yerkes-Dodson, formulada pelos psicólogos Robert Yerkes e John Dodson, postula que o desempenho em uma tarefa aumenta com a excitação fisiológica ou mental (arousal) até um ponto ótimo, após o qual níveis adicionais de excitação levam a uma deterioração no desempenho. A relação é tipicamente representada por uma curva em forma de 'U' invertido. Para tarefas simples ou bem aprendidas, o nível ótimo de excitação tende a ser mais alto. Para tarefas complexas, difíceis ou novas, o nível ótimo de excitação é mais baixo, e o desempenho declina mais rapidamente com o aumento da excitação (devido à sobrecarga cognitiva, ansiedade, etc.). Esta lei tem implicações importantes para entender como o estresse, a ansiedade ou a motivação excessiva podem afetar o desempenho em diversas situações, como exames, competições esportivas ou apresentações públicas. Encontrar o nível de excitação adequado para a tarefa é crucial para um desempenho ótimo.",
+    "custo_ficticio": 130,
+    "icone_imagem": "yerkes_dodson_curve.png"
+  },
+  {
+    "nome": "Efeito de Espaçamento (Aprendizagem)",
+    "descricao_simples": "O fenômeno pelo qual a aprendizagem é mais eficaz a longo prazo quando as sessões de estudo são espaçadas ao longo do tempo, em vez de concentradas ('massed').",
+    "descricao_complexa": "O efeito de espaçamento (spacing effect) é uma descoberta robusta na psicologia da aprendizagem e memória. Ele demonstra que a prática ou o estudo distribuído ao longo do tempo leva a uma melhor retenção da informação a longo prazo do que a prática massificada (estudar tudo de uma vez, como 'empinar' na noite anterior a um exame). Por exemplo, estudar um tópico por uma hora em três dias separados geralmente resulta em melhor aprendizado do que estudar por três horas seguidas em um único dia. Várias teorias tentam explicar por que o espaçamento funciona: pode permitir que a consolidação da memória ocorra entre as sessões, pode envolver diferentes contextos de codificação que fornecem mais pistas de recuperação, ou pode tornar o processo de recuperação mais desafiador (e, portanto, mais eficaz para fortalecer a memória) em sessões posteriores. O efeito de espaçamento tem implicações práticas significativas para estratégias de estudo eficazes e design instrucional.",
+    "custo_ficticio": 120,
+    "icone_imagem": "spacing_effect_calendar.png"
+  },
+  {
+    "nome": "Princípio da Especificidade da Codificação",
+    "descricao_simples": "A memória é melhor quando as pistas presentes durante a recuperação (lembrança) são semelhantes às pistas presentes durante a codificação (aprendizagem).",
+    "descricao_complexa": "Proposto por Endel Tulving, o princípio da especificidade da codificação afirma que a recuperação da memória é mais provável e mais eficaz quando as condições (pistas) no momento da recuperação correspondem às condições presentes no momento da codificação original da informação. Essas pistas podem ser contextuais (o ambiente físico onde a informação foi aprendida), de estado interno (o humor ou estado fisiológico durante a aprendizagem – memória dependente do estado) ou cognitivas (os pensamentos ou associações presentes durante a codificação). Por exemplo, é mais fácil lembrar de algo em um ambiente se você aprendeu nesse mesmo ambiente (memória dependente do contexto). Da mesma forma, informações aprendidas em um determinado estado de humor podem ser mais facilmente recuperadas quando se está novamente nesse humor. Este princípio destaca que a memória não é apenas sobre o armazenamento, mas também sobre a interação entre as informações codificadas e as pistas de recuperação disponíveis.",
+    "custo_ficticio": 145,
+    "icone_imagem": "encoding_specificity_key_lock.png"
+  },
+  {
+    "nome": "Transferência de Excitação (Excitation Transfer)",
+    "descricao_simples": "A excitação fisiológica residual de uma situação pode intensificar a resposta emocional a uma situação subsequente não relacionada.",
+    "descricao_complexa": "A teoria da transferência de excitação, proposta por Dolf Zillmann, sugere que a excitação fisiológica (arousal) de uma fonte (ex: exercício físico, assistir a um filme de ação, cafeína) demora um tempo para diminuir. Se uma segunda situação que provoca emoção ocorrer antes que a excitação da primeira tenha se dissipado completamente, a excitação residual da primeira fonte pode ser erroneamente atribuída à segunda situação, intensificando a resposta emocional a ela. Por exemplo, alguém que acabou de se exercitar vigorosamente pode sentir raiva mais intensa em resposta a uma provocação, ou sentir-se mais atraído por alguém que encontra logo após, porque a excitação fisiológica do exercício 'transfere-se' e amplifica a emoção subsequente. A pessoa pode não estar ciente da fonte original da excitação residual. Este fenômeno ilustra a interação entre componentes fisiológicos e cognitivos na experiência emocional (semelhante à teoria de Schachter-Singer).",
+    "custo_ficticio": 135,
+    "icone_imagem": "excitation_transfer_arrows.png"
+  },
+  {
+    "nome": "Teoria da Comparação Social (Festinger)",
+    "descricao_simples": "A ideia de que nos avaliamos (nossas opiniões, habilidades) comparando-nos com outras pessoas, especialmente quando falta um padrão objetivo.",
+    "descricao_complexa": "Proposta por Leon Festinger, a teoria da comparação social afirma que temos um impulso inato para avaliar nossas próprias opiniões e habilidades. Quando não há critérios objetivos disponíveis para essa avaliação, nós nos comparamos com outras pessoas. A escolha de com quem nos comparamos depende do nosso objetivo: 1) Comparação Ascendente: Comparar-se com pessoas que consideramos melhores do que nós em uma determinada dimensão. Pode ser inspirador, mas também pode levar à insatisfação ou baixa autoestima. 2) Comparação Descendente: Comparar-se com pessoas que consideramos piores do que nós. Pode aumentar a autoestima e o bem-estar, especialmente em momentos de dificuldade ou ameaça ao ego. 3) Comparação Lateral: Comparar-se com pessoas semelhantes a nós. É frequentemente usada para obter uma avaliação precisa de nossas habilidades ou para validar nossas opiniões. A comparação social é um processo onipresente que influencia nosso autoconceito, emoções (inveja, orgulho) e comportamento.",
+    "custo_ficticio": 150,
+    "icone_imagem": "social_comparison_scales.png"
+  },
+  {
+    "nome": "Erro de Atribuição Final (Ultimate Attribution Error)",
+    "descricao_simples": "A tendência de fazer atribuições favoráveis aos comportamentos do nosso grupo (endogrupo) e desfavoráveis aos comportamentos de outros grupos (exogrupo).",
+    "descricao_complexa": "Proposto por Thomas Pettigrew como uma extensão do erro fundamental de atribuição ao nível intergrupal, o erro de atribuição final descreve um padrão de atribuições causais tendencioso que favorece o endogrupo e deprecia o exogrupo. Especificamente: 1) Comportamentos positivos do endogrupo são atribuídos a causas internas e estáveis (disposicionais - 'Somos bons por natureza'). 2) Comportamentos negativos do endogrupo são atribuídos a causas externas e instáveis (situacionais - 'Tivemos azar', 'Foi uma exceção'). 3) Comportamentos positivos do exogrupo são atribuídos a causas externas e instáveis ('Eles tiveram sorte', 'Foi fácil'). 4) Comportamentos negativos do exogrupo são atribuídos a causas internas e estáveis ('Eles são assim mesmo', 'É típico deles'). Este viés atribucional serve para manter estereótipos negativos sobre exogrupos e uma imagem positiva do endogrupo, contribuindo para o preconceito e o conflito intergrupal.",
+    "custo_ficticio": 145,
+    "icone_imagem": "ultimate_attribution_error_groups.png"
+  },
+  {
+    "nome": "Privação Relativa",
+    "descricao_simples": "A sensação de ter menos do que se tem direito ou merece, resultante da comparação com outros ou com um padrão esperado, podendo levar à insatisfação ou conflito.",
+    "descricao_complexa": "A privação relativa não se refere à privação objetiva (falta absoluta de recursos), mas sim à percepção subjetiva de desvantagem que surge quando comparamos nossa situação (ou a do nosso grupo) com a de um grupo de referência relevante ou com nossas próprias expectativas. Sentimo-nos relativamente privados quando percebemos uma discrepância entre 'o que temos' e 'o que achamos que deveríamos ter'. Essa sensação pode surgir mesmo em pessoas objetivamente abastadas, se elas se compararem com outras ainda mais ricas. A privação relativa é considerada um fator importante na explicação da insatisfação social, protestos, conflitos intergrupais e até comportamentos desviantes. Para que a privação relativa leve à ação coletiva, geralmente outros fatores são necessários, como a identificação grupal, a crença na injustiça da privação e a percepção de que a ação pode ser eficaz.",
+    "custo_ficticio": 130,
+    "icone_imagem": "relative_deprivation_comparison.png"
+  },
+  {
+    "nome": "Teoria da Expectativa-Valor (Motivação)",
+    "descricao_simples": "Teoria que afirma que a motivação para realizar uma tarefa é produto da expectativa de sucesso da pessoa e do valor que ela atribui a essa tarefa.",
+    "descricao_complexa": "Desenvolvida por teóricos como John Atkinson e, mais recentemente, Jacquelynne Eccles e Allan Wigfield, a teoria da expectativa-valor é um modelo influente da motivação para realização. Ela postula que a escolha, a persistência e o desempenho em uma tarefa são influenciados por dois conjuntos principais de crenças: 1) Expectativas de Sucesso: As crenças do indivíduo sobre quão bem ele se sairá na tarefa, agora ou no futuro (semelhante à autoeficácia e percepção de competência). 2) Valor da Tarefa: A percepção do indivíduo sobre por que a tarefa é importante ou vale a pena ser realizada. Eccles identifica quatro componentes do valor da tarefa: Valor de Realização (importância pessoal de fazer bem a tarefa, relevância para a identidade), Valor Intrínseco (prazer ou interesse inerente na tarefa), Valor de Utilidade (relação da tarefa com metas futuras, como carreira) e Custo Percebido (esforço necessário, perda de tempo para outras atividades, custo emocional). A motivação é máxima quando tanto a expectativa de sucesso quanto o valor percebido da tarefa são altos.",
+    "custo_ficticio": 160,
+    "icone_imagem": "expectancy_value_theory.png"
+  },
+  {
+    "nome": "Adaptação Hedônica (Hedonic Treadmill)",
+    "descricao_simples": "A tendência humana de retornar rapidamente a um nível relativamente estável de felicidade, apesar de grandes eventos positivos ou negativos na vida.",
+    "descricao_complexa": "A adaptação hedônica, também conhecida como 'esteira hedônica', descreve o fenômeno pelo qual as pessoas tendem a manter um nível de felicidade (bem-estar subjetivo) relativamente constante ao longo do tempo, adaptando-se a eventos que inicialmente causaram grande alegria ou tristeza. Eventos positivos, como ganhar na loteria, casar-se ou conseguir uma promoção, podem causar um aumento temporário na felicidade, mas as pessoas geralmente se adaptam a essa nova situação e retornam ao seu nível basal de felicidade. Da mesma forma, eventos negativos, como a perda de um ente querido, um acidente grave ou a perda do emprego, causam uma queda inicial na felicidade, mas, na maioria dos casos, as pessoas se adaptam e se recuperam emocionalmente ao longo do tempo (embora a adaptação a eventos negativos muito severos possa ser incompleta). Este processo sugere que nossa busca por felicidade através de circunstâncias externas pode ser ilusória a longo prazo, destacando a importância de fatores internos e atividades intencionais (Psicologia Positiva).",
+    "custo_ficticio": 150,
+    "icone_imagem": "hedonic_treadmill_graph.png"
+  },
+  {
+    "nome": "Psicofísica",
+    "descricao_simples": "Área da psicologia que estuda a relação entre as características físicas dos estímulos (luz, som) e a experiência sensorial e perceptiva que eles produzem.",
+    "descricao_complexa": "Fundada por Gustav Fechner, a psicofísica foi uma das primeiras áreas da psicologia experimental, buscando quantificar a relação entre o mundo físico e a experiência psicológica. Ela investiga os limiares da percepção e como percebemos as diferenças entre estímulos. Conceitos chave incluem: 1) Limiar Absoluto: A intensidade mínima de um estímulo necessária para que ele seja detectado 50% das vezes. 2) Limiar Diferencial (ou Diferença Minimamente Perceptível - DMP): A menor diferença entre dois estímulos necessária para que essa diferença seja percebida 50% das vezes. 3) Lei de Weber: Afirma que a DMP entre dois estímulos é uma proporção constante (k) da intensidade do estímulo original (ΔI / I = k). Ou seja, precisamos de uma mudança maior para detectar uma diferença em estímulos mais intensos. 4) Lei de Fechner: Tentou relacionar a intensidade física do estímulo (I) com a magnitude da sensação percebida (S), propondo uma relação logarítmica (S = c log I). A psicofísica estabeleceu métodos rigorosos para estudar a percepção e influenciou o desenvolvimento da Teoria da Detecção de Sinal.",
+    "custo_ficticio": 145,
+    "icone_imagem": "psychophysics_scales_senses.png"
+  },
+  {
+    "nome": "Processos Controlados vs. Automáticos",
+    "descricao_simples": "Distinção entre processos mentais que exigem atenção e esforço conscientes (controlados) e aqueles que ocorrem sem intenção ou consciência (automáticos).",
+    "descricao_complexa": "Esta distinção, explorada por teóricos como Shiffrin e Schneider, descreve duas formas fundamentais de processamento cognitivo. Processos Controlados são intencionais, requerem esforço mental consciente, consomem recursos atencionais limitados, são relativamente lentos e flexíveis (podem ser adaptados a novas situações). São usados para tarefas complexas, novas ou que exigem planejamento e deliberação (ex: aprender a dirigir, resolver um problema de matemática difícil, seguir instruções complexas). Processos Automáticos ocorrem sem intenção consciente, requerem pouco ou nenhum esforço ou atenção, são rápidos, ocorrem em paralelo e são difíceis de modificar uma vez aprendidos. Geralmente resultam de prática extensa e repetida (ex: dirigir um carro depois de muita prática, ler palavras familiares, reconhecer objetos comuns). A automaticidade libera recursos cognitivos para outras tarefas, mas processos automáticos podem ser inflexíveis e difíceis de inibir (como no efeito Stroop). Muitos comportamentos envolvem uma interação entre os dois tipos de processo.",
+    "custo_ficticio": 140,
+    "icone_imagem": "controlled_automatic_processing.png"
+  },
+  {
+    "nome": "Carga Cognitiva",
+    "descricao_simples": "A quantidade total de esforço mental sendo usada na memória de trabalho em um determinado momento.",
+    "descricao_complexa": "A Teoria da Carga Cognitiva, desenvolvida principalmente por John Sweller, baseia-se na ideia de que nossa memória de trabalho tem capacidade limitada para processar informações simultaneamente. A carga cognitiva refere-se à demanda total imposta à memória de trabalho durante a aprendizagem ou a realização de uma tarefa. Sweller distingue três tipos de carga cognitiva: 1) Carga Intrínseca: A dificuldade inerente ao próprio material a ser aprendido, determinada pela complexidade do conteúdo e pela quantidade de elementos que precisam ser processados simultaneamente. 2) Carga Extrínseca (ou Inapropriada): Carga imposta pela maneira como a informação é apresentada ou pela forma como a tarefa é projetada (ex: instruções confusas, diagramas mal elaborados, informações redundantes). Esta carga não contribui para a aprendizagem e deve ser minimizada. 3) Carga Germinativa (ou Relevante): Carga resultante do esforço mental dedicado ao processamento profundo da informação, construção de esquemas mentais e integração com o conhecimento prévio. Esta é a carga desejável para a aprendizagem. O objetivo do design instrucional eficaz é gerenciar a carga cognitiva total, minimizando a extrínseca e otimizando a intrínseca e a germinativa, para não sobrecarregar a memória de trabalho.",
+    "custo_ficticio": 150,
+    "icone_imagem": "cognitive_load_brain_weight.png"
+  },
+  {
+    "nome": "Memória Prospectiva",
+    "descricao_simples": "Lembrar-se de realizar ações planejadas no futuro (ex: lembrar de tomar um remédio, de enviar um e-mail).",
+    "descricao_complexa": "Enquanto a maior parte da pesquisa sobre memória foca na memória retrospectiva (lembrar de eventos e informações do passado), a memória prospectiva refere-se à capacidade de lembrar de executar intenções ou ações planejadas em um momento apropriado no futuro. Envolve lembrar 'o quê' precisa ser feito e 'quando' precisa ser feito. Existem dois tipos principais: 1) Memória Prospectiva Baseada em Eventos: Lembrar de realizar uma ação quando um evento externo específico ocorre (ex: lembrar de dar um recado a um amigo quando o encontrar). 2) Memória Prospectiva Baseada em Tempo: Lembrar de realizar uma ação em um momento específico ou após um determinado período de tempo (ex: lembrar de tirar o bolo do forno em 30 minutos). A memória prospectiva é crucial para o funcionamento diário e independente, e falhas nela são comuns (ex: esquecer de pagar uma conta). O processo envolve várias fases: formação da intenção, retenção da intenção, monitoramento pelo gatilho (tempo ou evento) e execução da ação. Declínios na memória prospectiva são observados no envelhecimento normal e em várias condições neurológicas.",
+    "custo_ficticio": 130,
+    "icone_imagem": "prospective_memory_calendar_check.png"
+  },
+  {
+    "nome": "Síndrome do Impostor",
+    "descricao_simples": "Padrão psicológico onde a pessoa duvida de suas realizações e tem um medo persistente de ser exposta como uma 'fraude', apesar de evidências externas de competência.",
+    "descricao_complexa": "A síndrome (ou fenômeno) do impostor, descrita inicialmente por Pauline Clance e Suzanne Imes, não é um diagnóstico formal, mas um padrão de pensamento e sentimento que afeta muitas pessoas bem-sucedidas. Indivíduos que experienciam essa síndrome sentem que não merecem seu sucesso e que enganaram os outros, fazendo-os pensar que são mais inteligentes ou capazes do que realmente são. Eles tendem a atribuir seus sucessos a fatores externos (sorte, timing, charme, erro de avaliação dos outros) em vez de suas próprias habilidades ou esforços. Vivem com um medo constante de serem 'descobertos' como fraudes. Podem apresentar perfeccionismo excessivo, procrastinação (para evitar o teste de suas 'reais' habilidades) ou excesso de preparação. A síndrome do impostor pode levar a ansiedade, estresse, baixa autoconfiança e dificuldade em internalizar conquistas, apesar de evidências objetivas de sucesso e competência. É comum em ambientes acadêmicos e profissionais competitivos.",
+    "custo_ficticio": 145,
+    "icone_imagem": "impostor_syndrome_mask.png"
+  },
+  {
+    "nome": "Fixidez Funcional",
+    "descricao_simples": "Um viés cognitivo que limita a pessoa a usar um objeto apenas da maneira como ele é tradicionalmente usado, dificultando a resolução de problemas que exigem usos inovadores.",
+    "descricao_complexa": "A fixidez funcional é um bloqueio mental que impede a percepção de usos alternativos ou não convencionais para um objeto, baseando-se em sua função habitual. É um tipo de 'set' mental (tendência a abordar problemas de uma forma específica) que pode atrapalhar a criatividade e a resolução de problemas que requerem pensamento 'fora da caixa'. O exemplo clássico é o 'problema da vela' de Karl Duncker: os participantes recebem uma vela, uma caixa de tachinhas e fósforos, e precisam fixar a vela na parede para que ela queime sem pingar cera no chão. A solução envolve esvaziar a caixa de tachinhas e usá-la como suporte para a vela, fixando-a na parede com as tachinhas. A fixidez funcional ocorre porque as pessoas tendem a ver a caixa apenas como um recipiente para as tachinhas, e não como um potencial componente da solução. Superar a fixidez funcional envolve reestruturar a percepção do problema e dos objetos disponíveis.",
+    "custo_ficticio": 125,
+    "icone_imagem": "functional_fixedness_box.png"
+  },
+  {
+    "nome": "Efeito Dunning-Kruger",
+    "descricao_simples": "Viés cognitivo onde pessoas com baixa habilidade em uma tarefa superestimam sua própria competência, enquanto pessoas com alta habilidade tendem a subestimar sua competência relativa.",
+    "descricao_complexa": "Descrito por David Dunning e Justin Kruger, este efeito sugere uma relação irônica entre competência e autoconsciência. Indivíduos com baixo desempenho em um determinado domínio (ex: gramática, lógica, humor) não apenas cometem erros, mas sua própria incompetência os impede de reconhecer esses erros e a extensão de sua falta de habilidade. Eles tendem a superestimar significativamente seu próprio desempenho e habilidade em comparação com os outros. Por outro lado, indivíduos com alta competência tendem a ter uma percepção mais precisa de suas habilidades, mas muitas vezes subestimam o quão únicas são suas habilidades, assumindo erroneamente que tarefas que são fáceis para eles também são fáceis para os outros (falso consenso), levando-os a subestimar sua posição relativa. O efeito Dunning-Kruger destaca que a metacognição (a capacidade de avaliar o próprio conhecimento e desempenho) é uma habilidade que se desenvolve junto com a competência no domínio.",
+    "custo_ficticio": 140,
+    "icone_imagem": "dunning_kruger_graph.png"
+  },
+  {
+    "nome": "Escassez (Influência Social)",
+    "descricao_simples": "Princípio de influência onde oportunidades ou itens parecem mais valiosos para nós quando sua disponibilidade é limitada.",
+    "descricao_complexa": "Identificado por Robert Cialdini, o princípio da escassez explora nossa tendência a atribuir mais valor a coisas que são raras, difíceis de obter ou cuja disponibilidade está diminuindo. A percepção de escassez (seja real ou artificialmente criada) aumenta o desejo pelo item ou oportunidade. Isso pode ocorrer por duas razões principais: 1) Heurística Mental: Frequentemente associamos disponibilidade limitada com maior qualidade ou desejabilidade ('Se é raro, deve ser bom'). 2) Reatância Psicológica: Quando nossa liberdade de ter algo é ameaçada ou restringida (pela escassez), reagimos desejando ainda mais esse item e tentando reafirmar nossa liberdade. Estratégias de marketing frequentemente usam a escassez, como 'oferta por tempo limitado', 'enquanto durarem os estoques', 'edição de colecionador', para aumentar o apelo de produtos e serviços. A escassez também se aplica a informações (informação censurada ou exclusiva parece mais valiosa).",
+    "custo_ficticio": 120,
+    "icone_imagem": "scarcity_limited_time.png"
+  },
+  {
+    "nome": "Autoridade (Influência Social)",
+    "descricao_simples": "Princípio de influência onde somos mais propensos a seguir as diretrizes ou recomendações de figuras que percebemos como autoridades legítimas.",
+    "descricao_complexa": "Também um dos princípios de Cialdini, a autoridade refere-se à nossa tendência a obedecer ou ser influenciados por pessoas que percebemos como tendo conhecimento, poder ou legitimidade em uma determinada área. Desde cedo, somos ensinados a respeitar a autoridade (pais, professores, médicos, policiais). Essa deferência geralmente é adaptativa, pois autoridades costumam ter expertise. No entanto, podemos ser influenciados por símbolos de autoridade (títulos, uniformes, roupas caras, carros de luxo) mesmo quando a autoridade não é genuína ou relevante para a situação. A pesquisa de Milgram sobre obediência demonstrou dramaticamente o poder da autoridade em levar pessoas a agir contra seus próprios valores. Profissionais de persuasão podem usar títulos, afiliações ou endossos de especialistas para aumentar sua credibilidade e influenciar decisões, mesmo que a expertise não seja diretamente aplicável.",
+    "custo_ficticio": 135,
+    "icone_imagem": "authority_badge_icon.png"
+  },
+  {
+    "nome": "Coerência/Compromisso (Influência Social)",
+    "descricao_simples": "Princípio de influência baseado no nosso desejo de sermos (e parecermos) consistentes com o que já fizemos ou dissemos.",
+    "descricao_complexa": "Este princípio de Cialdini destaca nossa profunda necessidade psicológica de consistência entre nossas crenças, atitudes e comportamentos. Uma vez que tomamos uma posição ou fazemos uma escolha (compromisso), sentimos uma pressão interna e externa para nos comportarmos de forma consistente com esse compromisso. A inconsistência é vista como indesejável. Isso torna as pessoas vulneráveis a táticas de influência que obtêm um pequeno compromisso inicial, tornando mais provável que concordem com um pedido maior e relacionado posteriormente. Técnicas como o 'pé na porta' (pedir um pequeno favor primeiro para aumentar a chance de um favor maior depois) exploram esse princípio. O compromisso é mais eficaz quando é ativo (feito pela pessoa), público, requer esforço e é visto como voluntário (não coagido). O desejo de ser consistente pode nos levar a manter decisões mesmo quando se tornam desvantajosas.",
+    "custo_ficticio": 140,
+    "icone_imagem": "commitment_consistency_chain.png"
+  },
+  {
+    "nome": "Afinidade/Simpatia (Influência Social)",
+    "descricao_simples": "Princípio de influência que afirma que somos mais propensos a dizer 'sim' aos pedidos de pessoas que conhecemos e gostamos.",
+    "descricao_complexa": "Segundo Cialdini, preferimos concordar com pessoas que nos são familiares e simpáticas. Vários fatores aumentam a simpatia e, consequentemente, a influência: 1) Atração Física: Pessoas atraentes são frequentemente percebidas como mais talentosas, gentis e inteligentes (efeito halo). 2) Similaridade: Gostamos de pessoas que são semelhantes a nós em termos de opiniões, personalidade, antecedentes ou estilo de vida. 3) Elogios: Tendemos a gostar de pessoas que nos elogiam, mesmo que suspeitemos de motivos ulteriores. 4) Contato e Cooperação: Familiaridade (efeito da mera exposição) e trabalho conjunto em direção a objetivos comuns aumentam a simpatia. 5) Associação: Associamos pessoas a coisas positivas ou negativas (ex: garotos do tempo culpados pelo mau tempo). Profissionais de vendas e persuasão frequentemente se esforçam para encontrar similaridades, fazer elogios e criar um vínculo de afinidade com seus clientes para aumentar a probabilidade de sucesso.",
+    "custo_ficticio": 125,
+    "icone_imagem": "liking_similarity_heart.png"
+  },
+  {
+    "nome": "Transtorno de Personalidade Esquiva",
+    "descricao_simples": "Transtorno de personalidade (Cluster C) caracterizado por inibição social, sentimentos de inadequação e hipersensibilidade à avaliação negativa.",
+    "descricao_complexa": "Indivíduos com Transtorno de Personalidade Esquiva (TPE) exibem um padrão difuso de inibição social, sentimentos profundos de inadequação e uma sensibilidade extrema à possibilidade de rejeição, crítica ou desaprovação, começando no início da idade adulta. Eles evitam atividades ocupacionais ou sociais que envolvam contato interpessoal significativo por medo de críticas ou rejeição. Relutam em se envolver com pessoas, a menos que tenham certeza de serem apreciados. Mostram-se reservados em relacionamentos íntimos por medo de serem envergonhados ou ridicularizados. São preocupados com a possibilidade de serem criticados ou rejeitados em situações sociais. Sentem-se inibidos em novas situações interpessoais devido a sentimentos de inadequação. Veem a si mesmos como socialmente ineptos, sem atrativos pessoais ou inferiores aos outros. Relutam excepcionalmente em assumir riscos pessoais ou se envolver em novas atividades, pois podem ser embaraçosas. Diferencia-se da fobia social pela pervasividade e pelo foco na inadequação geral.",
+    "custo_ficticio": 170,
+    "icone_imagem": "avoidant_personality_hide.png"
+  },
+  {
+    "nome": "Transtorno de Personalidade Dependente",
+    "descricao_simples": "Transtorno de personalidade (Cluster C) marcado por uma necessidade excessiva e generalizada de ser cuidado, levando a comportamento submisso, apego e medo de separação.",
+    "descricao_complexa": "O Transtorno de Personalidade Dependente (TPD) caracteriza-se por um padrão difuso de necessidade excessiva de ser cuidado, o que leva a um comportamento submisso e de apego exagerado, além de medos de separação, começando no início da idade adulta. Indivíduos com TPD têm dificuldade em tomar decisões cotidianas sem uma quantidade excessiva de conselhos e reasseguramento dos outros. Precisam que outros assumam a responsabilidade pela maioria das áreas importantes de suas vidas. Têm dificuldade em expressar desacordo com os outros por medo de perder apoio ou aprovação. Têm dificuldade em iniciar projetos ou fazer coisas por conta própria devido à falta de autoconfiança em seu julgamento ou habilidades. Vão a extremos para obter carinho e apoio dos outros, a ponto de se voluntariar para fazer coisas desagradáveis. Sentem-se desconfortáveis ou desamparados quando sozinhos devido a medos exagerados de serem incapazes de cuidar de si mesmos. Buscam urgentemente outro relacionamento como fonte de cuidado e apoio quando um relacionamento íntimo termina. São irrealisticamente preocupados com medos de serem abandonados para cuidar de si mesmos.",
+    "custo_ficticio": 165,
+    "icone_imagem": "dependent_personality_cling.png"
+  },
+  {
+    "nome": "Transtorno de Personalidade Obsessivo-Compulsiva (TPOC)",
+    "descricao_simples": "Transtorno de personalidade (Cluster C) caracterizado por uma preocupação excessiva com ordem, perfeccionismo, controle mental e interpessoal, às custas da flexibilidade e eficiência.",
+    "descricao_complexa": "O Transtorno de Personalidade Obsessivo-Compulsiva (TPOC) é diferente do Transtorno Obsessivo-Compulsivo (TOC, um transtorno de ansiedade). O TPOC é um padrão generalizado de preocupação com ordem, perfeccionismo e controle mental e interpessoal, às custas da flexibilidade, abertura e eficiência, começando no início da idade adulta. Características incluem: preocupação com detalhes, regras, listas, ordem, organização ou horários, a ponto de perder o objetivo principal da atividade; perfeccionismo que interfere na conclusão da tarefa (padrões excessivamente rígidos); dedicação excessiva ao trabalho e à produtividade em detrimento de atividades de lazer e amizades; escrupulosidade excessiva, inflexibilidade em questões de moralidade, ética ou valores; incapacidade de descartar objetos desgastados ou inúteis, mesmo sem valor sentimental; relutância em delegar tarefas ou trabalhar com outros, a menos que se submetam exatamente à sua maneira de fazer as coisas; estilo de gastos avarento consigo e com os outros (dinheiro visto como algo a ser acumulado para catástrofes futuras); rigidez e teimosia. Não envolve obsessões e compulsões verdadeiras como no TOC.",
+    "custo_ficticio": 175,
+    "icone_imagem": "ocpd_perfectionism_rules.png"
+  },
+  {
+    "nome": "Neurotransmissores",
+    "descricao_simples": "Substâncias químicas que transmitem sinais entre os neurônios (células nervosas) nas sinapses, influenciando humor, cognição e comportamento.",
+    "descricao_complexa": "Neurotransmissores são mensageiros químicos essenciais para a comunicação no sistema nervoso. São liberados por um neurônio (pré-sináptico) na fenda sináptica (o espaço entre neurônios) e se ligam a receptores específicos no neurônio seguinte (pós-sináptico), transmitindo um sinal que pode ser excitatório (aumentando a probabilidade de o neurônio pós-sináptico disparar) ou inibitório (diminuindo essa probabilidade). Existem dezenas de neurotransmissores conhecidos, cada um com funções distintas e atuando em diferentes circuitos cerebrais. Alguns dos mais estudados incluem: Serotonina (envolvida na regulação do humor, sono, apetite, ansiedade), Dopamina (associada a recompensa, prazer, motivação, movimento e atenção), Noradrenalina/Norepinefrina (envolvida na resposta ao estresse, alerta, atenção), Acetilcolina (importante para memória, aprendizagem e contração muscular), GABA (principal neurotransmissor inibitório, reduz a excitabilidade neural, envolvido na ansiedade) e Glutamato (principal neurotransmissor excitatório, crucial para aprendizagem e memória). Desequilíbrios em sistemas de neurotransmissores estão implicados em muitos transtornos neurológicos e psiquiátricos.",
+    "custo_ficticio": 180,
+    "icone_imagem": "neurotransmitters_synapse.png"
+  },
+  {
+    "nome": "Eixo Hipotálamo-Pituitária-Adrenal (HPA)",
+    "descricao_simples": "Principal sistema neuroendócrino do corpo que regula a resposta ao estresse, liberando cortisol.",
+    "descricao_complexa": "O eixo HPA é um complexo conjunto de influências diretas e interações de feedback entre três componentes endócrinos: o hipotálamo, a glândula pituitária (ou hipófise) e as glândulas adrenais (ou suprarrenais). É o principal sistema que controla a reação do corpo ao estresse. Quando o cérebro percebe um estressor, o hipotálamo libera o Hormônio Liberador de Corticotropina (CRH). O CRH estimula a pituitária anterior a liberar o Hormônio Adrenocorticotrófico (ACTH). O ACTH viaja pela corrente sanguínea até o córtex das glândulas adrenais, estimulando a liberação de glicocorticoides, principalmente o cortisol (em humanos). O cortisol tem vários efeitos no corpo (aumenta o açúcar no sangue, suprime o sistema imunológico, auxilia no metabolismo) para ajudar o corpo a lidar com o estresse a curto prazo. O eixo HPA é regulado por um mecanismo de feedback negativo: níveis elevados de cortisol inibem a liberação de CRH e ACTH. A desregulação crônica do eixo HPA (ativação excessiva ou insuficiente) está implicada em vários problemas de saúde física e mental, incluindo depressão, ansiedade, síndrome de fadiga crônica e doenças autoimunes.",
+    "custo_ficticio": 170,
+    "icone_imagem": "hpa_axis_diagram.png"
+  }
+]

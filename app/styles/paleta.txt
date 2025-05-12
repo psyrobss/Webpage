@@ -1,0 +1,21 @@
+
+**Paleta de Cores do Projeto (Referência Essencial):**
+
+Use as seguintes cores como base para o design, adaptando tons e opacidades conforme o modo (claro/escuro) e o uso (fundo, texto, destaque):
+
+*   `#382f51` (Roxo Escuro Principal)
+*   `#5c7ada` (Azul Vibrante - Secundário)
+*   `#b4446c` (Magenta - Acento Principal)
+*   `#c0706c` (Coral - Acento Alternativo)
+*   `#df9dc0` (Rosa Claro - Detalhe/Suporte)
+*   `#63589d` (Roxo Médio - Suporte)
+*   `#86547a` (Roxo Malva - Suporte/Texto Secundário Escuro)
+*   `#a5a5ef` (Lavanda Claro - Texto Secundário Claro)
+*   `#c8c2f5` (Lavanda Brilhante - Texto Primário Claro)
+*   `#2a2444` (Roxo Escuro Clareado - Fundo Paper Escuro)
+*   `#0e0b14` (Quase Preto - Fundo Default Escuro)
+*   `#f4f2f7` (Lavanda Muito Claro - Fundo Default Claro)
+*   `#ffffff` (Branco - Fundo Paper Claro)
+*   `#1c1827` (Preto Quase Total - Texto Primário Escuro)
+*   `#4a4458` (Cinza Roxo Médio - Texto Secundário Escuro)
+*   `#7f7899` (Roxo Acinzentado - Muted/Disabled)

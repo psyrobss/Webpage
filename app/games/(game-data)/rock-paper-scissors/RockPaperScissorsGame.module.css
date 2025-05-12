@@ -1,0 +1,181 @@
+/* app/games/(game-data)/rock-paper-scissors/RockPaperScissorsGame.module.css */
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+    background-color: #e9ecef; /* Cinza claro */
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #343a40; /* Cinza escuro */
+    margin-bottom: 1.5rem;
+  }
+  
+  .scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    max-width: 250px;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .score {
+    color: #495057; /* Cinza médio */
+  }
+  
+  .score span {
+    font-weight: bold;
+    color: #007bff; /* Azul para o placar do jogador */
+  }
+  
+  .score:last-child span {
+    color: #dc3545; /* Vermelho para o placar do computador */
+  }
+  
+  
+  .choicesContainer {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem; /* Espaço entre botões */
+  }
+  
+  .choiceButton {
+    padding: 1rem 1.5rem;
+    font-size: 2.5rem; /* Tamanho grande para emoji */
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 2px solid #ced4da; /* Borda cinza */
+    border-radius: 50%; /* Botões redondos */
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  .choiceButton:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    border-color: #adb5bd;
+  }
+  
+  .choiceButton:active:not(:disabled) {
+    transform: translateY(0px) scale(0.95);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .choiceButton:disabled {
+      cursor: not-allowed;
+      opacity: 0.7;
+  }
+  
+  .displayArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    min-height: 100px; /* Altura mínima para evitar saltos */
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem; /* Tamanho grande para escolhas exibidas */
+  }
+  
+  .playerChoiceDisplay,
+  .computerChoiceDisplay {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    min-width: 80px; /* Largura mínima */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .vsText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6c757d; /* Cinza */
+  }
+  
+  
+  .resultMessage {
+    min-height: 2.5em; /* Para evitar saltos */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cores baseadas no resultado */
+  .win {
+    color: #155724; /* Verde escuro texto */
+    background-color: #d4edda; /* Verde claro fundo */
+    border: 1px solid #c3e6cb;
+  }
+  
+  .lose {
+    color: #721c24; /* Vermelho escuro texto */
+    background-color: #f8d7da; /* Vermelho claro fundo */
+    border: 1px solid #f5c6cb;
+  }
+  
+  .draw {
+    color: #383d41; /* Cinza escuro texto */
+    background-color: #e2e3e5; /* Cinza claro fundo */
+    border: 1px solid #d6d8db;
+  }
+  
+  .navigationButtons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem; /* Espaço acima dos botões de navegação */
+  }
+  
+  .navButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navButtonHome {
+    background-color: #007bff; /* Azul */
+    color: white;
+  }
+  .navButtonHome:hover {
+    background-color: #0056b3;
+  }
+  
+  .navButtonGames {
+    background-color: #6c757d; /* Cinza */
+    color: white;
+  }
+  .navButtonGames:hover {
+    background-color: #5a6268;
+  }
+  
+  .navButton:active {
+      transform: scale(0.96);
+  }

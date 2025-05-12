@@ -1,0 +1,251 @@
+/* styles/not-found-interactive.module.css */
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #050505;
+  perspective: 1000px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.6;
+  filter: blur(1px) brightness(0.4);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(5, 5, 15, 0.4) 0%, rgba(5, 5, 15, 0.95) 100%);
+  z-index: 1;
+}
+
+.canvasContainer {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Limitando a largura para melhor centralização */
+  height: 40vh; /* Altura do Canvas 3D */
+  z-index: 2;
+  margin: 0 auto 2rem auto; /* Centraliza e adiciona margem inferior */
+  background: linear-gradient(to bottom, transparent, rgba(5, 5, 15, 0.2));
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(106, 13, 173, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(5, 5, 15, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  margin: 0 auto; /* Centralização */
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(106, 13, 173, 0.5), 0 0 20px rgba(106, 13, 173, 0.3);
+  transform: translateZ(20px);
+  text-align: center; /* Garantir centralização */
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+  max-width: 600px;
+  transform: translateZ(10px);
+  text-align: center; /* Garantir centralização */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  background: linear-gradient(135deg, #6a0dad, #9b59b6);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(106, 13, 173, 0.4);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transform: translateZ(30px);
+  margin: 0 auto; /* Centralização */
+  text-align: center;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #9b59b6, #6a0dad);
+  z-index: -1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.button:hover::before {
+  opacity: 1;
+}
+
+/* Centralizando cada seção no eixo vertical */
+.container > * {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Garantindo que todos os textos fiquem centralizados */
+.content * {
+  text-align: center;
+}
+
+/* Melhorando o espaçamento */
+.content > * {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Adaptações para telas pequenas */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .canvasContainer {
+    height: 30vh;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* Adiciona efeitos de partículas estreladas em pseudo-elementos */
+.container::before,
+.container::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff,
+    0 0 40px #6a0dad,
+    0 0 70px #6a0dad,
+    0 0 80px #6a0dad,
+    0 0 100px #6a0dad;
+  animation: twinkle 5s infinite;
+  z-index: 1;
+}
+
+.container::before {
+  top: 20%;
+  left: 30%;
+  animation-delay: 0.5s;
+}
+
+.container::after {
+  top: 70%;
+  left: 65%;
+  animation-delay: 1.5s;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.2);
+  }
+}
+
+/* Melhor visualização no modo escuro e claro */
+@media (prefers-color-scheme: dark) {
+  .content {
+    background: rgba(10, 10, 20, 0.5);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .content {
+    background: rgba(5, 5, 15, 0.6);
+  }
+  .container {
+    background-color: #0a0a14;
+  }
+}
+
+/* Animação de entrada para o canvas */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.canvasContainer {
+  animation: fadeIn 1s ease-out forwards;
+}

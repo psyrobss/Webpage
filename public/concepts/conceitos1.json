@@ -1,0 +1,177 @@
+[
+    {
+      "nome": "Pensamentos Automáticos",
+      "descricao_simples": "Pensamentos rápidos e involuntários que surgem em resposta a situações, influenciando emoções e comportamentos.",
+      "descricao_complexa": "Pensamentos automáticos são cognições que fluem rapidamente pela mente, muitas vezes na periferia da consciência. Eles são específicos da situação e tendem a ser aceitos como verdadeiros sem questionamento, mesmo que sejam distorcidos ou disfuncionais. Originam-se de crenças mais profundas (crenças nucleares e intermediárias) sobre nós mesmos, os outros e o mundo. Por exemplo, ao receber uma crítica no trabalho, um pensamento automático poderia ser 'Eu sou incompetente'. Esse pensamento, por sua vez, pode gerar sentimentos de tristeza ou ansiedade e levar a comportamentos como evitar tarefas desafiadoras. Na Terapia Cognitivo-Comportamental (TCC), um passo fundamental é aprender a identificar esses pensamentos, avaliar sua validade e o impacto que têm, e, se necessário, modificá-los ou desenvolver pensamentos alternativos mais realistas e adaptativos. Reconhecer e gerenciar pensamentos automáticos é crucial para mudar padrões emocionais e comportamentais negativos.",
+      "custo_ficticio": 120,
+      "icone_imagem": "thought_bubble_automatic.png"
+    },
+    {
+      "nome": "Distorções Cognitivas",
+      "descricao_simples": "Padrões de pensamento exagerados ou irracionais que distorcem a realidade e contribuem para emoções negativas.",
+      "descricao_complexa": "Distorções cognitivas são erros sistemáticos no pensamento que levam as pessoas a perceberem a realidade de forma imprecisa, geralmente negativa. Funcionam como 'filtros mentais' que nos fazem tirar conclusões incorretas. Exemplos comuns incluem: catastrofização (esperar o pior cenário possível), leitura mental (assumir que sabemos o que os outros estão pensando, geralmente algo negativo sobre nós), filtro mental (focar apenas nos aspectos negativos de uma situação e ignorar os positivos), personalização (acreditar que somos a causa de eventos negativos externos sem evidências), e 'deverias' (ter regras rígidas sobre como nós ou os outros deveríamos agir). Essas distorções são alvos centrais na TCC, pois alimentam ciclos de ansiedade, depressão e outros problemas emocionais. A terapia ajuda a identificar essas distorções nos pensamentos automáticos e a desafiá-las com evidências e perspectivas mais equilibradas.",
+      "custo_ficticio": 150,
+      "icone_imagem": "distorted_glasses.png"
+    },
+    {
+      "nome": "Crenças Nucleares (Centrais)",
+      "descricao_simples": "Ideias fundamentais e profundas que temos sobre nós mesmos, os outros e o mundo, geralmente formadas na infância.",
+      "descricao_complexa": "Crenças nucleares (ou centrais) representam o nível mais profundo de cognição. São convicções globais, rígidas e supergeneralizadas sobre o self ('Eu sou incapaz'), os outros ('As pessoas não são confiáveis') ou o mundo ('O mundo é perigoso'). Frequentemente, formam-se a partir de experiências significativas na infância e na adolescência e são tidas como verdades absolutas. Embora nem sempre conscientes, elas influenciam a camada mais superficial dos pensamentos (pensamentos automáticos) e as regras/suposições que guiam nossa vida (crenças intermediárias). Crenças nucleares disfuncionais, como de desvalor, desamor ou desamparo, são comuns em transtornos psicológicos. Na TCC, a identificação e modificação dessas crenças são objetivos importantes, embora geralmente abordados após o trabalho com pensamentos automáticos e crenças intermediárias, pois exigem um processo terapêutico mais aprofundado e cuidadoso.",
+      "custo_ficticio": 200,
+      "icone_imagem": "core_belief_seed.png"
+    },
+    {
+      "nome": "Modelo Cognitivo (Situação-Pensamento-Emoção-Comportamento)",
+      "descricao_simples": "A ideia central da TCC: não são as situações que causam nossas emoções, mas sim a interpretação (pensamento) que fazemos delas.",
+      "descricao_complexa": "O modelo cognitivo é a espinha dorsal da TCC e postula que nossas reações emocionais e comportamentais são mediadas por nossos pensamentos e percepções sobre os eventos, e não pelos eventos em si. Uma determinada situação (A) ativa certos pensamentos automáticos e crenças (B - Beliefs/Pensamentos), que por sua vez levam a consequências emocionais, fisiológicas e comportamentais (C). Por exemplo, a situação de 'ser convidado para uma festa' (A) pode levar ao pensamento 'Ninguém vai gostar de mim' (B), resultando em ansiedade (emoção), taquicardia (fisiologia) e recusa do convite (comportamento) (C). Entender essa sequência permite intervir no ponto 'B' (pensamentos). Ao identificar e modificar os pensamentos disfuncionais associados a uma situação, podemos alterar as emoções e comportamentos resultantes, tornando-os mais adaptativos. Esse modelo fornece um mapa claro para o processo terapêutico na TCC.",
+      "custo_ficticio": 100,
+      "icone_imagem": "cognitive_model_flowchart.png"
+    },
+    {
+      "nome": "Reestruturação Cognitiva",
+      "descricao_simples": "Técnica da TCC para identificar, desafiar e modificar pensamentos negativos ou irracionais, substituindo-os por alternativas mais realistas.",
+      "descricao_complexa": "A reestruturação cognitiva é um conjunto de técnicas usadas na TCC para ajudar os indivíduos a reconhecer e alterar padrões de pensamento disfuncionais (pensamentos automáticos e distorções cognitivas) que contribuem para o sofrimento emocional. O processo envolve primeiro a identificação dos pensamentos problemáticos que ocorrem em situações específicas (muitas vezes usando um Registro de Pensamentos Disfuncionais - RPD). Em seguida, esses pensamentos são examinados criticamente: quais são as evidências a favor e contra eles? Existem explicações alternativas? Qual é o efeito de acreditar nesse pensamento? Quais são as distorções cognitivas presentes? Com base nessa análise, o indivíduo trabalha, com a ajuda do terapeuta, para desenvolver pensamentos alternativos que sejam mais equilibrados, baseados em evidências e úteis. O objetivo não é o 'pensamento positivo' irrealista, mas sim um pensamento mais realista e adaptativo que reduza a intensidade das emoções negativas e promova comportamentos mais funcionais.",
+      "custo_ficticio": 180,
+      "icone_imagem": "brain_gears_changing.png"
+    },
+    {
+      "nome": "Ativação Comportamental",
+      "descricao_simples": "Técnica, especialmente usada na depressão, que incentiva o aumento gradual de atividades prazerosas ou significativas para combater a inércia e melhorar o humor.",
+      "descricao_complexa": "A Ativação Comportamental (AC) é uma intervenção psicoterapêutica eficaz, frequentemente usada como componente da TCC ou como tratamento independente, principalmente para a depressão. Baseia-se na ideia de que a depressão muitas vezes leva à inatividade, isolamento social e abandono de rotinas e atividades que antes eram fontes de prazer ou senso de realização. Essa inatividade, por sua vez, reforça os sentimentos depressivos, criando um ciclo vicioso. A AC trabalha para quebrar esse ciclo, ajudando o indivíduo a identificar e agendar gradualmente atividades que estejam alinhadas com seus valores ou que tenham potencial para serem recompensadoras, mesmo que a motivação inicial seja baixa. Começa-se com tarefas simples e manejáveis, aumentando a complexidade conforme a confiança e o humor melhoram. O foco está na ação ('de fora para dentro'), partindo do princípio que o engajamento em comportamentos valiosos pode levar a uma melhora no humor e na cognição, em vez de esperar a motivação surgir primeiro.",
+      "custo_ficticio": 160,
+      "icone_imagem": "person_walking_up_steps.png"
+    },
+    {
+      "nome": "Terapia de Exposição",
+      "descricao_simples": "Técnica para tratar ansiedade e fobias, expondo a pessoa gradualmente e com segurança àquilo que ela teme e evita.",
+      "descricao_complexa": "A Terapia de Exposição é um tratamento padrão-ouro para transtornos de ansiedade, como fobias específicas, transtorno de ansiedade social, transtorno do pânico e TEPT. Baseia-se no princípio de que a evitação de situações, objetos ou pensamentos temidos mantém e reforça a ansiedade a longo prazo. A exposição envolve confrontar esses estímulos temidos de forma sistemática, gradual e controlada, em um ambiente seguro (com o terapeuta). Isso pode ser feito 'in vivo' (na vida real), por imaginação, ou usando realidade virtual. A exposição repetida permite que a pessoa aprenda que suas previsões catastróficas geralmente não se concretizam e que a ansiedade diminui naturalmente com o tempo (habituação), mesmo sem fugir ou evitar. Frequentemente, combina-se com a Prevenção de Resposta (impedir comportamentos de segurança ou rituais que a pessoa usa para aliviar a ansiedade), permitindo um aprendizado corretivo mais profundo.",
+      "custo_ficticio": 190,
+      "icone_imagem": "open_door_exposure.png"
+    },
+    {
+      "nome": "Atenção Seletiva",
+      "descricao_simples": "A capacidade de focar a consciência em um estímulo específico enquanto se ignora outros estímulos irrelevantes.",
+      "descricao_complexa": "Atenção seletiva é um processo cognitivo fundamental que nos permite direcionar nossos recursos mentais limitados para informações relevantes em nosso ambiente, enquanto filtramos distrações. É como um 'holofote' mental que ilumina o que é importante no momento. Sem ela, seríamos sobrecarregados pela vasta quantidade de estímulos sensoriais ao nosso redor. Modelos teóricos, como o de Broadbent (filtro precoce) e o de Treisman (atenuação), tentam explicar como essa seleção ocorre. Fatores como a saliência do estímulo (um som alto) ou a relevância para nossos objetivos (procurar um amigo na multidão) influenciam o que captura nossa atenção. Disfunções na atenção seletiva podem estar presentes em condições como o TDAH. Em transtornos de ansiedade, pode haver um viés atencional, onde a pessoa foca seletivamente em estímulos ameaçadores, perpetuando a ansiedade.",
+      "custo_ficticio": 110,
+      "icone_imagem": "spotlight_attention.png"
+    },
+    {
+      "nome": "Memória de Trabalho (Operacional)",
+      "descricao_simples": "Sistema de memória de capacidade limitada que mantém e manipula informações temporariamente para realizar tarefas cognitivas complexas.",
+      "descricao_complexa": "A memória de trabalho, diferentemente da memória de curto prazo (que apenas armazena), é um sistema ativo responsável por manter a informação online e manipulá-la para tarefas como raciocínio, compreensão de linguagem e aprendizagem. O modelo mais influente, proposto por Baddeley e Hitch, inclui componentes como a alça fonológica (para informação verbal), o esboço visuoespacial (para informação visual e espacial) e o executivo central (que controla a atenção e coordena os outros componentes). Recentemente, foi adicionado o buffer episódico (que integra informações de diferentes fontes). A capacidade da memória de trabalho é limitada, geralmente estimada em cerca de 7 +/- 2 'chunks' de informação (Miller), mas varia entre indivíduos. É crucial para o funcionamento cognitivo diário, desde seguir instruções e fazer cálculos mentais até participar de conversas e resolver problemas complexos.",
+      "custo_ficticio": 130,
+      "icone_imagem": "brain_juggle.png"
+    },
+    {
+      "nome": "Esquemas Mentais",
+      "descricao_simples": "Estruturas cognitivas organizadas que representam nosso conhecimento sobre conceitos, objetos, eventos ou pessoas, guiando nossa percepção e interpretação.",
+      "descricao_complexa": "Esquemas são blocos de construção fundamentais do conhecimento em nossa memória de longo prazo. São como 'mapas mentais' ou 'roteiros' que organizam informações e experiências passadas, ajudando-nos a entender e navegar no mundo de forma eficiente. Por exemplo, temos um esquema para 'restaurante' que inclui conhecimentos sobre cardápios, garçons, pedir comida, pagar a conta, etc. Esquemas influenciam o que percebemos, como interpretamos novas informações (tendemos a assimilar informações que se encaixam nos esquemas existentes) e o que lembramos. Embora geralmente úteis, esquemas podem levar a vieses e estereótipos se forem excessivamente rígidos ou baseados em informações incorretas. Na TCC, o termo 'esquema' (especialmente 'Esquemas Iniciais Disfuncionais' na Terapia do Esquema de Jeffrey Young) refere-se a padrões autoderrotistas profundos de pensamento, sentimento e comportamento, originados na infância, relacionados a crenças nucleares.",
+      "custo_ficticio": 140,
+      "icone_imagem": "mental_blueprint.png"
+    },
+    {
+      "nome": "Heurísticas",
+      "descricao_simples": "Atalhos mentais ou regras práticas que usamos para tomar decisões e resolver problemas rapidamente, embora possam levar a erros.",
+      "descricao_complexa": "Heurísticas são estratégias cognitivas simplificadoras que permitem fazer julgamentos e tomar decisões de forma rápida e eficiente, sem a necessidade de uma análise exaustiva de todas as informações disponíveis. Elas funcionam bem na maioria das situações cotidianas, economizando tempo e esforço mental. No entanto, por serem atalhos, podem levar a erros sistemáticos ou vieses cognitivos. Exemplos famosos incluem a heurística da disponibilidade (julgar a probabilidade de um evento pela facilidade com que exemplos vêm à mente) e a heurística da representatividade (julgar a probabilidade de algo pertencer a uma categoria com base em quão semelhante é a um protótipo dessa categoria). O estudo das heurísticas, pioneiro por Tversky e Kahneman, revolucionou a compreensão da tomada de decisão humana, mostrando que nem sempre somos agentes puramente racionais.",
+      "custo_ficticio": 125,
+      "icone_imagem": "shortcut_sign.png"
+    },
+    {
+      "nome": "Viés de Confirmação",
+      "descricao_simples": "A tendência de procurar, interpretar e lembrar informações de uma maneira que confirme nossas crenças ou hipóteses preexistentes.",
+      "descricao_complexa": "O viés de confirmação é uma das tendências cognitivas mais prevalentes. Manifesta-se quando buscamos ativamente evidências que apoiem nossas opiniões e ignoramos ou desvalorizamos informações que as contradigam. Também interpretamos informações ambíguas de forma a alinhá-las com nossas crenças e lembramos melhor dos fatos que as confirmam. Esse viés opera em diversos domínios, desde decisões pessoais e crenças políticas até diagnósticos médicos e investigações científicas. Embora possa fortalecer nossa autoconfiança, também pode levar a julgamentos errôneos, polarização de opiniões e resistência a mudar de ideia, mesmo diante de evidências contrárias. Reconhecer a existência do viés de confirmação é o primeiro passo para tentar mitigar seus efeitos, buscando ativamente perspectivas alternativas e desafiando nossas próprias suposições.",
+      "custo_ficticio": 135,
+      "icone_imagem": "magnifying_glass_confirm.png"
+    },
+    {
+      "nome": "Resolução de Problemas",
+      "descricao_simples": "O processo cognitivo de identificar um problema, explorar possíveis soluções e escolher e implementar a melhor estratégia para alcançar um objetivo.",
+      "descricao_complexa": "A resolução de problemas é uma habilidade cognitiva de ordem superior que envolve superar obstáculos para atingir uma meta desejada. Geralmente, o processo inclui várias etapas: definição clara do problema, análise dos componentes do problema e dos recursos disponíveis, geração de múltiplas soluções potenciais (brainstorming), avaliação e seleção da solução mais promissora, implementação da solução escolhida e avaliação dos resultados. Estratégias comuns incluem tentativa e erro, algoritmos (procedimentos passo a passo que garantem uma solução) e heurísticas (atalhos mentais). Obstáculos à resolução eficaz de problemas podem incluir a fixidez funcional (incapacidade de ver usos alternativos para um objeto) e o 'set' mental (tendência a abordar problemas de uma maneira que funcionou no passado, mesmo que não seja adequada para o problema atual). Habilidades de resolução de problemas são ensinadas em TCC para lidar com dificuldades práticas da vida.",
+      "custo_ficticio": 155,
+      "icone_imagem": "puzzle_solving.png"
+    },
+    {
+      "nome": "Tomada de Decisão",
+      "descricao_simples": "O processo cognitivo de escolher uma opção entre várias alternativas disponíveis, com base em preferências, valores e avaliação de riscos e benefícios.",
+      "descricao_complexa": "A tomada de decisão é um processo cognitivo central na vida diária, envolvendo a seleção de um curso de ação entre múltiplas possibilidades. Pode variar de escolhas simples (o que comer no café da manhã) a decisões complexas com consequências significativas (mudar de carreira). Tradicionalmente, modelos racionais pressupunham que as pessoas pesam cuidadosamente os prós e contras de cada opção para maximizar a utilidade esperada. No entanto, a pesquisa em psicologia cognitiva (por exemplo, Tversky e Kahneman) mostrou que as decisões humanas são frequentemente influenciadas por heurísticas, vieses cognitivos, emoções e fatores contextuais (framing effect). As emoções, em particular, desempenham um papel crucial, como demonstrado pela hipótese do marcador somático de Damásio. Entender os fatores psicológicos que influenciam a tomada de decisão é vital em áreas como economia comportamental, marketing e políticas públicas.",
+      "custo_ficticio": 145,
+      "icone_imagem": "crossroads_decision.png"
+    },
+    {
+      "nome": "Metacognição",
+      "descricao_simples": "A capacidade de 'pensar sobre o próprio pensamento', incluindo o conhecimento e o controle sobre os próprios processos cognitivos.",
+      "descricao_complexa": "Metacognição refere-se à consciência e compreensão dos próprios processos de pensamento e à capacidade de regular esses processos para otimizar a aprendizagem e a resolução de problemas. Inclui dois componentes principais: conhecimento metacognitivo (o que sabemos sobre nossas próprias habilidades cognitivas, tarefas e estratégias – por exemplo, saber que você aprende melhor visualmente) e regulação metacognitiva (o planejamento, monitoramento e avaliação do próprio aprendizado ou desempenho – por exemplo, definir metas de estudo, verificar a compreensão durante a leitura, ajustar estratégias se não estiverem funcionando). Habilidades metacognitivas são cruciais para a aprendizagem eficaz e o desempenho acadêmico. Pessoas com boa metacognição são mais autônomas em seu aprendizado, capazes de identificar quando não entendem algo e de tomar medidas para corrigir isso. Na TCC, a metacognição pode ser usada para refletir sobre os próprios padrões de pensamento.",
+      "custo_ficticio": 170,
+      "icone_imagem": "brain_inspecting_itself.png"
+    },
+    {
+      "nome": "Catastrofização",
+      "descricao_simples": "Distorção cognitiva onde se espera ou imagina o pior resultado possível para uma situação, mesmo que seja improvável.",
+      "descricao_complexa": "A catastrofização é um padrão de pensamento disfuncional caracterizado pela tendência a superestimar a probabilidade de ocorrência de eventos negativos e/ou a exagerar as consequências negativas desses eventos, vendo-os como insuportáveis ou devastadores. A pessoa foca no 'e se...?' mais terrível. Por exemplo, uma dor de cabeça pode ser interpretada como sinal de um tumor cerebral; um pequeno erro no trabalho pode levar à crença de demissão iminente. Esse tipo de pensamento é comum em transtornos de ansiedade e depressão, e também na dor crônica (onde se foca nas piores implicações da dor). A catastrofização aumenta a percepção de ameaça, intensifica emoções negativas como medo, ansiedade e desesperança, e pode levar a comportamentos de evitação ou de busca excessiva por segurança. A TCC aborda a catastrofização ajudando a pessoa a avaliar realisticamente as probabilidades e as consequências dos eventos temidos, e a desenvolver habilidades de enfrentamento.",
+      "custo_ficticio": 140,
+      "icone_imagem": "explosion_catastrophe.png"
+    },
+    {
+      "nome": "Leitura Mental",
+      "descricao_simples": "Distorção cognitiva onde se assume saber o que outra pessoa está pensando ou sentindo, geralmente algo negativo, sem evidências suficientes.",
+      "descricao_complexa": "A leitura mental é um erro de pensamento em que se conclui arbitrariamente que alguém está reagindo negativamente a você ou pensando mal a seu respeito, sem verificar os fatos. A pessoa age como se pudesse ler a mente dos outros, projetando suas próprias inseguranças ou expectativas negativas. Por exemplo, 'Ele não me cumprimentou direito, deve estar bravo comigo' ou 'Eles estão cochichando, com certeza estão falando mal de mim'. Essa distorção é particularmente comum na ansiedade social, onde o medo de julgamento negativo é central. O problema é que essas suposições são frequentemente baseadas em pouca ou nenhuma evidência concreta e podem levar a mal-entendidos, ansiedade desnecessária e comportamentos defensivos ou de evitação nas interações sociais. Na TCC, desafia-se a leitura mental buscando evidências concretas para a suposição, considerando explicações alternativas para o comportamento do outro e, quando apropriado, comunicando-se diretamente para esclarecer a situação.",
+      "custo_ficticio": 130,
+      "icone_imagem": "mind_reading_icon.png"
+    },
+    {
+      "nome": "Personalização",
+      "descricao_simples": "Distorção cognitiva onde a pessoa se culpa por eventos negativos externos ou assume responsabilidade excessiva por coisas fora de seu controle.",
+      "descricao_complexa": "Personalização é a tendência a relacionar eventos externos a si mesmo sem uma base sólida para fazer essa conexão, ou a assumir responsabilidade causal por resultados negativos sobre os quais se tem pouca ou nenhuma influência. Uma forma comum é culpar-se por algo que não era inteiramente sua culpa ou ver-se como a causa de algum evento externo negativo. Por exemplo, uma mãe cujo filho não vai bem na escola pode pensar 'É tudo culpa minha, sou uma péssima mãe', ignorando outros fatores. Outra forma é interpretar comentários ou ações neutras de outros como direcionadas negativamente a si. Essa distorção está frequentemente associada a sentimentos de culpa, vergonha e baixa autoestima. A TCC trabalha para corrigir a personalização ajudando a pessoa a avaliar realisticamente seu grau de responsabilidade nos eventos, a considerar outros fatores causais e a diferenciar entre influência e controle.",
+      "custo_ficticio": 130,
+      "icone_imagem": "person_blame_arrow.png"
+    },
+    {
+      "nome": "Imperativos (\"Deverias\")",
+      "descricao_simples": "Distorção cognitiva caracterizada por regras rígidas e inflexíveis sobre como nós ou os outros 'deveríamos' ou 'não deveríamos' agir.",
+      "descricao_complexa": "Os imperativos, também conhecidos como 'deverias' ou 'tirania dos deverias', envolvem ter expectativas e regras rígidas sobre o próprio comportamento e o dos outros. Essas regras são expressas frequentemente com palavras como 'devo', 'tenho que', 'não posso', 'deveria'. Quando direcionadas a si mesmo ('Eu deveria ser perfeito em tudo que faço'), podem levar a sentimentos de culpa, vergonha, frustração e autocrítica excessiva quando as expectativas não são cumpridas. Quando direcionadas aos outros ('Ele deveria ter me ajudado'), podem levar a raiva, ressentimento e decepção. Essas regras inflexíveis não levam em conta as nuances das situações ou as limitações humanas, gerando sofrimento desnecessário. A TCC ajuda a identificar esses imperativos, a questionar sua validade e utilidade, e a substituí-los por preferências ou desejos mais flexíveis e realistas ('Eu gostaria de fazer bem, mas erros acontecem').",
+      "custo_ficticio": 135,
+      "icone_imagem": "rules_list_should.png"
+    },
+    {
+      "nome": "Raciocínio Emocional",
+      "descricao_simples": "Distorção cognitiva onde se acredita que algo deve ser verdade simplesmente porque se 'sente' que é verdade, ignorando evidências contrárias.",
+      "descricao_complexa": "O raciocínio emocional é a tendência a tomar os próprios sentimentos como evidência da realidade. A lógica implícita é: 'Se eu sinto assim, então deve ser verdade'. Por exemplo, 'Eu me sinto ansioso ao pegar um avião, logo, aviões são perigosos' ou 'Eu me sinto um fracasso, portanto, eu sou um fracasso'. Essa distorção confunde emoções, que são subjetivas e passageiras, com fatos objetivos. Embora as emoções sejam informações importantes, elas podem ser influenciadas por pensamentos distorcidos, cansaço, ou química corporal, e não são um guia confiável para a realidade externa. Confiar excessivamente no raciocínio emocional pode levar a conclusões errôneas e a decisões baseadas em medos ou inseguranças, em vez de numa avaliação racional da situação. Na TCC, aprende-se a reconhecer o raciocínio emocional e a buscar evidências objetivas para avaliar a situação, separando o 'sentir' do 'ser'.",
+      "custo_ficticio": 140,
+      "icone_imagem": "heart_equals_brain.png"
+    },
+    {
+      "nome": "Registro de Pensamentos Disfuncionais (RPD)",
+      "descricao_simples": "Ferramenta da TCC usada para registrar situações, pensamentos automáticos, emoções e comportamentos, ajudando a identificar e modificar padrões negativos.",
+      "descricao_complexa": "O Registro de Pensamentos Disfuncionais (RPD), também conhecido como Diário de Pensamentos, é uma das ferramentas mais comuns e fundamentais da TCC. É uma técnica de automonitoramento estruturada, geralmente em formato de tabela, que ajuda o paciente a tomar consciência da relação entre situações, pensamentos, emoções e comportamentos (o modelo cognitivo na prática). As colunas típicas incluem: Situação (o evento gatilho), Pensamentos Automáticos (o que passou pela cabeça), Emoções (quais sentimentos surgiram e sua intensidade), Comportamento (o que a pessoa fez). Colunas adicionais podem ser incluídas para identificar distorções cognitivas, analisar as evidências a favor e contra o pensamento automático, e desenvolver um pensamento alternativo mais adaptativo e a emoção resultante. O preenchimento regular do RPD aumenta a autoconsciência, facilita a identificação de padrões de pensamento problemáticos e serve como base para a reestruturação cognitiva.",
+      "custo_ficticio": 90,
+      "icone_imagem": "thought_log_notebook.png"
+    },
+    {
+      "nome": "Experimento Comportamental",
+      "descricao_simples": "Técnica da TCC onde se planeja e realiza uma 'experiência' na vida real para testar a validade de crenças ou pensamentos negativos.",
+      "descricao_complexa": "Experimentos comportamentais são atividades planejadas, realizadas pelo paciente fora da sessão de terapia, com o objetivo de testar empiricamente a validade de pensamentos automáticos, suposições ou crenças disfuncionais específicas. São 'testes da realidade'. Por exemplo, alguém com ansiedade social que acredita 'Se eu falar em público, vou gaguejar e todos vão rir' pode planejar um experimento onde faz uma pequena pergunta numa reunião para observar o que realmente acontece. O processo envolve: identificar a crença a ser testada, planejar um experimento específico para testá-la (o que fazer, onde, quando, como), prever o resultado com base na crença disfuncional, realizar o experimento, observar e registrar o resultado real, e refletir sobre o que foi aprendido e como isso modifica a crença original. Experimentos comportamentais são poderosos porque fornecem evidências diretas e experienciais, muitas vezes mais convincentes do que a simples discussão ou reestruturação cognitiva verbal.",
+      "custo_ficticio": 175,
+      "icone_imagem": "lab_beaker_experiment.png"
+    },
+    {
+      "nome": "Mindfulness (Atenção Plena)",
+      "descricao_simples": "A prática de prestar atenção intencionalmente ao momento presente, sem julgamento, observando pensamentos, sentimentos e sensações.",
+      "descricao_complexa": "Mindfulness, ou atenção plena, envolve cultivar uma consciência focada no aqui e agora, observando o fluxo de experiências internas (pensamentos, emoções, sensações corporais) e externas sem se prender a elas ou julgá-las como 'boas' or 'ruins'. Não se trata de esvaziar a mente, mas de mudar a relação com os pensamentos e sentimentos, percebendo-os como eventos mentais transitórios em vez de verdades absolutas ou reflexos do 'eu'. Práticas formais incluem meditação sentada, escaneamento corporal e caminhada consciente. A atenção plena pode ser integrada informalmente nas atividades diárias. Embora originária de tradições contemplativas orientais, foi integrada em abordagens terapêuticas ocidentais, como a Terapia Cognitiva Baseada em Mindfulness (MBCT) e a Terapia de Aceitação e Compromisso (ACT), componentes da 'terceira onda' da TCC. Ajuda a reduzir a ruminação, aumentar a autoconsciência, melhorar a regulação emocional e diminuir a reatividade ao estresse.",
+      "custo_ficticio": 150,
+      "icone_imagem": "meditation_lotus.png"
+    },
+    {
+      "nome": "Aceitação (na TCC de 3ª Onda)",
+      "descricao_simples": "A disposição para experienciar pensamentos, sentimentos e sensações difíceis sem lutar contra eles, como parte de uma vida significativa.",
+      "descricao_complexa": "No contexto das terapias cognitivo-comportamentais de terceira onda, como a Terapia de Aceitação e Compromisso (ACT), a aceitação não significa resignação ou gostar de experiências desagradáveis. Refere-se à habilidade de acolher ativamente pensamentos, sentimentos, memórias e sensações corporais desconfortáveis ou dolorosas, sem tentar eliminá-los, suprimi-los ou lutar contra eles. A ideia central é que a luta excessiva contra experiências internas inevitáveis (como ansiedade, tristeza ou pensamentos negativos) consome energia, paradoxalmente amplifica o sofrimento e impede o engajamento em ações valiosas. A aceitação envolve reconhecer essas experiências como parte da condição humana, permitindo que elas venham e vão sem dominarem o comportamento. Cultivar a aceitação libera recursos psicológicos para que a pessoa possa se concentrar em agir de acordo com seus valores e construir uma vida rica e significativa, mesmo na presença de dificuldades.",
+      "custo_ficticio": 165,
+      "icone_imagem": "open_hands_acceptance.png"
+    },
+    {
+      "nome": "Prevenção de Recaída",
+      "descricao_simples": "Estratégias e planos desenvolvidos ao final da TCC para ajudar a manter os ganhos terapêuticos e lidar com futuros desafios ou lapsos.",
+      "descricao_complexa": "A prevenção de recaída é uma fase crucial no final do processo terapêutico da TCC. Seu objetivo é consolidar as habilidades aprendidas durante a terapia e preparar o paciente para lidar com potenciais contratempos ou o ressurgimento de sintomas no futuro, de forma independente. Isso geralmente envolve: revisar o progresso feito e as estratégias que foram mais úteis; identificar situações de alto risco, gatilhos ou sinais de alerta precoces que possam indicar uma possível recaída; desenvolver um plano de ação específico para lidar com esses sinais ou situações (por exemplo, retomar o uso de RPDs, praticar técnicas de relaxamento, reativar comportamentos saudáveis, entrar em contato com a rede de apoio ou mesmo com o terapeuta para sessões de reforço); e normalizar a ideia de que 'lapsos' (deslizes temporários) podem ocorrer e não significam um fracasso total, mas sim uma oportunidade de aplicar as habilidades aprendidas. O plano de prevenção de recaída funciona como um 'kit de primeiros socorros' psicológico.",
+      "custo_ficticio": 140,
+      "icone_imagem": "safety_net_relapse.png"
+    }
+  ]

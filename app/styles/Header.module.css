@@ -1,0 +1,160 @@
+/* styles/Header.module.css */
+
+/* Variáveis Locais */
+.header {
+  --padding-horizontal: 80px;
+  --padding-vertical: 20px;
+  --border-color: #eaeaea;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --menu-width: 200px;
+}
+
+/* Header Principal */
+.header {
+  background-color: var(--branco-puro);
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; /* Necessário para posicionar o menu móvel */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--azul-profundo);
+  text-decoration: none; /* Garante que o logo não tenha sublinhado */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Navegação Padrão (Desktop) */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks a {
+  font-size: 16px;
+  color: var(--azul-profundo);
+  transition: color 0.3s ease-in-out;
+}
+
+.navLinks a:hover,
+.navLinks a:focus {
+  color: var(--azul-suave);
+  outline: none; /* Remove o contorno padrão ao focar */
+}
+
+/* Ícone de Hambúrguer (Inicialmente Oculto) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--azul-profundo);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Animação para o ícone de hambúrguer */
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.dados {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Menu Móvel (Oculto por Padrão) */
+.mobileMenu {
+  position: absolute;
+  top: 100%;
+  right: var(--padding-horizontal); /* Alinha com a margem direita do header */
+  background-color: var(--branco-puro);
+  width: var(--menu-width);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  z-index: 100;
+  display: none; /* Oculto por padrão */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.mobileMenu ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.mobileMenu ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.mobileMenu ul li:last-child {
+  margin-bottom: 0;
+}
+
+.mobileMenu ul a {
+  color: var(--azul-profundo);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.mobileMenu ul a:hover,
+.mobileMenu ul a:focus {
+  color: var(--azul-suave);
+  outline: none; /* Remove o contorno padrão ao focar */
+}
+
+/* Animação de Fade-In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Query para Telas Menores que 768px */
+@media (max-width: 768px) {
+  /* Esconde os links de navegação do desktop */
+  .navLinks {
+    display: none;
+  }
+
+  /* Exibe o ícone de hambúrguer */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Mostra o menu móvel quando ativo */
+  .mobileMenu.active {
+    display: block;
+  }
+}

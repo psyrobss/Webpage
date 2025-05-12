@@ -1,0 +1,20 @@
+/* Estilos para a Highlights Section */
+.highlights-section {
+    position: relative;
+    scroll-snap-align: start;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .highlights-section .MuiGrid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .highlights-section .MuiCard-root {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .highlights-section .MuiCard-root:hover {
+    transform: translateY(-10px);
+  }

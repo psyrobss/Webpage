@@ -1,0 +1,177 @@
+[
+  {
+    "nome": "Teoria da Mente (Theory of Mind - ToM)",
+    "descricao_simples": "A capacidade de entender que outras pessoas têm seus próprios pensamentos, crenças, desejos e intenções, diferentes dos nossos.",
+    "descricao_complexa": "A Teoria da Mente (ToM) é uma habilidade cognitiva social crucial que nos permite atribuir estados mentais – como crenças, intenções, desejos, emoções e conhecimentos – a nós mesmos e aos outros. É a compreensão de que os outros têm uma mente própria, com perspectivas e representações mentais que podem diferir das nossas e da realidade objetiva. Essa capacidade começa a se desenvolver na primeira infância e é fundamental para a comunicação eficaz, a interação social, a empatia, a compreensão de piadas, ironias, mentiras e comportamentos complexos. Testes clássicos para avaliar a ToM incluem tarefas de 'falsa crença' (como o teste de Sally-Anne), onde a criança precisa prever o comportamento de alguém com base na crença dessa pessoa, mesmo que a criança saiba que a crença é falsa. Dificuldades significativas com a Teoria da Mente são uma característica central do Transtorno do Espectro Autista (TEA), afetando a compreensão social e a interação.",
+    "custo_ficticio": 170,
+    "icone_imagem": "theory_of_mind_bubbles.png"
+  },
+  {
+    "nome": "Pensamento de Grupo (Groupthink)",
+    "descricao_simples": "Modo de pensar que ocorre em grupos coesos onde o desejo de harmonia ou conformidade impede a avaliação realista de alternativas.",
+    "descricao_complexa": "Cunhado por Irving Janis, o pensamento de grupo (groupthink) descreve um fenômeno psicológico que ocorre dentro de um grupo de pessoas no qual o desejo por harmonia ou conformidade resulta em uma tomada de decisão irracional ou disfuncional. Em um grupo afetado pelo 'groupthink', os membros tentam minimizar conflitos e alcançar consenso sem uma avaliação crítica de ideias alternativas, suprimindo ativamente pontos de vista dissidentes e isolando-se de influências externas. Sintomas incluem ilusão de invulnerabilidade, racionalização coletiva, crença na moralidade inerente do grupo, estereotipagem de oponentes, pressão direta sobre dissidentes, autocensura, ilusão de unanimidade e a emergência de 'guardiões da mente' (membros que protegem o grupo de informações contrárias). O pensamento de grupo pode levar a decisões desastrosas em contextos políticos, militares e empresariais, pois impede a análise objetiva e a consideração de riscos.",
+    "custo_ficticio": 155,
+    "icone_imagem": "groupthink_unanimity.png"
+  },
+  {
+    "nome": "Desamparo Aprendido (Learned Helplessness)",
+    "descricao_simples": "Um estado psicológico onde uma pessoa ou animal aprende a se sentir impotente após exposição repetida a eventos aversivos incontroláveis.",
+    "descricao_complexa": "Originalmente estudado por Martin Seligman e Steven Maier em experimentos com cães, o desamparo aprendido ocorre quando um organismo é exposto repetidamente a uma situação estressante ou dolorosa da qual não pode escapar ou evitar. Após essa experiência, mesmo quando colocado em uma nova situação onde a fuga ou evitação é possível, o organismo tende a não tentar escapar, exibindo passividade e resignação. Acredita-se que ele 'aprendeu' que seus comportamentos não têm efeito sobre os resultados aversivos. Em humanos, o desamparo aprendido tem sido associado à depressão, ansiedade e baixa motivação, onde indivíduos que experienciaram eventos negativos incontroláveis podem desenvolver a crença de que são impotentes para mudar suas circunstâncias, levando a déficits motivacionais (falta de iniciativa), cognitivos (dificuldade em aprender novas respostas) e emocionais (tristeza, apatia). O modelo foi reformulado para incluir o papel das atribuições causais (explicações que as pessoas dão para os eventos).",
+    "custo_ficticio": 160,
+    "icone_imagem": "learned_helplessness_cage.png"
+  },
+  {
+    "nome": "Estilo Atribucional (Explanatório)",
+    "descricao_simples": "A maneira característica como uma pessoa explica as causas dos eventos positivos e negativos em sua vida.",
+    "descricao_complexa": "O estilo atribucional refere-se ao padrão consistente de como um indivíduo atribui causas a eventos, especialmente os negativos. É avaliado ao longo de três dimensões: 1) Interno vs. Externo (a causa é algo sobre mim ou sobre a situação/outros?); 2) Estável vs. Instável (a causa é permanente ou temporária?); 3) Global vs. Específico (a causa afeta muitas áreas da minha vida ou apenas esta situação?). Um estilo atribucional 'pessimista' ou 'depressogênico' tende a explicar eventos negativos com causas internas ('é minha culpa'), estáveis ('vai ser sempre assim') e globais ('isso afeta tudo na minha vida'). Em contraste, um estilo 'otimista' atribui eventos negativos a causas externas, instáveis e específicas, e eventos positivos a causas internas, estáveis e globais. O estilo atribucional está ligado ao desamparo aprendido, à depressão, à motivação e à resiliência. A TCC frequentemente trabalha na modificação de estilos atribucionais pessimistas.",
+    "custo_ficticio": 145,
+    "icone_imagem": "attributional_style_lens.png"
+  },
+  {
+    "nome": "Facilitação Social",
+    "descricao_simples": "A tendência de desempenhar melhor tarefas simples ou bem aprendidas na presença de outros, mas pior em tarefas complexas ou novas.",
+    "descricao_complexa": "A facilitação social, um dos primeiros fenômenos estudados na psicologia social, descreve como a presença de outras pessoas (seja como co-atores ou como uma audiência) influencia o desempenho individual. A pesquisa inicial (por exemplo, de Norman Triplett) mostrou que as pessoas pedalavam mais rápido ou enrolavam linhas de pesca mais depressa quando outras estavam presentes. No entanto, estudos posteriores revelaram que a presença de outros nem sempre melhora o desempenho; às vezes, ela o prejudica. Robert Zajonc propôs uma explicação influente: a presença de outros aumenta a excitação fisiológica (arousal). Esse aumento de excitação melhora o desempenho em tarefas simples ou bem dominadas (onde a resposta dominante é a correta), mas piora o desempenho em tarefas complexas ou novas (onde a resposta dominante pode ser incorreta). A avaliação da apreensão (preocupação em ser julgado) também desempenha um papel.",
+    "custo_ficticio": 125,
+    "icone_imagem": "social_facilitation_audience.png"
+  },
+  {
+    "nome": "Vadiagem Social (Social Loafing)",
+    "descricao_simples": "A tendência das pessoas de exercerem menos esforço em uma tarefa quando trabalham em grupo do que quando trabalham sozinhas.",
+    "descricao_complexa": "A vadiagem social é um fenômeno grupal onde os indivíduos tendem a reduzir seu esforço pessoal quando trabalham coletivamente em uma tarefa onde suas contribuições individuais não são claramente identificáveis ou avaliadas, em comparação com o esforço que despenderiam se trabalhassem sozinhos na mesma tarefa. O estudo clássico de Max Ringelmann (puxar corda) mostrou que o esforço individual diminuía à medida que o tamanho do grupo aumentava. Acredita-se que isso ocorra porque os indivíduos sentem que sua contribuição pessoal é menos importante ou menos perceptível no contexto do grupo (difusão de responsabilidade), ou porque esperam que os outros compensem seu menor esforço (free-riding). Fatores que podem reduzir a vadiagem social incluem tornar as contribuições individuais identificáveis, aumentar a coesão do grupo, tornar a tarefa mais desafiadora ou significativa, e acreditar que o próprio esforço é essencial para o sucesso do grupo.",
+    "custo_ficticio": 130,
+    "icone_imagem": "social_loafing_group_work.png"
+  },
+  {
+    "nome": "Teoria da Autodeterminação (Self-Determination Theory - SDT)",
+    "descricao_simples": "Teoria da motivação que enfatiza três necessidades psicológicas inatas: competência, autonomia e relacionamento.",
+    "descricao_complexa": "Proposta por Edward Deci e Richard Ryan, a Teoria da Autodeterminação (SDT) é uma macroteoria da motivação, desenvolvimento e bem-estar humanos. Postula que todos os seres humanos têm três necessidades psicológicas básicas e universais: 1) Competência: sentir-se eficaz e capaz nas interações com o ambiente e ao buscar desafios. 2) Autonomia: sentir que as próprias ações são auto-originadas e congruentes com os próprios valores e interesses; ter um senso de volição e escolha. 3) Relacionamento (ou Vínculo): sentir-se conectado a outros, pertencente a um grupo e cuidado por outros. Segundo a SDT, a satisfação dessas três necessidades é essencial para o crescimento psicológico, a integridade, o bem-estar e a motivação ótima (especialmente a motivação intrínseca). Ambientes sociais que apoiam essas necessidades promovem maior engajamento, desempenho e saúde mental, enquanto ambientes que as frustram levam a consequências negativas.",
+    "custo_ficticio": 180,
+    "icone_imagem": "sdt_needs_triangle.png"
+  },
+  {
+    "nome": "Motivação Intrínseca vs. Extrínseca",
+    "descricao_simples": "Fazer algo por prazer/interesse próprio (intrínseca) versus fazer algo por recompensas externas ou para evitar punição (extrínseca).",
+    "descricao_complexa": "Uma distinção fundamental na teoria da motivação, especialmente na Teoria da Autodeterminação. Motivação Intrínseca refere-se ao impulso para realizar uma atividade pelo prazer inerente, interesse, curiosidade ou satisfação que a própria atividade proporciona. A recompensa está na própria execução da tarefa (ex: ler um livro por puro prazer, praticar um hobby). Motivação Extrínseca refere-se ao impulso para realizar uma atividade a fim de obter um resultado externo a ela, como uma recompensa tangível (dinheiro, notas), reconhecimento social, ou para evitar uma punição. A atividade é vista como um meio para um fim. Embora a motivação extrínseca possa ser eficaz para iniciar comportamentos, a pesquisa sugere que a motivação intrínseca está associada a maior persistência, criatividade, aprendizado profundo e bem-estar. Recompensas externas podem, às vezes, minar a motivação intrínseca (efeito de superjustificação).",
+    "custo_ficticio": 115,
+    "icone_imagem": "motivation_intrinsic_extrinsic.png"
+  },
+  {
+    "nome": "Inteligência Fluida vs. Cristalizada",
+    "descricao_simples": "Dois tipos de inteligência: a capacidade de raciocinar rapidamente e pensar abstratamente (fluida) vs. o conhecimento acumulado e habilidades verbais (cristalizada).",
+    "descricao_complexa": "Proposta por Raymond Cattell, esta teoria distingue dois componentes principais da inteligência geral. Inteligência Fluida (Gf) refere-se à capacidade de raciocinar, resolver problemas novos, identificar padrões e pensar de forma flexível e abstrata, independentemente do conhecimento adquirido anteriormente. É considerada mais dependente da biologia do sistema nervoso e tende a atingir o pico no início da idade adulta, declinando gradualmente depois. Exemplos de tarefas que medem Gf incluem sequências lógicas e matrizes de Raven. Inteligência Cristalizada (Gc) refere-se ao conhecimento acumulado, habilidades verbais, vocabulário e estratégias de resolução de problemas aprendidas através da educação e da experiência cultural. Tende a aumentar ao longo da vida ou a se manter estável na velhice, desde que a pessoa permaneça mentalmente ativa. Exemplos de tarefas que medem Gc incluem testes de vocabulário, informação geral e compreensão verbal. Ambos os tipos são importantes para o funcionamento cognitivo global.",
+    "custo_ficticio": 150,
+    "icone_imagem": "intelligence_fluid_crystal.png"
+  },
+  {
+    "nome": "Viés Retrospectivo (Hindsight Bias)",
+    "descricao_simples": "A tendência de acreditar, depois que um evento ocorreu, que poderíamos ter previsto ou sabíamos que ele aconteceria ('Eu já sabia!').",
+    "descricao_complexa": "O viés retrospectivo, também conhecido como o fenômeno 'eu-já-sabia-o-tempo-todo', é a tendência das pessoas a superestimarem sua capacidade de ter previsto um resultado depois que ele já é conhecido. Uma vez que sabemos o desfecho de um evento (seja um resultado eleitoral, um diagnóstico médico ou o fim de um filme), temos dificuldade em reconstruir nosso estado mental anterior (de incerteza) e sentimos que o resultado era mais óbvio ou previsível do que realmente era na época. Esse viés pode levar a críticas injustas sobre decisões tomadas no passado (pois julgamos com o benefício da retrospectiva), a excesso de confiança em nossa capacidade de prever o futuro e a dificuldades em aprender com os erros (pois achamos que 'já sabíamos' a resposta certa). É um viés cognitivo robusto que afeta o julgamento em diversas áreas.",
+    "custo_ficticio": 120,
+    "icone_imagem": "hindsight_bias_rearview_mirror.png"
+  },
+  {
+    "nome": "Teoria da Identidade Social",
+    "descricao_simples": "Teoria que explica como a pertença a grupos sociais influencia nosso autoconceito e comportamento em relação a membros do nosso grupo (endogrupo) e de outros grupos (exogrupo).",
+    "descricao_complexa": "Desenvolvida por Henri Tajfel e John Turner, a Teoria da Identidade Social (TIS) propõe que uma parte importante do autoconceito de um indivíduo deriva de sua percepção de pertencimento a grupos sociais relevantes (identidade social), além de suas características pessoais únicas (identidade pessoal). A teoria sugere que temos uma tendência natural a categorizar a nós mesmos e aos outros em grupos (categorização social), a nos identificarmos com os grupos aos quais pertencemos (identificação social) e a compararmos nosso grupo com outros grupos relevantes (comparação social). Buscamos uma identidade social positiva, o que nos leva a favorecer nosso próprio grupo (favoritismo endogrupal) e, às vezes, a depreciar ou discriminar contra grupos externos (preconceito exogrupal), a fim de aumentar a autoestima associada à nossa pertença grupal. A TIS ajuda a explicar fenômenos como coesão grupal, conflito intergrupal, preconceito e estereótipos.",
+    "custo_ficticio": 165,
+    "icone_imagem": "social_identity_ingroup_outgroup.png"
+  },
+  {
+    "nome": "Estereótipo, Preconceito, Discriminação",
+    "descricao_simples": "Três conceitos relacionados: crenças sobre um grupo (estereótipo), atitude negativa hacia ele (preconceito) e comportamento negativo injusto (discriminação).",
+    "descricao_complexa": "Estes três termos são frequentemente usados de forma intercambiável, mas têm significados distintos na psicologia social. Estereótipo refere-se ao componente cognitivo: são crenças generalizadas (muitas vezes imprecisas e super-simplificadas) sobre as características, atributos e comportamentos dos membros de um determinado grupo social (ex: 'todos os políticos são corruptos'). Podem ser positivos ou negativos, mas tendem a ignorar a variação individual dentro do grupo. Preconceito refere-se ao componente afetivo: é uma atitude (geralmente negativa) pré-concebida e injustificada em relação a um grupo e seus membros, baseada unicamente na pertença a esse grupo. Envolve sentimentos como antipatia, medo ou desprezo. Discriminação refere-se ao componente comportamental: é o tratamento desigual, injusto ou prejudicial dirigido a indivíduos com base em sua pertença a um grupo específico. É o preconceito colocado em ação. Embora relacionados (estereótipos podem levar a preconceitos, que podem levar à discriminação), nem sempre ocorrem juntos.",
+    "custo_ficticio": 140,
+    "icone_imagem": "stereotype_prejudice_discrimination.png"
+  },
+  {
+    "nome": "Efeito de Primazia e Recência",
+    "descricao_simples": "A tendência de lembrar melhor os primeiros itens (primazia) e os últimos itens (recência) de uma lista ou sequência de informações.",
+    "descricao_complexa": "O efeito de posição serial descreve como a posição de um item em uma sequência afeta a probabilidade de ele ser lembrado. Especificamente, observa-se o Efeito de Primazia: os itens apresentados no início da lista são lembrados melhor do que os itens do meio. Isso é geralmente atribuído ao fato de que os primeiros itens têm mais tempo para serem ensaiados e transferidos para a memória de longo prazo. Também se observa o Efeito de Recência: os itens apresentados no final da lista também são lembrados melhor do que os itens do meio. Isso é atribuído ao fato de que os últimos itens ainda estão na memória de curto prazo (ou memória de trabalho) no momento do teste de recordação. Os itens do meio sofrem mais interferência e têm menos oportunidade de ensaio, sendo, portanto, os menos lembrados. Esse padrão em forma de 'U' é uma descoberta robusta na pesquisa sobre memória.",
+    "custo_ficticio": 110,
+    "icone_imagem": "serial_position_curve.png"
+  },
+  {
+    "nome": "Memória Flash (Flashbulb Memory)",
+    "descricao_simples": "Memórias vívidas e detalhadas de momentos em que soubemos de eventos surpreendentes, emocionalmente carregados e importantes.",
+    "descricao_complexa": "Memórias flash (ou memórias de lampejo) são recordações autobiográficas que parecem excepcionalmente vívidas, detalhadas e duradouras, relacionadas às circunstâncias em que uma pessoa soube pela primeira vez de um evento público chocante, surpreendente e significativo (ex: o ataque de 11 de setembro, o assassinato de uma figura pública). As pessoas geralmente conseguem relatar onde estavam, o que estavam fazendo, quem lhes contou a notícia, como se sentiram e quais foram as consequências imediatas. Embora essas memórias pareçam fotográficas e muito precisas para quem as possui, a pesquisa mostra que, apesar de sua vividez e da alta confiança das pessoas em sua exatidão, elas também podem ser incompletas, inconsistentes e sujeitas a erros e distorções ao longo do tempo, assim como outras memórias autobiográficas. A forte carga emocional e a repetição da narrativa do evento parecem contribuir para a sensação de vividez e permanência.",
+    "costo_ficticio": 145,
+    "icone_imagem": "flashbulb_memory_camera.png"
+  },
+  {
+    "nome": "Natureza vs. Criação (Nature vs. Nurture)",
+    "descricao_simples": "O debate sobre a importância relativa da herança genética (natureza) e das influências ambientais (criação) no desenvolvimento das características e comportamentos.",
+    "descricao_complexa": "Este é um dos debates mais antigos e fundamentais na psicologia e em outras ciências do comportamento. 'Natureza' refere-se às influências biológicas e genéticas herdadas dos pais, que moldam o desenvolvimento e as predisposições de um indivíduo (ex: temperamento, certas habilidades, risco para algumas doenças). 'Criação' refere-se a todas as influências ambientais que afetam o desenvolvimento após a concepção, incluindo experiências pré-natais, educação parental, cultura, status socioeconômico, relacionamentos com pares e eventos de vida. A visão contemporânea dominante na psicologia reconhece que a dicotomia 'natureza OU criação' é simplista. Em vez disso, entende-se que a natureza E a criação interagem de maneiras complexas para moldar quem somos. A genética pode influenciar como respondemos ao ambiente, e o ambiente pode influenciar a expressão dos genes (epigenética). A questão atual não é qual é mais importante, mas sim COMO elas interagem.",
+    "custo_ficticio": 190,
+    "icone_imagem": "nature_nurture_dna_environment.png"
+  },
+  {
+    "nome": "Genética Comportamental",
+    "descricao_simples": "Área da psicologia que estuda a influência da genética e do ambiente nas diferenças individuais em traços psicológicos e comportamentos.",
+    "descricao_complexa": "A genética comportamental utiliza métodos de pesquisa para investigar a contribuição relativa de fatores genéticos e ambientais para a variância observada em características comportamentais e psicológicas complexas, como inteligência, personalidade, transtornos mentais e habilidades cognitivas. Os métodos clássicos incluem estudos com gêmeos (comparando a semelhança entre gêmeos idênticos - monozigóticos, que compartilham 100% dos genes - e gêmeos fraternos - dizigóticos, que compartilham em média 50% dos genes) e estudos de adoção (comparando a semelhança de crianças adotadas com seus pais biológicos e adotivos). Esses estudos permitem estimar a herdabilidade de um traço – a proporção da variância observada em uma população que pode ser atribuída a diferenças genéticas. É crucial entender que a herdabilidade não se aplica a um indivíduo específico e não implica determinismo genético, pois o ambiente sempre interage com a genética.",
+    "custo_ficticio": 175,
+    "icone_imagem": "behavioral_genetics_twins.png"
+  },
+  {
+    "nome": "Epigenética",
+    "descricao_simples": "O estudo de mudanças na expressão dos genes que não envolvem alterações na sequência do DNA, muitas vezes influenciadas pelo ambiente.",
+    "descricao_complexa": "A epigenética explora como fatores ambientais e experiências de vida podem modificar a atividade dos genes (quais genes são 'ligados' ou 'desligados') sem alterar a sequência fundamental do DNA. Essas modificações epigenéticas (como metilação do DNA ou modificação de histonas) funcionam como 'interruptores' ou 'dimmers' que regulam a expressão gênica. Fatores como dieta, estresse, exposição a toxinas, experiências sociais precoces e envelhecimento podem induzir mudanças epigenéticas. Algumas dessas marcas epigenéticas podem ser estáveis e duradouras, influenciando a saúde, o desenvolvimento e o comportamento ao longo da vida, e há evidências de que algumas podem até ser transmitidas para a próxima geração. A epigenética oferece um mecanismo biológico chave para entender a interação natureza-criação, mostrando como o ambiente 'conversa' com nossos genes para moldar quem somos.",
+    "custo_ficticio": 195,
+    "icone_imagem": "epigenetics_dna_switch.png"
+  },
+  {
+    "nome": "Desenvolvimento Moral (Kohlberg)",
+    "descricao_simples": "Teoria de Lawrence Kohlberg que descreve seis estágios de raciocínio moral, agrupados em três níveis: pré-convencional, convencional e pós-convencional.",
+    "descricao_complexa": "Expandindo o trabalho de Piaget, Lawrence Kohlberg propôs uma teoria do desenvolvimento moral baseada nas razões que as pessoas apresentam para justificar seus julgamentos morais em dilemas hipotéticos (como o Dilema de Heinz). Ele identificou três níveis principais, cada um com dois estágios: 1) Nível Pré-Convencional: O julgamento moral é baseado nas consequências diretas para si mesmo (evitar punição, obter recompensa). Estágio 1: Orientação para Punição e Obediência. Estágio 2: Orientação Instrumental e Relativista (individualismo, troca). 2) Nível Convencional: O julgamento é baseado na conformidade com as regras e expectativas sociais (manter a ordem social, ser visto como 'bom'). Estágio 3: Orientação do 'Bom Menino/Boa Menina' (aprovação interpessoal). Estágio 4: Orientação da Lei e Ordem (manter a ordem social). 3) Nível Pós-Convencional: O julgamento é baseado em princípios éticos abstratos e universais, que podem transcender leis específicas. Estágio 5: Orientação do Contrato Social (direitos individuais, leis democraticamente aceitas). Estágio 6: Orientação dos Princípios Éticos Universais (consciência individual). Kohlberg acreditava que esses estágios são sequenciais e universais, embora nem todos alcancem os níveis mais altos.",
+    "custo_ficticio": 160,
+    "icone_imagem": "kohlberg_moral_stages.png"
+  },
+  {
+    "nome": "Efeito Stroop",
+    "descricao_simples": "A dificuldade em nomear a cor da tinta de uma palavra quando a palavra escrita é o nome de uma cor diferente (ex: a palavra 'AZUL' escrita em tinta vermelha).",
+    "descricao_complexa": "O efeito Stroop, demonstrado por John Ridley Stroop, é um fenômeno clássico da psicologia cognitiva que ilustra a interferência entre processos automáticos e controlados. Na tarefa típica, pede-se aos participantes que nomeiem a cor da tinta em que uma palavra está impressa, ignorando o significado da palavra. Quando a cor da tinta e o significado da palavra são congruentes (ex: a palavra 'VERMELHO' escrita em vermelho), a resposta é rápida. No entanto, quando são incongruentes (ex: a palavra 'VERMELHO' escrita em azul), a nomeação da cor da tinta (azul) torna-se significativamente mais lenta e propensa a erros. Isso ocorre porque a leitura da palavra é um processo altamente automatizado e rápido, que interfere com a tarefa mais controlada e menos automática de nomear a cor da tinta. O efeito Stroop é usado para estudar atenção seletiva, controle inibitório e velocidade de processamento.",
+    "custo_ficticio": 115,
+    "icone_imagem": "stroop_effect_colors.png"
+  },
+  {
+    "nome": "Ancoragem (Viés de Ancoragem)",
+    "descricao_simples": "A tendência de confiar demais na primeira informação oferecida ('âncora') ao tomar decisões ou fazer julgamentos.",
+    "descricao_complexa": "O viés de ancoragem é uma heurística cognitiva descrita por Tversky e Kahneman. Ocorre quando indivíduos dependem excessivamente de uma informação inicial (a 'âncora') para fazer julgamentos ou estimativas subsequentes. Uma vez que a âncora é estabelecida, os ajustes feitos a partir dela tendem a ser insuficientes, mesmo que a âncora seja arbitrária ou irrelevante. Por exemplo, se perguntado se a população de uma cidade é maior ou menor que 10 milhões (âncora alta) e depois pedido para estimar a população, a estimativa tende a ser maior do que se a âncora inicial fosse 1 milhão. Esse viés afeta decisões em muitos contextos, incluindo negociações (o primeiro preço oferecido serve como âncora), estimativas numéricas, diagnósticos médicos e sentenças judiciais. Demonstra como informações iniciais, mesmo que não totalmente pertinentes, podem influenciar desproporcionalmente nossos julgamentos.",
+    "custo_ficticio": 130,
+    "icone_imagem": "anchoring_bias_anchor.png"
+  },
+  {
+    "nome": "Teoria Prospectiva (Prospect Theory)",
+    "descricao_simples": "Teoria da tomada de decisão que descreve como as pessoas escolhem entre alternativas que envolvem risco, focando em ganhos e perdas percebidos em relação a um ponto de referência.",
+    "descricao_complexa": "Desenvolvida por Daniel Kahneman e Amos Tversky (que lhes rendeu o Prêmio Nobel de Economia para Kahneman), a Teoria Prospectiva (ou Teoria do Prospecto) oferece um modelo descritivo mais realista de como as pessoas tomam decisões sob risco, em contraste com a teoria da utilidade esperada (que é normativa). Principais características: 1) Ponto de Referência: As decisões são avaliadas em termos de ganhos e perdas relativos a um ponto de referência (geralmente o status quo), e não em termos de riqueza final. 2) Aversão à Perda: As perdas têm um impacto psicológico maior do que ganhos equivalentes (a dor de perder R$100 é maior que o prazer de ganhar R$100). 3) Sensibilidade Decrescente: A diferença subjetiva entre R$100 e R$200 parece maior do que a diferença entre R$1100 e R$1200. 4) Ponderação de Probabilidades: As pessoas tendem a superestimar probabilidades pequenas e subestimar probabilidades moderadas e altas. Essas características levam a padrões de escolha como a aversão ao risco para ganhos prováveis e a busca por risco para perdas prováveis.",
+    "custo_ficticio": 190,
+    "icone_imagem": "prospect_theory_graph.png"
+  },
+  {
+    "nome": "Potenciação de Longa Duração (LTP)",
+    "descricao_simples": "Um fortalecimento duradouro das conexões (sinapses) entre neurônios, considerado um mecanismo chave para a aprendizagem e a memória no cérebro.",
+    "descricao_complexa": "A Potenciação de Longa Duração (LTP) é um fenômeno neurofisiológico fundamental que representa um aumento persistente na força sináptica após uma estimulação de alta frequência ou padrões específicos de atividade neural. Essencialmente, quando dois neurônios são ativados juntos repetidamente, a conexão entre eles se fortalece, tornando mais provável que a ativação do primeiro neurônio (pré-sináptico) cause a ativação do segundo (pós-sináptico) no futuro. A LTP ocorre em várias áreas do cérebro, mas é particularmente bem estudada no hipocampo, uma região crucial para a formação de novas memórias. Acredita-se que seja um dos principais mecanismos celulares subjacentes à plasticidade sináptica, que por sua vez é a base da aprendizagem e da formação de memórias. Alterações na LTP estão implicadas em distúrbios de aprendizagem e memória.",
+    "custo_ficticio": 180,
+    "icone_imagem": "ltp_synapse_strengthening.png"
+  },
+  {
+    "nome": "Síndrome Geral de Adaptação (SGA)",
+    "descricao_simples": "Modelo de Hans Selye que descreve a resposta fisiológica do corpo ao estresse prolongado em três fases: alarme, resistência e exaustão.",
+    "descricao_complexa": "Hans Selye, um pioneiro na pesquisa sobre estresse, propôs a Síndrome Geral de Adaptação (SGA) para descrever o padrão trifásico de resposta do corpo a qualquer estressor prolongado (físico ou psicológico). 1) Fase de Alarme: O corpo reconhece o estressor e ativa o sistema nervoso simpático e o eixo HPA (Hipotálamo-Pituitária-Adrenal), liberando hormônios como adrenalina e cortisol. Há um aumento da frequência cardíaca, pressão arterial e níveis de energia – a resposta de 'luta ou fuga'. 2) Fase de Resistência: Se o estressor persiste, o corpo tenta se adaptar e lidar com ele. Os níveis hormonais permanecem elevados, mas a excitação fisiológica diminui ligeiramente em relação à fase de alarme. O corpo está mobilizando recursos para resistir ao estresse, mas isso tem um custo energético. 3) Fase de Exaustão: Se o estressor continua por muito tempo, as reservas de energia do corpo se esgotam. A capacidade de resistir diminui, tornando o organismo vulnerável a doenças, colapso fisiológico e, em casos extremos, morte. A SGA ajudou a estabelecer a ligação entre estresse crônico e problemas de saúde.",
+    "custo_ficticio": 150,
+    "icone_imagem": "selye_gas_curve.png"
+  },
+  {
+    "nome": "Regulação Emocional",
+    "descricao_simples": "A capacidade de gerenciar e influenciar quais emoções temos, quando as temos e como as expressamos.",
+    "descricao_complexa": "A regulação emocional refere-se aos processos pelos quais os indivíduos influenciam suas próprias experiências e expressões emocionais. Isso pode envolver aumentar, diminuir ou manter a intensidade ou duração de emoções positivas ou negativas, dependendo dos objetivos da pessoa. James Gross propôs um modelo influente que descreve estratégias de regulação que podem ocorrer em diferentes pontos do processo emocional: seleção da situação (evitar ou escolher situações), modificação da situação (mudar o ambiente), direcionamento da atenção (distração ou foco), mudança cognitiva (reavaliação da situação – reestruturação cognitiva) e modulação da resposta (suprimir a expressão emocional, relaxamento). Diferentes estratégias têm consequências distintas para o bem-estar e o funcionamento social. Habilidades eficazes de regulação emocional são cruciais para a saúde mental, relacionamentos interpessoais e adaptação ao ambiente, enquanto dificuldades nessa área são comuns em diversos transtornos psicológicos.",
+    "custo_ficticio": 160,
+    "icone_imagem": "emotion_regulation_dial.png"
+  },
+  {
+    "nome": "Habituação",
+    "descricao_simples": "Uma forma simples de aprendizagem onde a resposta a um estímulo diminui após exposição repetida a ele, pois ele se torna familiar ou irrelevante.",
+    "descricao_complexa": "A habituação é considerada uma das formas mais básicas e universais de aprendizagem não associativa. Ocorre quando um organismo gradualmente reduz ou para de responder a um estímulo que é apresentado repetidamente sem consequências significativas (positivas ou negativas). Essencialmente, o organismo aprende a ignorar estímulos familiares e inofensivos, o que é adaptativo, pois permite conservar energia e direcionar a atenção para estímulos novos ou potencialmente importantes. Por exemplo, o som constante do ar condicionado ou o tique-taque de um relógio podem ser notados inicialmente, mas logo deixam de provocar uma resposta consciente. A habituação difere da fadiga sensorial (incapacidade do órgão sensorial de responder) ou da adaptação sensorial (mudança na sensibilidade do receptor), pois é um processo que ocorre no sistema nervoso central. A taxa de habituação pode ser influenciada pela intensidade e frequência do estímulo.",
+    "custo_ficticio": 95,
+    "icone_imagem": "habituation_stimulus_down.png"
+  }
+]

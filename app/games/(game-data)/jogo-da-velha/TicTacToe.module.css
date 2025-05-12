@@ -1,0 +1,48 @@
+/* layout geral */
+.gameContainer{
+  max-width:500px;margin:2rem auto;padding:2rem 1rem;
+  background:#e9ecef;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,.08);
+  display:flex;flex-direction:column;align-items:center;font-family:sans-serif;
+}
+
+.title{font-size:2.1rem;font-weight:700;color:#343a40;margin-bottom:1rem;}
+
+.status{
+  font-size:1.2rem;font-weight:600;margin-bottom:1.5rem;color:#495057;
+}
+
+/* tabuleiro */
+.board{display:grid;grid-template-columns:repeat(3,90px);grid-gap:8px;margin-bottom:1.5rem;}
+
+.square{
+  width:90px;height:90px;background:#fff;border:2px solid #ced4da;border-radius:6px;
+  font-size:2.5rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:background-color .2s ease,transform .1s ease;box-shadow:0 3px 6px rgba(0,0,0,.08);
+}
+.square:hover:not(:disabled){background:#f8f9fa;}
+.square:disabled{cursor:not-allowed;}
+
+.winning{background:#d4edda !important;border-color:#c3e6cb !important;}
+.x{color:#007bff;} .o{color:#dc3545;}
+.symbolSpan{line-height:1;}
+
+/* botão reset */
+.resetButton{
+  background:#17a2b8;color:#fff;border:none;padding:.6rem 1.2rem;
+  font-size:1rem;font-weight:600;border-radius:4px;cursor:pointer;
+  transition:background .2s ease,transform .1s ease;margin-bottom:1.3rem;
+}
+.resetButton:hover{background:#138496;}
+.resetButton:active{transform:scale(.95);}
+
+/* navegação (mesmo estilo do RPS) */
+.navigationButtons{display:flex;gap:1rem;}
+.navButton{
+  padding:.6rem 1.2rem;font-size:.9rem;font-weight:500;text-decoration:none;border-radius:20px;
+  transition:background-color .3s ease,transform .1s ease;border:none;cursor:pointer;
+}
+.navButtonHome{background:#007bff;color:#fff;}
+.navButtonGames{background:#6c757d;color:#fff;}
+.navButtonHome:hover{background:#0056b3;}
+.navButtonGames:hover{background:#5a6268;}
+.navButton:active{transform:scale(.96);}

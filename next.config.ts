@@ -1,14 +1,18 @@
-// next.config.mjs
+// next.config.ts
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', 
+  output: 'export', // Essencial para GitHub Pages
+  // Define o basePath para o nome do seu repositório
   basePath: process.env.NODE_ENV === 'production' ? '/Webpage' : '',
-  // Opcional: Se você usa imagens do Next/Image e quer desabilitar otimização para export estático
+  // Define o assetPrefix para o nome do seu repositório
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Webpage' : '',
+  // Desabilita a otimização de imagem padrão do Next.js para exportação estática
   images: {
     unoptimized: true,
   },
-  // Garante que assets sejam referenciados corretamente com basePath
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/WebpageI' : '',
+  // Adicione esta linha se você estiver usando React Strict Mode e quiser evitar
+  // que useEffects rodem duas vezes em desenvolvimento (comum com R3F)
+  // reactStrictMode: true, // Ou false se estiver causando muitos re-renders em dev com R3F
 };
 
 export default nextConfig;

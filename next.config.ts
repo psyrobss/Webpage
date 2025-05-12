@@ -10,9 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Adicione esta linha se você estiver usando React Strict Mode e quiser evitar
-  // que useEffects rodem duas vezes em desenvolvimento (comum com R3F)
-  // reactStrictMode: true, // Ou false se estiver causando muitos re-renders em dev com R3F
+  reactStrictMode: true, // Ou false se estiver causando muitos re-renders em dev com R3F
 };
 
 export default nextConfig;

@@ -31,7 +31,7 @@ type NinjaxGymeDpfTuModelProps = React.ComponentPropsWithoutRef<'group'>;
 
 export default function NinjaxGymeDpfTuModel(props: NinjaxGymeDpfTuModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF(`${prefix}/models/Ninja-xGymeDpfTu-transformed.gl`) as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Ninja-xGymeDpfTu-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)

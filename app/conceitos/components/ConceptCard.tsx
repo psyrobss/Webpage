@@ -1,6 +1,5 @@
 // app/conceitos/components/ConceptCard.tsx
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 'use client';
 
@@ -8,6 +7,9 @@ import Image from 'next/image';
 import { Concept } from '../page'; 
 import styles from './ConceptCard.module.css';
 import { useState, useEffect } from 'react';
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 
 interface ConceptCardProps {
   concept: Concept;

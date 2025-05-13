@@ -13,6 +13,9 @@ import { OrbitControls, Image as DreiImage, Text as DreiText, Plane, Stars } fro
 
 import type { Group, MeshStandardMaterial, Object3DEventMap } from 'three';
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 // --- Error Boundary ---
 interface ErrorBoundaryProps {
   children: ReactNode;
@@ -71,6 +74,8 @@ const projectsData: Project[] = [
   { title: 'Chatbot de Suporte com IA', description: 'Protótipo de um assistente virtual baseado em Grandes Modelos de Linguagem (LLMs) para oferecer suporte emocional inicial, psicoeducação interativa e triagem básica. Explora o potencial da Inteligência Artificial como ferramenta complementar na promoção do bem-estar mental.', image: '/images/projects/ai-chatbot-therapy.jpg', tags: ['IA', 'LLM', 'Chatbot', 'Saúde Mental Tech'], detailsLink: '/projetos/chatbot-com-ia' },
 ];
 const numProjects = projectsData.length; // Calculado aqui para uso em ProjectsSection
+
+
 
 // Variantes de Animação
 const sectionTitleVariants = {

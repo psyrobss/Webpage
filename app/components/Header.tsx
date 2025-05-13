@@ -22,11 +22,11 @@ export default function Header() {
     { name: 'Destaques', path: '#destaques' },
     { name: 'Sobre Mim', path: '#sobre' },
     { name: 'Contato', path: '#contato'},
-    { name: 'Loja', path: './conceitos'},
-    { name: 'TestBank', path: './testbank'},
-    { name: 'Games', path: './games'},
-    { name: 'DicionarioPsi', path: './dicionario'},
-    { name: 'NEC', path: './nec' },
+    { name: 'Loja', path: '/conceitos'},
+    { name: 'TestBank', path: '/testbank'},
+    { name: 'Games', path: '/games'},
+    { name: 'DicionarioPsi', path: '/dicionario'},
+    { name: 'NEC', path: '/nec' },
   ];
 
   const handleDrawerToggle = () => {

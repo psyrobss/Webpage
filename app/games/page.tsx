@@ -70,6 +70,7 @@ export default async function GamesPage() {
     <div>
       <p className={styles.introText}>
         Explore os jogos que desenvolvi enquanto aprendo sobre LLM.
+        Ainda teremos novos jogos gerais e também jogos neuropsicológicos
       </p>
 
       {games.length > 0 ? (

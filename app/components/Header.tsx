@@ -10,7 +10,6 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useThemeMode } from '@/app/theme/ThemeProvider';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Header() {
   const theme = useTheme();
@@ -23,11 +22,11 @@ export default function Header() {
     { name: 'Destaques', path: '#destaques' },
     { name: 'Sobre Mim', path: '#sobre' },
     { name: 'Contato', path: '#contato'},
-    { name: 'Loja', path: `${prefix}/conceitos`},
-    { name: 'TestBank', path: `${prefix}/testbank`},
-    { name: 'Games', path: `${prefix}/games`},
-    { name: 'DicionarioPsi', path: `${prefix}/dicionario`},
-    { name: 'NEC', path: `${prefix}/nec` },
+    { name: 'Loja', path: './conceitos'},
+    { name: 'TestBank', path: './testbank'},
+    { name: 'Games', path: './games'},
+    { name: 'DicionarioPsi', path: '/dicionario'},
+    { name: 'NEC', path: '/nec' },
   ];
 
   const handleDrawerToggle = () => {

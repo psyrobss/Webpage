@@ -1,11 +1,12 @@
 // Descrição: Este arquivo contém o componente da página de jogos, que lista os jogos disponíveis.
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''; // O prefixo é usado para resolver caminhos relativos corretamente.
 
 import React from 'react';
 import Link from 'next/link';
 import fs from 'fs'; // Node.js File System module
 import path from 'path'; // Node.js Path module
 import styles from './GamesPage.module.css'; // Importa o CSS Module
+
+
 
 // Interface para definir a estrutura dos metadados do jogo
 interface GameMeta {
@@ -46,7 +47,7 @@ async function getGames(): Promise<GameInfo[]> {
         id: folderName,
         name: metaData.name,
         description: metaData.description,
-        href: `${prefix}/games/${folderName}`
+        href: '/games/${folderName}'
       });
     } catch (error) { // *** CORREÇÃO APLICADA AQUI: Usando a variável 'error' ***
       console.warn(

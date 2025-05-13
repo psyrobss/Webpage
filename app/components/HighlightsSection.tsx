@@ -14,6 +14,9 @@ interface HighlightsSectionProps {
   id?: string;
 }
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 // Dados dos destaques 
 const highlightsData = [
   { title: 'Clínica & Psicoterapia cognitiva', description: 'Terapia Cognitiva e suporte especializado para integração de experiências psicodélicas.', image: '/images/highlights/clinical-integrative-therapy.jpg', link: '/destaques/clinica-psicoterapia' },

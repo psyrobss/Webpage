@@ -12,13 +12,18 @@ import Box from '@mui/material/Box';
 export default function Home() {
   return (
     // Wrapper Principal que contém tudo e define o contexto de posicionamento
-    <Box sx={{ position: 'relative', minHeight: '100vh', overflowX:'hidden' /* Evita scroll horizontal acidental */ }}>
+    <Box sx={{ 
+      position: 'relative', 
+      minHeight: '100vh', 
+      overflowX:'hidden' /* Evita scroll horizontal acidental */ }}>
 
       {/* Partículas posicionadas absolutamente dentro do wrapper, atrás do conteúdo */}
       <ParticlesComponent id="background-particles" />
 
       {/* Conteúdo Principal (Header, Main, Footer) */}
-      <Box sx={{ position: 'relative', zIndex: 1 }}> {/* Garante que o conteúdo fique acima das partículas */}
+      <Box sx={{ 
+        position: 'relative', 
+        zIndex: 1 }}> {/* Garante que o conteúdo fique acima das partículas */}
         <Header />
 
         <main>
@@ -33,7 +38,7 @@ export default function Home() {
         <Footer />
       </Box>
 
-      {/* Player Spotify (position: fixed já o coloca acima) */}
+      {/* Player Spotify */}
       <SpotifyPlayer />
     </Box>
   );

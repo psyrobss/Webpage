@@ -2,12 +2,11 @@
 
 import type { Metadata } from 'next';
 import { CssBaseline } from '@mui/material';
-// Importa o provedor customizado
 import CustomThemeProvider from '@/app/theme/ThemeProvider';
 import './styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'PsyRobss Portfólio',
+  title: 'Rob Savoldi',
   description: 'Psicologia Cognitiva, Psicometria e Psicologia Geral',
 };
 

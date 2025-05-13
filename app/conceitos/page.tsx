@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import StoreClientWrapper from './components/StoreClientWrapper';
 import styles from './page.module.css';
-import Header from '../components/Header'; 
+import BackButtonMUI from '../components/BackButtonMUI';
 
 interface ConceptFromFile {
   nome?: string;
@@ -114,9 +114,7 @@ export default async function ConceitosPage() {
 
   return (
     <div className={styles.pageContainer} suppressHydrationWarning={true}>
-      {/* Componente Header aqui */}
-      <Header /> 
-
+    <BackButtonMUI /> 
       {/* O header específico da página */}
       <header className={styles.pageHeader}>
           <h1>Loja de Conceitos Psicológicos</h1>

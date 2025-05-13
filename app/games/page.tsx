@@ -5,7 +5,6 @@ import Link from 'next/link';
 import fs from 'fs'; // Node.js File System module
 import path from 'path'; // Node.js Path module
 import styles from './GamesPage.module.css'; // Importa o CSS Module
-import Header from '../components/Header'; 
 
 
 
@@ -69,9 +68,6 @@ export default async function GamesPage() {
 
   return (
     <div>
-      {/* Componente Header aqui */}
-      <Header /> 
-      
       <p className={styles.introText}>
         Explore os jogos que desenvolvi enquanto aprendo sobre LLM.
         Ainda teremos novos jogos gerais e também jogos neuropsicológicos

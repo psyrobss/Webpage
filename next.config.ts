@@ -1,19 +1,16 @@
 // next.config.ts
-/** @type {import('next').NextConfig} */
+const prefix = process.env.NODE_ENV === 'production' ? '/Webpage' : '';
+
 const nextConfig = {
-  output: 'export', // Essencial para GitHub Pages
+  output: 'export',
+  assetPrefix: prefix,
+  basePath: prefix,
+  images: { unoptimized: true },
   
-    // Define o assetPrefix para o nome do seu repositório
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Webpage' : '',
-
-  // Define o basePath para o nome do seu repositório
-  basePath: process.env.NODE_ENV === 'production' ? '/Webpage' : '',
-  
-  // Desabilita a otimização de imagem padrão do Next.js para exportação estática
-  images: {
-    unoptimized: true,
+  // 👇 Esta linha expõe o prefixo no navegador
+  env: {
+    NEXT_PUBLIC_BASE_PATH: prefix,
   },
-
 };
 
 export default nextConfig;

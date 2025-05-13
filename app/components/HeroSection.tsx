@@ -6,6 +6,9 @@ import { alpha, useTheme } from '@mui/material/styles';
 
 const PALETTE = { deepPurplePrimary: '#382f51', lightLavenderText: '#a5a5ef' };
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 interface HeroSectionProps { id?: string; }
 
 export default function HeroSection({ id }: HeroSectionProps) {
@@ -24,10 +27,10 @@ export default function HeroSection({ id }: HeroSectionProps) {
     >
       {/* Conteúdo Principal */}
       <Box sx={{ position: 'relative', zIndex: 2, display: 'flex', flexDirection: { xs: 'column', md: 'row' }, alignItems: 'center', justifyContent: 'space-between', gap: { md: '4rem', xs: '3rem' }, width: '100%', maxWidth: '1200px', padding: { xs: '2rem', md: '4rem' }, textAlign: { xs: 'center', md: 'left' } }}>
-        {/* Bloco de Vídeo/Visual */}
+        {/* Bloco de Vídeo */}
         <Box sx={{ width: { xs: '80%', sm: '60%', md: '50%' }, maxWidth: '550px', aspectRatio: '16/9', overflow: 'hidden', borderRadius: theme.shape.borderRadius * 4, position: 'relative', zIndex: 1, boxShadow: theme.shadows[10], bgcolor: alpha(theme.palette.common.black, 0.5) }}>
           <video autoPlay loop muted playsInline style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'inherit', opacity: 0.6, display: 'block' }}>
-            <source src="/videos/hero-video.mp4" type="video/mp4" />
+            <source src="${prefix}/videos/hero-video.mp4" type="video/mp4" />
              Seu navegador não suporta vídeos.
           </video>
         </Box>

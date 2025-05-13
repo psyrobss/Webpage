@@ -7,6 +7,8 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 type ActionName = 'CharacterArmature|Death' | 'CharacterArmature|Fast_Flying' | 'CharacterArmature|Flying_Idle' | 'CharacterArmature|Headbutt' | 'CharacterArmature|HitReact' | 'CharacterArmature|No' | 'CharacterArmature|Punch' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -28,7 +30,7 @@ type TribalModelProps = React.ComponentPropsWithoutRef<'group'>;
 // Corrigido: Nome da função para TribalModel e export default
 export default function TribalModel(props: TribalModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF('/models/Tribal-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Tribal-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -56,4 +58,4 @@ export default function TribalModel(props: TribalModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Tribal-transformed.glb')
+useGLTF.preload(`${prefix}/models/Tribal-transformed.glb`)

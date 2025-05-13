@@ -4,6 +4,8 @@ import { Typography, Box, Container, Grid, IconButton, alpha, useTheme } from '@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const Footer = () => {
   const theme = useTheme();
   const linkedInUrl = "https://www.linkedin.com/in/robsavoldi"; 

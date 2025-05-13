@@ -1,4 +1,7 @@
 // app/conceitos/components/ConceptCard.tsx
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 'use client';
 
 import Image from 'next/image';
@@ -19,13 +22,12 @@ interface ConceptCardProps {
 export default function ConceptCard({
   concept,
   isInCart,
-  // isPurchased, // Removido
   disableAdd,
   onAddToCart,
   onRemoveFromCart,
   onClickDetails,
 }: ConceptCardProps) {
-  const iconPath = concept.icone_imagem ? `/icons/${concept.icone_imagem}` : null;
+  const iconPath = concept.icone_imagem ? `${prefix}/icons/${concept.icone_imagem}` : null;
   const [imgError, setImgError] = useState(!iconPath);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const [isVisible, setIsVisible] = useState(false); // Para animação de entrada

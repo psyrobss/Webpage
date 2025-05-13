@@ -7,6 +7,8 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 type ActionName = 'CharacterArmature|Bite_Front' | 'CharacterArmature|Dance' | 'CharacterArmature|Death' | 'CharacterArmature|HitRecieve' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|No' | 'CharacterArmature|Walk' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -28,7 +30,7 @@ type BirbModelProps = React.ComponentPropsWithoutRef<'group'>;
 
 export default function BirbModel(props: BirbModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF('/models/Birb-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Birb-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -59,4 +61,4 @@ export default function BirbModel(props: BirbModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Birb-transformed.glb')
+useGLTF.preload(`${prefix}/models/Birb-transformed.glb`)

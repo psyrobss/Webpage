@@ -8,6 +8,8 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 // Tipos gerados pelo gltfjsx
 type ActionName = 'CharacterArmature|Bite_Front' | 'CharacterArmature|Dance' | 'CharacterArmature|Death' | 'CharacterArmature|HitRecieve' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|No' | 'CharacterArmature|Walk' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
@@ -36,7 +38,7 @@ type AlienModelProps = React.ComponentPropsWithoutRef<'group'>;
 export default function AlienModel(props: AlienModelProps) {
   const group = React.useRef<THREE.Group>(null)
   // CORRIGIDO: Caminho e tipagem
-  const { scene, animations } = useGLTF('/models/Alien-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Alien-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   // CORRIGIDO: Tipagem
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
@@ -69,4 +71,4 @@ export default function AlienModel(props: AlienModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Alien-transformed.glb') 
+useGLTF.preload(`${prefix}/models/Alien-transformed.glb`) 

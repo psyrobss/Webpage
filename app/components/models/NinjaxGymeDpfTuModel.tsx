@@ -7,6 +7,8 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 type ActionName = 'CharacterArmature|Death' | 'CharacterArmature|Duck' | 'CharacterArmature|HitReact' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|Jump_Idle' | 'CharacterArmature|Jump_Land' | 'CharacterArmature|No' | 'CharacterArmature|Punch' | 'CharacterArmature|Run' | 'CharacterArmature|Walk' | 'CharacterArmature|Wave' | 'CharacterArmature|Weapon' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -29,8 +31,7 @@ type NinjaxGymeDpfTuModelProps = React.ComponentPropsWithoutRef<'group'>;
 
 export default function NinjaxGymeDpfTuModel(props: NinjaxGymeDpfTuModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  // ATENÇÃO: O nome do arquivo GLB tem hífen. Verifique o nome exato do arquivo "-transformed.glb"
-  const { scene, animations } = useGLTF('/models/Ninja-xGymeDpfTu-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Ninja-xGymeDpfTu-transformed.gl`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -60,4 +61,4 @@ export default function NinjaxGymeDpfTuModel(props: NinjaxGymeDpfTuModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Ninja-xGymeDpfTu-transformed.glb') // Verifique o nome do arquivo
+useGLTF.preload(`${prefix}/models/Ninja-xGymeDpfTu-transformed.glb`) 

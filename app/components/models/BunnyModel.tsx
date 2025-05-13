@@ -7,6 +7,9 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 type ActionName = 'CharacterArmature|Death' | 'CharacterArmature|Duck' | 'CharacterArmature|HitReact' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|Jump_Idle' | 'CharacterArmature|Jump_Land' | 'CharacterArmature|No' | 'CharacterArmature|Punch' | 'CharacterArmature|Run' | 'CharacterArmature|Walk' | 'CharacterArmature|Wave' | 'CharacterArmature|Weapon' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -28,7 +31,7 @@ type BunnyModelProps = React.ComponentPropsWithoutRef<'group'>;
 
 export default function BunnyModel(props: BunnyModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF('/models/Bunny-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Bunny-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -60,4 +63,4 @@ export default function BunnyModel(props: BunnyModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Bunny-transformed.glb')
+useGLTF.preload(`${prefix}/models/Bunny-transformed.glb`)

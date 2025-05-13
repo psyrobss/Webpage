@@ -1,28 +1,25 @@
-// next.config.js
-const IS_GITHUB_ACTIONS = process.env.GITHUB_ACTIONS === 'true';
-const REPO_NAME = 'Webpage'; // O nome do seu repositório
+// my-portfolio/next.config.ts
+import type { NextConfig } from 'next';
 
-let assetPrefix = '';
-let basePath = '';
+const REPO_NAME = 'Webpage'; 
 
-if (IS_GITHUB_ACTIONS) {
-  // Se estiver rodando no GitHub Actions, configure para o subdiretório do repositório
-  assetPrefix = `/${REPO_NAME}/`;
-  basePath = `/${REPO_NAME}`;
-}
+let assetPrefix = process.env.NEXT_PUBLIC_BASE_PATH || ''; // Use a env var como fallback
+let basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-const nextConfig = {
-  output: 'export',
+const nextConfig: NextConfig = {
+  output: 'export', // ESSENCIAL para GitHub Pages
+
   assetPrefix: assetPrefix,
   basePath: basePath,
+
   images: {
-    unoptimized: true,
+    unoptimized: true, 
+    
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath, // Expor o basePath para o cliente
+    NEXT_PUBLIC_BASE_PATH: basePath, // O action deve definir isto via env vars.
   },
-  // Opcional: Se você tiver problemas com trailing slashes e links
-  trailingSlash: true,
+  trailingSlash: true, // Geralmente útil para static export em subdiretórios
 };
 
 export default nextConfig;

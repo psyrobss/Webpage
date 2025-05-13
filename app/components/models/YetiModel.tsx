@@ -6,7 +6,9 @@ import React, { useEffect } from 'react'
 import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
-// import { JSX } from 'react/jsx-runtime'; // Removido
+
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 type ActionName = 'CharacterArmature|Bite_Front' | 'CharacterArmature|Dance' | 'CharacterArmature|Death' | 'CharacterArmature|HitRecieve' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|No' | 'CharacterArmature|Walk' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
@@ -32,7 +34,7 @@ type YetiModelProps = React.ComponentPropsWithoutRef<'group'>;
 export default function YetiModel(props: YetiModelProps) {
   const group = React.useRef<THREE.Group>(null)
   // Assumindo que Yeti-ceRHrn8HHE.glb foi renomeado ou que o -transformed é Yeti-transformed.glb
-  const { scene, animations } = useGLTF('/models/Yeti-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Yeti-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -64,4 +66,4 @@ export default function YetiModel(props: YetiModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Yeti-transformed.glb')
+useGLTF.preload(`${prefix}/models/Yeti-transformed.glb`)

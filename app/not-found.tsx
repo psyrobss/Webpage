@@ -1,5 +1,6 @@
 'use client';
 
+
 import React, { useRef, useState, Suspense, useEffect, lazy, useCallback, JSX } from 'react';
 import * as THREE from 'three';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
@@ -36,6 +37,8 @@ import CasinoIcon from '@mui/icons-material/Casino';
 import SettingsIcon from '@mui/icons-material/Settings';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
+
+
 
 // Loader simples para o Canvas
 function Loader() {

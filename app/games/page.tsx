@@ -1,6 +1,6 @@
-// app/games/page.tsx
-// Este é um Server Component (padrão no App Router).
-// O código Node.js (fs, path) aqui só executa no servidor DURANTE O BUILD.
+// Descrição: Este arquivo contém o componente da página de jogos, que lista os jogos disponíveis.
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || ''; // O prefixo é usado para resolver caminhos relativos corretamente.
+
 import React from 'react';
 import Link from 'next/link';
 import fs from 'fs'; // Node.js File System module
@@ -46,7 +46,7 @@ async function getGames(): Promise<GameInfo[]> {
         id: folderName,
         name: metaData.name,
         description: metaData.description,
-        href: `/games/${folderName}`
+        href: `${prefix}/games/${folderName}`
       });
     } catch (error) { // *** CORREÇÃO APLICADA AQUI: Usando a variável 'error' ***
       console.warn(

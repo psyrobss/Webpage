@@ -6,6 +6,8 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './RockPaperScissorsGame.module.css';
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 // --- Tipos e Constantes ---
 type Choice = 'pedra' | 'papel' | 'tesoura';
 type Result = 'win' | 'lose' | 'draw' | null;
@@ -186,10 +188,10 @@ export default function RockPaperScissorsGame() {
 
 
       <div className={styles.navigationButtons}>
-        <Link href="/games" passHref legacyBehavior>
+        <Link href={`${prefix}/games`} passHref legacyBehavior>
           <a className={`${styles.navButton} ${styles.navButtonGames}`}>Voltar para Jogos</a>
         </Link>
-        <Link href="/" passHref legacyBehavior>
+        <Link href={`${prefix}/`} passHref legacyBehavior>
            <a className={`${styles.navButton} ${styles.navButtonHome}`}>Voltar para Home</a>
         </Link>
       </div>

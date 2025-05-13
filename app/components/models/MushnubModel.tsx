@@ -7,6 +7,8 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 type ActionName = 'CharacterArmature|Bite_Front' | 'CharacterArmature|Dance' | 'CharacterArmature|Death' | 'CharacterArmature|HitRecieve' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|No' | 'CharacterArmature|Walk' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -32,7 +34,7 @@ type MushnubModelProps = React.ComponentPropsWithoutRef<'group'>;
 
 export default function MushnubModel(props: MushnubModelProps) {
   const group = React.useRef<THREE.Group>(null)
-  const { scene, animations } = useGLTF('/models/Mushnub-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Mushnub-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -62,4 +64,4 @@ export default function MushnubModel(props: MushnubModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Mushnub-transformed.glb')
+useGLTF.preload(`${prefix}/models/Mushnub-transformed.glb`)

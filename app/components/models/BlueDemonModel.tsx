@@ -7,6 +7,9 @@ import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTF, SkeletonUtils } from 'three-stdlib'
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+
 type ActionName = 'CharacterArmature|Death' | 'CharacterArmature|Duck' | 'CharacterArmature|HitReact' | 'CharacterArmature|Idle' | 'CharacterArmature|Jump' | 'CharacterArmature|Jump_Idle' | 'CharacterArmature|Jump_Land' | 'CharacterArmature|No' | 'CharacterArmature|Punch' | 'CharacterArmature|Run' | 'CharacterArmature|Run2' | 'CharacterArmature|Walk' | 'CharacterArmature|Wave' | 'CharacterArmature|Weapon' | 'CharacterArmature|Yes'
 interface GLTFAction extends THREE.AnimationClip { name: ActionName }
 
@@ -30,7 +33,7 @@ export default function BlueDemonModel(props: BlueDemonModelProps) {
   const group = React.useRef<THREE.Group>(null)
   // ATENÇÃO: O nome do arquivo GLB tem espaço. O gltfjsx pode ter escapado ou não.
   // Verifique o nome exato do arquivo "-transformed.glb" na pasta /public/models/
-  const { scene, animations } = useGLTF('/models/Blue Demon-transformed.glb') as unknown as GLTFResult
+  const { scene, animations } = useGLTF(`${prefix}/models/Blue Demon-transformed.glb`) as unknown as GLTFResult
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone) as unknown as GLTFResult
   const { actions, names } = useAnimations(animations, group)
@@ -59,4 +62,4 @@ export default function BlueDemonModel(props: BlueDemonModelProps) {
     </group>
   )
 }
-useGLTF.preload('/models/Blue Demon-transformed.glb') // Verifique o nome do arquivo
+useGLTF.preload(`${prefix}/models/Blue Demon-transformed.glb`) // Verifique o nome do arquivo

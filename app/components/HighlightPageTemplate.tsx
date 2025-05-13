@@ -14,6 +14,7 @@ interface HighlightPageTemplateProps {
   children: React.ReactNode; // Conteúdo específico da página
 }
 
+// Variantes de animação para a página
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -101,7 +102,7 @@ export default function HighlightPageTemplate({ title, bannerImage, children }: 
               borderRadius: theme.shape.borderRadius * 2,
             }}
           >
-            {children} {/* Aqui entra o conteúdo específico de cada destaque */}
+            {children} {/* Conteúdo específico de cada destaque */}
           </Paper>
 
           {/* Botão Voltar */}

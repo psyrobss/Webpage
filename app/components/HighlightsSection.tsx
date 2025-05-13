@@ -19,11 +19,35 @@ const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 // Dados dos destaques 
 const highlightsData = [
-  { title: 'Clínica & Psicoterapia cognitiva', description: 'Terapia Cognitiva e suporte especializado para integração de experiências psicodélicas.', image: '/images/highlights/clinical-integrative-therapy.jpg', link: '/destaques/clinica-psicoterapia' },
-  { title: 'Psicometria e Avaliação Psicológica', description: 'Desenvolvimento, aplicação e análise de testes psicológicos e avaliações psicométricas.', image: '/images/highlights/psychometrics-assessment.jpg', link: '/destaques/avaliacoes-psicologicas' },
-  { title: 'Ciência de Dados Comportamentais', description: 'Análise de dados e métodos estatísticos para extrair insights de dados psicológicos e comportamentais.', image: '/images/highlights/behavioral-data-science.jpg', link: '/destaques/dados-comportamentais' },
-  { title: 'IA Generativa & Soluções Digitais', description: 'Exploração e desenvolvimento de aplicações com LLMs e ferramentas de IA para otimizar processos.', image: '/images/highlights/generative-ai-dev.jpg', link: '/destaques/ia-generativa' },
-  { title: 'Pesquisa em Psicologia e Tecnologia', description: 'Investigando a interação humano-computador e o impacto da tecnologia no bem-estar.', image: '/images/highlights/psych-tech-research.jpg', link: '/destaques/pesquisa-em-psicologia' },
+  { 
+    title: 'Clínica & Psicoterapia cognitiva', 
+    description: 'Terapia Cognitiva e suporte especializado para integração de experiências psicodélicas.', 
+    image: `${prefix}/images/highlights/clinical-integrative-therapy.jpg`, 
+    link: '/destaques/clinica-psicoterapia'
+ },
+
+  { 
+    title: 'Psicometria e Avaliação Psicológica', 
+    description: 'Desenvolvimento, aplicação e análise de testes psicológicos e avaliações psicométricas.', 
+    image: `${prefix}/images/highlights/psychometrics-assessment.jpg`, 
+    link: `${prefix}/destaques/avaliacoes-psicologicas` 
+},
+  { 
+    title: 'Ciência de Dados Comportamentais', 
+    description: 'Análise de dados e métodos estatísticos para extrair insights de dados psicológicos e comportamentais.', 
+    image: `${prefix}/images/highlights/behavioral-data-science.jpg`, 
+    link: `${prefix}/destaques/dados-comportamentais` 
+},
+  { title: 'IA Generativa & Soluções Digitais', 
+    description: 'Exploração e desenvolvimento de aplicações com LLMs e ferramentas de IA para otimizar processos.', 
+    image: `${prefix}/images/highlights/generative-ai-dev.jpg`, 
+    link: `${prefix}/destaques/ia-generativa` 
+},
+  { 
+    title: 'Pesquisa em Psicologia e Tecnologia', 
+    description: 'Investigando a interação humano-computador e o impacto da tecnologia no bem-estar.', 
+    image: `${prefix}/images/highlights/psych-tech-research.jpg`, 
+    link: `${prefix}/destaques/pesquisa-em-psicologia` },
 ];
 
 // Componentes de Seta Customizados para o Slider, usando cores do tema

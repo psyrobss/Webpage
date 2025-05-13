@@ -3,11 +3,16 @@ import HighlightPageTemplate from '@/app/components/HighlightPageTemplate'; // A
 import { Typography, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
+
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 // Dados específicos desta página
 const pageData = {
   title: 'Clínica & Psicoterapia Cognitiva',
-  bannerImage: '/images/highlights/clinical-integrative-therapy.jpg',
+  bannerImage: `${prefix}/images/highlights/clinical-integrative-therapy.jpg`,
 };
+
+
 
 export default function ClinicaPsicoterapiaPage() {
   return (

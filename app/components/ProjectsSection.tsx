@@ -104,19 +104,19 @@ const projectsData: Project[] = [
     detailsLink: `${prefix}/projetos/avaliação-e-terapia-cognitiva`
   },
   { title: 'Apoio Terapêutico Psicodélico',
-    description: 'Acompanhamento ético e especializado para indivíduos em jornadas com psicodélicos (em contextos legais e seguros). Foco na preparação, suporte durante e integração pós-sessão.',
+    description: 'Acompanhamento ético e especializado para indivíduos que participaram em jornadas com psicodélicos commo ayahuasca (em contextos legais e seguros). Foco na preparação e integração pós-sessão.',
     image: `${prefix}/images/projects/psychedelic-support.jpg`,
     tags: ['Psicodélicos', 'Integração', 'Redução de Danos'],
     detailsLink: `${prefix}/projetos/terapia-em-psicodelicos`
   },
-  { title: 'Escala de Autoconsciência (Validação)',
-    description: 'Desenvolvimento e validação psicométrica de um instrumento inovador para mensurar múltiplas dimensões da autoconsciência. Utilização de análise fatorial e teoria de resposta ao item.',
+  { title: 'Escalas de Autoconsciência',
+    description: 'Avaliação psicométrica de escalas para mensurar múltiplas dimensões da autoconsciência. Utilização de análises multidimensionais, análises fatoriais e teoria de resposta ao item.',
     image: `${prefix}/images/projects/self-awareness-scale.jpg`,
     tags: ['Psicometria', 'Validação', 'Pesquisa'],
     detailsLink: `${prefix}/projetos/autoconsciência`
   },
   { title: 'Chatbot de Suporte com IA',
-    description: 'Protótipo de um assistente virtual baseado em LLMs para oferecer suporte emocional inicial, psicoeducação interativa e triagem básica. Explora o potencial da IA na promoção do bem-estar mental.',
+    description: 'Protótipo de um assistente virtual baseado em LLMs para oferecer suporte em psicoeducação interativa e triagem básica. Explora o potencial da IA na promoção do bem-estar mental.',
     image: `${prefix}/images/projects/ai-chatbot-therapy.jpg`,
     tags: ['IA', 'LLM', 'Chatbot', 'Saúde Mental Tech'],
     detailsLink: `${prefix}/projetos/chatbot-com-ia`

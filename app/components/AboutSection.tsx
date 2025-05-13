@@ -36,7 +36,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
     {
         icon: LocalHospitalIcon,
         title: 'Atuação Clínica',
-        desc: 'Ofereço Terapia Cognitivo-Comportamental (TCC) e suporte terapêutico a usuários de psicodélicos em atendimentos presenciais e online.',
+        desc: 'Ofereço Terapia Cognitiva (TC) em atendimentos presenciais e online.',
         color: theme.palette.secondary.main // Azul Vibrante
     },
     {
@@ -91,7 +91,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
                 Atualmente, atuo na <strong style={{ color: theme.palette.primary.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva e suporte terapêutico a pessoas que utilizam psicodélicos. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: 4, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Estou desenvolvendo scripts com <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, sempre testando e ajustando, aprendendo de pouco em pouco até alcançar produtos mínimos viáveis. Sou entusiasta de tecnologia e busco integrá-la de forma ética e criativa às práticas clínicas e científicas.
+                Estou desenvolvendo scripts com <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, testando e ajustando, aprendendo até alcançar produtos mínimos viáveis (MVPs). Sou entusiasta de tecnologia e busco integrá-la de forma às práticas clínicas e científicas.
             </Typography>
         </Grid>
 

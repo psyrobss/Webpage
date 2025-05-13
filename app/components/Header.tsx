@@ -25,8 +25,8 @@ export default function Header() {
     { name: 'Loja', path: './conceitos'},
     { name: 'TestBank', path: './testbank'},
     { name: 'Games', path: './games'},
-    { name: 'DicionarioPsi', path: '/dicionario'},
-    { name: 'NEC', path: '/nec' },
+    { name: 'DicionarioPsi', path: './dicionario'},
+    { name: 'NEC', path: './nec' },
   ];
 
   const handleDrawerToggle = () => {

@@ -55,7 +55,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
      {
         icon: AccountTreeIcon,
         title: 'Autoconsciência e Estrutura de Cognições',
-        desc: 'Utilizo Análises Multidimensionais (MDS) a partir da Teoria das Facetas para investigar a estrutura de fenômenos cognitivos básicos e complexos. Atuo fazendo como pesquisador colaborador em diversos estudos cognitivos no NEC da UFPE',
+        desc: 'Utilizo Análises Multidimensionais (MDS) a partir da Teoria das Facetas para investigar a estrutura de fenômenos cognitivos básicos e complexos. Atuo como pesquisador colaborador em diversos estudos cognitivos no NEC da UFPE',
         color: theme.palette.accent.light 
     },
   ];

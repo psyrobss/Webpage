@@ -85,13 +85,13 @@ export default function AboutSection({ id }: AboutSectionProps) {
       >
         <Grid item xs={12} md={6} component={motion.div} variants={itemVariants}>
             <Typography variant="body1" sx={{ color: 'text.primary', fontSize: { xs: '1rem', md: '1.15rem' }, lineHeight: 1.7, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Sou um profissional apaixonado pela interseção entre psicologia, ciência e tecnologia. Minha motivação é aplicar o entendimento profundo do comportamento humano e métodos científicos rigorosos para criar soluções tecnológicas que realmente impactem e melhorem a vida das pessoas.
+                Sou um profissional apaixonado pela interseção entre psicologia, ciência e tecnologia, como foco em psicometria e estatística. Minha motivação é aplicar o entendimento profundo do comportamento humano e métodos científicos rigorosos para criar soluções tecnológicas que realmente impactem e melhorem a vida das pessoas.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Atualmente, atuo na <strong style={{ color: theme.palette.primary.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva e suporte terapêutico a pessoas que utilizam psicodélicos. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
+                Atualmente, atuo no <strong style={{ color: theme.palette.accent.main }}>Núcleo de Epistemologia Experimental e Cultural (NEC)</strong> da UFPE e na <strong style={{ color: theme.palette.accent.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva e suporte terapêutico a pessoas que utilizam psicodélicos. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: 4, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Estou desenvolvendo scripts com <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, testando e ajustando, aprendendo até alcançar produtos mínimos viáveis (MVPs). Sou entusiasta de tecnologia e busco integrá-la de forma às práticas clínicas e científicas.
+                Estou desenvolvendo scripts com <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, testando e ajustando, aprendendo até alcançar produtos mínimos viáveis (MVPs). Esta página ainda está em contrução e será aprimorada a medida que vou aprendendo a utilizar novas ferramentas. Sou entusiasta de tecnologia e busco integrá-la de forma às práticas clínicas e científicas.
             </Typography>
         </Grid>
 

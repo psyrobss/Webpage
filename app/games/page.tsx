@@ -47,7 +47,7 @@ async function getGames(): Promise<GameInfo[]> {
         id: folderName,
         name: metaData.name,
         description: metaData.description,
-        href: './' + folderName,
+        href: '/' + folderName,
       });
     } catch (error) { 
       console.warn(

@@ -107,14 +107,15 @@ export default function HighlightsSection({ id }: HighlightsSectionProps) {
   const sliderSettings = {
     dots: true,
     infinite: highlightsData.length > 3, // Só é infinito se houver mais slides que o visível
-    arrows: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4500,
     pauseOnHover: true,
-
+    nextArrow: <NextArrow />, // Setas customizadas
+    prevArrow: <PrevArrow />, // Setas customizadas
     responsive: [
         { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1, infinite: highlightsData.length > 2 } },
         { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll: 1, arrows: true, infinite: highlightsData.length > 1 } }, // Setas visíveis em tablet

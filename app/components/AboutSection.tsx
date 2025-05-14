@@ -48,7 +48,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
     {
         icon: SmartToyIcon,
         title: 'Tecnologia e IA',
-        desc: 'Desenvolvo e aplico soluções tecnológicas, com foco em IA. Tenho experiência em Psicometria e LLMs como Claude, ChatGPT, Gemini, Grok, Qwen, Deepseek, e ferramentas como AI Studio, NotebookLM e Minimax Audio LLM.',
+        desc: 'Desenvolvo e aplico soluções tecnológicas, com foco em IA e Psicologia. Tenho experiência em Psicometria e LLMs como Claude, ChatGPT, Gemini, Grok, Qwen, Deepseek, e ferramentas como AI Studio, NotebookLM e Minimax Audio LLM.',
         color: theme.palette.accent.main // Magenta
     },
   ];
@@ -88,11 +88,15 @@ export default function AboutSection({ id }: AboutSectionProps) {
                 Sou um profissional apaixonado pela interseção entre psicologia, ciência e tecnologia, como foco em psicometria e estatística. Minha motivação é aplicar o entendimento profundo do comportamento humano e métodos científicos rigorosos para criar soluções tecnológicas que realmente impactem e melhorem a vida das pessoas.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Atualmente, atuo no <strong style={{ color: theme.palette.accent.main }}>Núcleo de Epistemologia Experimental e Cultural (NEC)</strong> da UFPE e na <strong style={{ color: theme.palette.accent.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva e suporte terapêutico a pessoas que utilizam psicodélicos. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
+                Atualmente, atuo no <strong style={{ color: theme.palette.accent.main }}>Núcleo de Epistemologia Experimental e Cultural (NEC)</strong> da UFPE através da pesquisa ceintífica sobre estruturas cognitivas, principalmente a autoconsciência e também na <strong style={{ color: theme.palette.accent.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
             </Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: 4, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
-                Estou desenvolvendo scripts com <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, testando e ajustando, aprendendo até alcançar produtos mínimos viáveis (MVPs). Esta página ainda está em contrução e será aprimorada a medida que vou aprendendo a utilizar novas ferramentas. Sou entusiasta de tecnologia e busco integrá-la de forma às práticas clínicas e científicas.
+                Estou desenvolvendo aplicativos com auxilio de <strong style={{ color: theme.palette.accent.main }}>inteligência artificial</strong>, unindo pesquisa e testes até alcançar produtos mínimos viáveis (MVPs).  Sou entusiasta de tecnologia e busco integrá-la de forma interativa às práticas clínicas e científicas. Este portfolio está em desenvolvimento e à medida que aprendo novas ferramentas, atualizo e incorporo insights na produção final.
+                Você também pode sugerir ideias de jogos ou ferramentas que gostaria de ver por aqui. Estou sempre aberto a novas colaborações e desafios!
             </Typography>
+            <a href="./" style={{ textDecoration: 'none', color: theme.palette.primary.main }}>
+            Ver mais
+            </a>
         </Grid>
 
         <Grid item xs={12} md={6} component={motion.div} variants={itemVariants}>
@@ -107,7 +111,7 @@ export default function AboutSection({ id }: AboutSectionProps) {
                   display: 'flex',
                   alignItems: 'center',
                   p: 2.5,
-                  bgcolor: 'background.paper', // Cards usam 'paper' para contraste com 'default' da seção
+                  bgcolor: 'background.paper', 
                   '&:hover': {
                     transform: 'translateY(-5px)',
                     boxShadow: theme.shadows[8],

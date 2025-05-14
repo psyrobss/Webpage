@@ -47,8 +47,8 @@ async function getGames(): Promise<GameInfo[]> {
         id: folderName,
         name: metaData.name,
         description: metaData.description,
-        href: '/' + folderName,
-      });
+        href: '/games/${folderName}',
+               });
     } catch (error) { 
       console.warn(
         `Aviso: Não foi possível carregar metadados para o jogo "${folderName}". ` +

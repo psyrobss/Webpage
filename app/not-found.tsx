@@ -39,8 +39,6 @@ import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
 
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
-
 // Loader simples para o Canvas
 function Loader() {
   const { progress } = useProgress();

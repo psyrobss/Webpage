@@ -15,7 +15,5 @@ export default function JogoDaVelhaPage() {
       {/* Renderiza o componente do jogo */}
       <TicTacToeGame />
     </div>
-    // Obs: O layout de /app/games/layout.tsx (com o título "Minha Coleção de Jogos")
-    // será aplicado automaticamente em volta desta página.
   );
 }

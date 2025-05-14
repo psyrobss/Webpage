@@ -58,7 +58,6 @@
   
   .gameBoard {
     display: grid;
-    /* As colunas serão definidas via inline style no TSX */
     gap: 0.8rem; /* Espaço entre as cartas */
     margin-bottom: 1.5rem;
     padding: 0.5rem; /* Pequeno padding interno */
@@ -113,7 +112,7 @@
     color: white;
   }
   .cardFaceFront::before {
-      content: '⭐'; /* Estrela como verso */
+      content: '❔'; /* Emoji de interrogação */
       font-size: 3rem;
   }
   

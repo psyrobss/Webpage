@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import styles from './TicTacToe.module.css';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 /* ---------- Tipos ---------- */
 type Player = 'X' | 'O';
@@ -139,8 +138,8 @@ export default function TicTacToeGame() {
 
       {/* botões de navegação DEPOIS do jogo */}
       <div className={styles.navigationButtons}>
-        <Link href={`${prefix}/games`} className={`${styles.navButton} ${styles.navButtonGames}`}>Voltar para Jogos</Link>
-        <Link href={`${prefix}/`}       className={`${styles.navButton} ${styles.navButtonHome}`}>Voltar para Home</Link>
+        <Link href='/games' className={`${styles.navButton} ${styles.navButtonGames}`}>Voltar para Jogos</Link>
+        <Link href='/'       className={`${styles.navButton} ${styles.navButtonHome}`}>Voltar para Home</Link>
       </div>
     </motion.div>
   );

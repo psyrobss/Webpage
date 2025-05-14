@@ -39,6 +39,7 @@ import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
 
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 // Loader simples para o Canvas
 function Loader() {
@@ -330,7 +331,7 @@ const NotFoundPageInteractive = () => {
             fullWidth
             variant="outlined"
             size="small"
-            color="primary" // Supondo que 'primary' existe, 'accent' também poderia ser usado se definido
+            color="primary" 
             onClick={() => {
               resetCamera();
               setControlsDrawerOpen(false);
@@ -524,8 +525,9 @@ const NotFoundPageInteractive = () => {
           transition={{ delay: 0.8, duration: 0.5 }}
         >
           <Button
-            variant="contained" // "pill" não é um variant padrão. Usando "contained" ou defina "pill" no tema.
-            color={(muiTheme.palette.accent ? 'accent' : (muiTheme.palette.mode === 'dark' ? 'secondary' : 'primary')) as 'inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning' } // Cast para tipo esperado se 'accent' for custom
+            variant="contained" 
+            
+            color={(muiTheme.palette.accent ? 'accent' : (muiTheme.palette.mode === 'dark' ? 'secondary' : 'primary')) as 'inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning' } 
             size="large"
             sx={{
               borderRadius: '50px', // Para simular "pill"
@@ -536,7 +538,7 @@ const NotFoundPageInteractive = () => {
                   (muiTheme.palette.accent ? muiTheme.palette.accent.main : 
                     (muiTheme.palette.mode === 'dark'
                     ? muiTheme.palette.secondary.main
-                    : muiTheme.palette.primary.main)), // Fallback para primary/secondary se accent não existir
+                    : muiTheme.palette.primary.main)), 
                   0.6
                 )}`
               },

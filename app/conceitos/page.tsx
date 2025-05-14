@@ -114,7 +114,8 @@ export default async function ConceitosPage() {
 
   return (
     <div className={styles.pageContainer} suppressHydrationWarning={true}>
-    <BackButtonMUI /> 
+      <BackButtonMUI /> 
+ 
       {/* O header específico da página */}
       <header className={styles.pageHeader}>
           <h1>Loja de Conceitos Psicológicos</h1>

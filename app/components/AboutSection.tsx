@@ -4,6 +4,7 @@ import { Typography, Grid, Card, CardContent, Box, useTheme } from '@mui/materia
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import SmartToyIcon from '@mui/icons-material/SmartToy';
+import AccountTreeIcon from '@mui/icons-material/AccountTree'
 
 interface AboutSectionProps {
   id?: string;

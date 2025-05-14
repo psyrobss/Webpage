@@ -51,6 +51,12 @@ export default function AboutSection({ id }: AboutSectionProps) {
         desc: 'Desenvolvo e aplico soluções tecnológicas, com foco em IA e Psicologia. Tenho experiência em Psicometria e LLMs como Claude, ChatGPT, Gemini, Grok, Qwen, Deepseek, e ferramentas como AI Studio, NotebookLM e Minimax Audio LLM.',
         color: theme.palette.accent.main // Magenta
     },
+     {
+        icon: AccountTreeIcon,
+        title: 'Autoconsciência e Estrutura de Cognições',
+        desc: 'Utilizo Análises Multidimensionais (MDS) a partir da Teoria das Facetas para investigar a estrutura de fenômenos cognitivos básicos e complexos. Atuo fazendo como pesquisador colaborador em diversos estudos cognitivos no NEC da UFPE',
+        color: theme.palette.accent.light 
+    },
   ];
 
   return (
@@ -86,9 +92,12 @@ export default function AboutSection({ id }: AboutSectionProps) {
         <Grid item xs={12} md={6} component={motion.div} variants={itemVariants}>
             <Typography variant="body1" sx={{ color: 'text.primary', fontSize: { xs: '1rem', md: '1.15rem' }, lineHeight: 1.7, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
                 Sou um profissional apaixonado pela interseção entre psicologia, ciência e tecnologia, como foco em psicometria e estatística. Minha motivação é aplicar o entendimento profundo do comportamento humano e métodos científicos rigorosos para criar soluções tecnológicas que realmente impactem e melhorem a vida das pessoas.
-              Durante o meu doutorado em Psicologia Cognitiva, na Universidade Federal de Pernambuco (UFPE), desenvolvi avaliações sobre <strong style={{ color: theme.palette.accent.main }}>como as pessoas pensam a respeito de si mesmas</strong> 
-              e as relações com as experiências não ordinárias de conciência, a espiritualidade e a dissolução das noções de self.
+              </Typography>
+              
+              <Typography variant="body1" sx={{ color: 'text.primary', fontSize: { xs: '1rem', md: '1.15rem' }, lineHeight: 1.7, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
+              Durante o meu doutorado em Psicologia Cognitiva, na Universidade Federal de Pernambuco (UFPE), desenvolvi avaliações sobre <strong style={{ color: theme.palette.accent.main }}>como as pessoas pensam a respeito de si mesmas</strong> e as relações com as experiências não ordinárias de conciência, a espiritualidade e a dissolução das noções de self.
             </Typography>
+          
             <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.1rem' }, lineHeight: 1.7, mt: 2, mb: { xs: 2, md: 0}, paddingLeft: { xs: 0, md: 4 }, maxWidth: '600px', mx: { xs: 'auto', md: 0 } }}>
                 Atualmente, atuo no <strong style={{ color: theme.palette.accent.main }}>Núcleo de Epistemologia Experimental e Cultural (NEC)</strong> da UFPE através da pesquisa ceintífica sobre estruturas cognitivas, principalmente a autoconsciência e também na <strong style={{ color: theme.palette.accent.main }}>clínica BioReligare</strong>, oferecendo Terapia Cognitiva. Além disso, realizo análises de dados, testagens psicológicas e avaliações psicométricas.
             </Typography>

@@ -104,7 +104,7 @@ const projectsData: Project[] = [
     detailsLink: `${prefix}/projetos/avaliação-e-terapia-cognitiva`
   },
   { title: 'Apoio Terapêutico Psicodélico',
-    description: 'Acompanhamento ético e especializado para indivíduos que participaram em jornadas com psicodélicos commo ayahuasca (em contextos legais e seguros). Foco na preparação e integração pós-sessão.',
+    description: 'Acompanhamento ético e especializado para indivíduos que participaram em jornadas com psicodélicos como ayahuasca (em contextos legais e seguros). Foco na preparação e integração pós-sessão.',
     image: `${prefix}/images/projects/psychedelic-support.jpg`,
     tags: ['Psicodélicos', 'Integração', 'Redução de Danos'],
     detailsLink: `${prefix}/projetos/terapia-em-psicodelicos`

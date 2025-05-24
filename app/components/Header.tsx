@@ -22,7 +22,7 @@ export default function Header() {
     { name: 'Destaques', path: '#destaques' },
     { name: 'Sobre Mim', path: '#sobre' },
     { name: 'Contato', path: '#contato'},
-    { name: 'Loja', path: '/conceitos'},
+    { name: 'Loja', path: 'https://conceitos-weld.vercel.app/'},
     { name: 'TestBank', path: '/testbank'},
     { name: 'Games', path: '/games'},
     { name: 'DicionarioPsi', path: '/dicionario'},

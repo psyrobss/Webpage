@@ -115,11 +115,17 @@ const projectsData: Project[] = [
     tags: ['Psicometria', 'Validação', 'Pesquisa'],
     detailsLink: `${prefix}/projetos/autoconsciência`
   },
-  { title: 'Chatbot de Suporte com IA',
-    description: 'Protótipo de um assistente virtual baseado em LLMs para oferecer suporte em psicoeducação interativa e triagem básica. Explora o potencial da IA na promoção do bem-estar mental.',
+  { title: 'Aplicativos de Psicologia com Suporte de IA',
+    description: 'Protótipos para ensino de psicologia para estudantes.',
     image: `${prefix}/images/projects/ai-chatbot-therapy.jpg`,
-    tags: ['IA', 'LLM', 'Chatbot', 'Saúde Mental Tech'],
+    tags: ['IA', 'LLM', 'Ensino de Psicologia', 'Psicologia Geral', 'Javascript'],
     detailsLink: `${prefix}/projetos/chatbot-com-ia`
+  },
+  { title: 'Jornal de Psicologia',
+    description: 'Um jornal fictício de psicologia com conteúdos gerados por LLM através de direcionamentos e revisão de temáticas. Possui uma equipe de agentes de IA de escritas com características diferentes para gerar materiais diversificados. Explora o potencial da IA na promoção do conhecimento psicológico e bem-estar mental.',
+    image: `${prefix}/images/projects/ai-psychdaily.jpg`,
+    tags: ['IA generativa', 'Psicologia Geral', 'Javascript', 'Saúde Mental'],
+    detailsLink: 'https://psych-daily.vercel.app/'
   },
 ];
 
